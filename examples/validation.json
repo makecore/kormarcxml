@@ -1,0 +1,35 @@
+[
+  {
+    "severity": "warning",
+    "rule_id": "coverage.unverified-field",
+    "message": "Field is preserved; no field-specific semantic rules are bundled for this tag",
+    "record_identifier": "synthetic-001",
+    "tag": "001",
+    "occurrence": 1,
+    "subfield": null,
+    "position": null,
+    "remediation": null
+  },
+  {
+    "severity": "warning",
+    "rule_id": "coverage.unverified-field",
+    "message": "Field is preserved; no field-specific semantic rules are bundled for this tag",
+    "record_identifier": "synthetic-001",
+    "tag": "260",
+    "occurrence": 1,
+    "subfield": null,
+    "position": null,
+    "remediation": null
+  },
+  {
+    "severity": "info",
+    "rule_id": "coverage.local-field",
+    "message": "Field is preserved; no field-specific semantic rules are bundled for this tag",
+    "record_identifier": "synthetic-001",
+    "tag": "999",
+    "occurrence": 1,
+    "subfield": null,
+    "position": null,
+    "remediation": null
+  }
+]

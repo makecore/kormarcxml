@@ -1,0 +1,15 @@
+record_id,field_index,tag,ind1,ind2,subfield_index,code,value
+synthetic-001,0,001,,,,,synthetic-001
+synthetic-001,1,005,,,,,20260916090000
+synthetic-001,2,008,,,,,260916s2026    ulk           000   kor  
+synthetic-001,3,245,0,0,0,a,도서관 데이터
+synthetic-001,3,245,0,0,1,b,한글 漢字 XML
+synthetic-001,3,245,0,0,2,d,김예시 지음
+synthetic-001,4,260, , ,0,a,서울
+synthetic-001,4,260, , ,1,b,예시출판사
+synthetic-001,4,260, , ,2,c,2026
+synthetic-001,5,300, , ,0,a,123 p.
+synthetic-001,6,700,1, ,0,a,김예시
+synthetic-001,7,700,1, ,0,a,박예시
+synthetic-001,8,999, , ,0,x,기관 로컬값
+synthetic-001,8,999, , ,1,x,반복값

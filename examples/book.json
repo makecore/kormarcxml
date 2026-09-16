@@ -1,0 +1,113 @@
+{
+  "format": "kormarcxml-record-1",
+  "leader": "00370nam a2200133   4500",
+  "fields": [
+    {
+      "tag": "001",
+      "value": "synthetic-001",
+      "kind": "control"
+    },
+    {
+      "tag": "005",
+      "value": "20260916090000",
+      "kind": "control"
+    },
+    {
+      "tag": "008",
+      "value": "260916s2026    ulk           000   kor  ",
+      "kind": "control"
+    },
+    {
+      "tag": "245",
+      "ind1": "0",
+      "ind2": "0",
+      "subfields": [
+        {
+          "code": "a",
+          "value": "도서관 데이터"
+        },
+        {
+          "code": "b",
+          "value": "한글 漢字 XML"
+        },
+        {
+          "code": "d",
+          "value": "김예시 지음"
+        }
+      ],
+      "kind": "data"
+    },
+    {
+      "tag": "260",
+      "ind1": " ",
+      "ind2": " ",
+      "subfields": [
+        {
+          "code": "a",
+          "value": "서울"
+        },
+        {
+          "code": "b",
+          "value": "예시출판사"
+        },
+        {
+          "code": "c",
+          "value": "2026"
+        }
+      ],
+      "kind": "data"
+    },
+    {
+      "tag": "300",
+      "ind1": " ",
+      "ind2": " ",
+      "subfields": [
+        {
+          "code": "a",
+          "value": "123 p."
+        }
+      ],
+      "kind": "data"
+    },
+    {
+      "tag": "700",
+      "ind1": "1",
+      "ind2": " ",
+      "subfields": [
+        {
+          "code": "a",
+          "value": "김예시"
+        }
+      ],
+      "kind": "data"
+    },
+    {
+      "tag": "700",
+      "ind1": "1",
+      "ind2": " ",
+      "subfields": [
+        {
+          "code": "a",
+          "value": "박예시"
+        }
+      ],
+      "kind": "data"
+    },
+    {
+      "tag": "999",
+      "ind1": " ",
+      "ind2": " ",
+      "subfields": [
+        {
+          "code": "x",
+          "value": "기관 로컬값"
+        },
+        {
+          "code": "x",
+          "value": "반복값"
+        }
+      ],
+      "kind": "data"
+    }
+  ]
+}

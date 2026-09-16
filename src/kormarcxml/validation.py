@@ -1,0 +1,221 @@
+"""Three-level validation: XSD is in xmlio; this module implements levels 2/3.
+
+The JSON registry is the semantic source of truth. Unknown fields are reported,
+not discarded or asserted invalid. Institutional profiles can extend the registry.
+"""
+
+from __future__ import annotations
+
+from collections import Counter
+from collections.abc import Callable, Iterable
+from copy import deepcopy
+from datetime import datetime
+from importlib.resources import files
+import json
+from pathlib import Path
+import re
+from typing import Any
+
+from .errors import Issue
+from .model import ControlField, DataField, Record
+
+Validator = Callable[[Record], Iterable[Issue]]
+
+
+def _merge(base: dict, update: dict) -> dict:
+    for key, value in update.items():
+        if isinstance(value, dict) and isinstance(base.get(key), dict):
+            _merge(base[key], value)
+        else:
+            base[key] = deepcopy(value)
+    return base
+
+
+def load_registry(profile: str | Path | dict | None = None) -> dict[str, Any]:
+    """Load the bundled bibliography subset and optionally merge local JSON.
+
+    Dictionary keys merge recursively; lists and scalar values replace. A custom
+    profile is trusted configuration, never code and never a remotely fetched URL.
+    """
+    path = files("kormarcxml").joinpath("resources/rules/bibliographic.json")
+    registry = json.loads(path.read_text(encoding="utf-8"))
+    if profile is None or profile == "bibliographic":
+        return registry
+    extra = profile if isinstance(profile, dict) else json.loads(Path(profile).read_text("utf-8"))
+    if not isinstance(extra, dict):
+        raise ValueError("A profile must be a JSON object")
+    return _merge(registry, extra)
+
+
+def coverage(profile: str | Path | dict | None = None) -> dict:
+    """Return explicit implemented coverage; this is not full KS conformance."""
+    registry = load_registry(profile)
+    return {
+        "profile": registry["id"],
+        "standard": registry["standard"],
+        "complete": False,
+        "fields": sorted(registry["fields"]),
+        "leader_rules": len(registry.get("leader", [])),
+        "field_rules": sum(len(v) for v in registry["fields"].values()),
+        "sources": registry.get("sources", {}),
+    }
+
+
+def validate(
+    record: Record,
+    level: int = 3,
+    profile: str | Path | dict | None = None,
+    *,
+    validators: Iterable[Validator] = (),
+) -> list[Issue]:
+    """Validate an ordered record without modifying it.
+
+    Level 2 checks structure/tagging; level 3 adds content/coded values. Level 1
+    requires XML bytes and must use xmlio.schema_validate instead of this API.
+    Occurrences are one-based, positions are zero-based character positions.
+    """
+    if level not in (2, 3):
+        raise ValueError(
+            "Record validation level must be 2 or 3; use XML XSD validation for level 1"
+        )
+    registry = load_registry(profile)
+    issues: list[Issue] = []
+
+    def emit(rule_id: str, message: str, severity: str = "error", **context: Any) -> None:
+        issues.append(
+            Issue(severity, rule_id, message, record_identifier=record.identifier, **context)
+        )
+
+    def check_value(value: str, rule: dict, **context: Any) -> None:
+        if rule.get("level", 3) > level:
+            return
+        start = rule.get("start", 0)
+        end = rule.get("end", len(value))
+        part = value[start:end]
+        valid = True
+        if "length" in rule:
+            valid = len(value) == rule["length"]
+        if "values" in rule:
+            valid = valid and part in rule["values"]
+        if "pattern" in rule:
+            valid = valid and re.fullmatch(rule["pattern"], part, flags=re.ASCII) is not None
+        if "forbidden" in rule:
+            valid = valid and not any(character in part for character in rule["forbidden"])
+        if rule.get("date_format") and valid:
+            try:
+                datetime.strptime(part, rule["date_format"])
+            except ValueError:
+                valid = False
+        if not valid:
+            emit(
+                rule["id"],
+                rule["message"],
+                rule.get("severity", "error"),
+                position=start,
+                remediation=rule.get("remediation"),
+                **context,
+            )
+
+    for rule in registry.get("leader", []):
+        check_value(record.leader, rule)
+    counts = Counter(f.tag for f in record.fields)
+    for tag, specification in registry["fields"].items():
+        if specification.get("required") and not counts[tag]:
+            emit(f"field.{tag}.required", f"Required field {tag} is absent", tag=tag)
+        if specification.get("repeatable") is False and counts[tag] > 1:
+            emit(f"field.{tag}.repeatability", f"Field {tag} is not repeatable", tag=tag)
+    occurrences: Counter = Counter()
+    for field in record.fields:
+        occurrences[field.tag] += 1
+        context: dict[str, Any] = {"tag": field.tag, "occurrence": occurrences[field.tag]}
+        if re.fullmatch(r"[0-9]{3}", field.tag) is None or field.tag == "000":
+            emit(
+                "structure.tag",
+                "A field tag must contain three ASCII digits and cannot be 000",
+                **context,
+            )
+        control_tag = field.tag.startswith("00")
+        if control_tag != isinstance(field, ControlField):
+            emit(
+                "structure.field-kind",
+                "00X fields require controlfield; other tags require datafield",
+                **context,
+            )
+        specification = registry["fields"].get(field.tag)
+        if specification is None:
+            emit(
+                "coverage.local-field"
+                if field.tag.startswith("9")
+                else "coverage.unverified-field",
+                "Field is preserved; no field-specific semantic rules are bundled for this tag",
+                "info" if field.tag.startswith("9") else "warning",
+                **context,
+            )
+            specification = {}
+        if isinstance(field, ControlField):
+            for rule in specification.get("rules", []):
+                check_value(field.value, rule, **context)
+        elif isinstance(field, DataField):
+            for index, indicator in enumerate((field.ind1, field.ind2), start=1):
+                if len(indicator) != 1 or re.fullmatch(r"[ -~]", indicator) is None:
+                    emit(
+                        "structure.indicator",
+                        "Indicators must be one printable ASCII character; blank is a space",
+                        **context,
+                    )
+                allowed = specification.get("indicators", {}).get(str(index))
+                if allowed is not None and indicator not in allowed:
+                    emit(
+                        f"field.{field.tag}.indicator{index}",
+                        f"Indicator {index} is not allowed by the selected profile",
+                        **context,
+                    )
+            subcounts = Counter(s.code for s in field.subfields)
+            subspecs = specification.get("subfields", {})
+            for condition in specification.get("conditions", []):
+                if condition.get("level", 3) > level:
+                    continue
+                indicator = field.ind1 if condition.get("indicator") == 1 else field.ind2
+                applies = indicator == condition["equals"]
+                if condition.get("negate"):
+                    applies = not applies
+                if applies:
+                    missing = any(not subcounts[code] for code in condition.get("requires", []))
+                    forbidden = any(subcounts[code] for code in condition.get("forbids", []))
+                    if missing or forbidden:
+                        emit(condition["id"], condition["message"], **context)
+            for code, subrules in subspecs.items():
+                if subrules.get("repeatable") is False and subcounts[code] > 1:
+                    emit(
+                        f"field.{field.tag}.subfield.{code}.repeatability",
+                        "Subfield is not repeatable",
+                        subfield=code,
+                        **context,
+                    )
+                if subrules.get("required") and not subcounts[code]:
+                    emit(
+                        f"field.{field.tag}.subfield.{code}.required",
+                        "Required subfield is absent",
+                        subfield=code,
+                        **context,
+                    )
+            for sub in field.subfields:
+                if re.fullmatch(r"[0-9a-z]", sub.code) is None:
+                    emit(
+                        "structure.subfield-code",
+                        "Subfield code must be one lowercase ASCII letter or digit",
+                        subfield=sub.code,
+                        **context,
+                    )
+                if specification.get("closed_subfields") and sub.code not in subspecs:
+                    emit(
+                        f"field.{field.tag}.subfield.allowed",
+                        "Subfield is not defined for this field in the selected profile",
+                        subfield=sub.code,
+                        **context,
+                    )
+                for rule in subspecs.get(sub.code, {}).get("rules", []):
+                    check_value(sub.value, rule, subfield=sub.code, **context)
+    for custom_validator in validators:
+        issues.extend(custom_validator(record))
+    return issues

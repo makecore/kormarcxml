@@ -1,0 +1,23 @@
+{
+  "synthetic": true,
+  "single_record_bytes": 370,
+  "collection_records": 6,
+  "structural_equivalence": true,
+  "bibliographic_equivalence": true,
+  "codepoint_equivalence": true,
+  "ordering_and_repetition": true,
+  "indicators_and_fixed_fields": true,
+  "utf8_byte_identical": true,
+  "euc_kr_byte_identical_with_explicit_codec": true,
+  "collection_byte_identical": true,
+  "schema_errors": 0,
+  "partial_profile_errors": 0,
+  "partial_profile_issue_count": 3,
+  "recalculated": [
+    "leader/00-04",
+    "leader/12-16",
+    "directory lengths and offsets",
+    "terminators"
+  ],
+  "limitation": "Synthetic transport fixtures; material codes do not establish all material-specific content conformance."
+}
