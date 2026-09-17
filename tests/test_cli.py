@@ -53,7 +53,7 @@ def test_raw_extension_and_same_file(tmp_path):
     result = run("transform", source, "--to", "raw", "--output-dir", tmp_path)
     assert result.returncode == 0, result.stderr
     assert (
-        json.loads((tmp_path / "record-00000001.json").read_text())["format"]
+        json.loads((tmp_path / "record-00000001.json").read_text(encoding="utf-8"))["format"]
         == "kormarcxml-record-1"
     )
     duplicate = tmp_path / "same.xml"
