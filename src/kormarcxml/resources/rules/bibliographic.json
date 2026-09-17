@@ -1,0 +1,363 @@
+{
+  "id": "kormarc-bibliographic-2023-subset-v1",
+  "standard": "KS X 6006-0:2023",
+  "complete": false,
+  "provenance": {
+    "retrieved": "2026-09-16",
+    "method": "Official NLK primary-source indexed excerpts; no standard prose copied",
+    "review_status": "Representative verified subset; not conformance certification"
+  },
+  "sources": {
+    "leader": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/info_006.html",
+    "directory": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/info_007.html",
+    "design": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/info_004.html"
+  },
+  "leader": [
+    {
+      "id": "leader.length",
+      "message": "Leader must contain 24 characters",
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/info_006.html",
+      "level": 2,
+      "length": 24
+    },
+    {
+      "id": "leader.encoding",
+      "message": "Leader/09 must be blank (KS X 1001), a (Unicode), or z (other)",
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/info_006.html",
+      "start": 9,
+      "end": 10,
+      "values": [
+        " ",
+        "a",
+        "z"
+      ]
+    }
+  ],
+  "fields": {
+    "005": {
+      "label": "최종처리일시",
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_005.html",
+      "evidence": "Official NLK indexed page; full-page fetch unavailable for some pages",
+      "rules": [
+        {
+          "id": "field.005.length",
+          "message": "KORMARC 005 must contain 14 characters (not MARC 21 length 16)",
+          "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_005.html",
+          "level": 2,
+          "length": 14
+        },
+        {
+          "id": "field.005.timestamp",
+          "pattern": "[0-9]{14}",
+          "date_format": "%Y%m%d%H%M%S",
+          "message": "005 must be a valid YYYYMMDDhhmmss timestamp",
+          "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_005.html"
+        }
+      ]
+    },
+    "006": {
+      "label": "부호화정보필드 - 부가적 자료 특성",
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_006.html",
+      "evidence": "Official NLK indexed page; full-page fetch unavailable for some pages",
+      "rules": [
+        {
+          "id": "field.006.length",
+          "message": "KORMARC 006 must contain 14 characters (positions 00–13)",
+          "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_006.html",
+          "level": 2,
+          "length": 14
+        }
+      ]
+    },
+    "008": {
+      "label": "부호화 정보필드",
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008.html",
+      "evidence": "Official NLK indexed page; full-page fetch unavailable for some pages",
+      "rules": [
+        {
+          "id": "field.008.length",
+          "message": "008 must contain 40 characters",
+          "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008.html",
+          "level": 2,
+          "length": 40
+        },
+        {
+          "id": "field.008.entered-date.fill",
+          "start": 0,
+          "end": 6,
+          "forbidden": [
+            "|"
+          ],
+          "message": "Fill characters are not allowed in 008/00–05",
+          "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_1.html"
+        }
+      ]
+    },
+    "020": {
+      "label": "국제표준도서번호",
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_020.html",
+      "evidence": "Official NLK indexed page; full-page fetch unavailable for some pages",
+      "repeatable": true
+    },
+    "245": {
+      "label": "표제와 책임표시사항",
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/20X_24X_245.html",
+      "evidence": "Official NLK indexed page; full-page fetch unavailable for some pages",
+      "repeatable": false,
+      "subfields": {
+        "a": {
+          "repeatable": true
+        },
+        "d": {
+          "label": "책임표시",
+          "repeatable": true
+        },
+        "b": {
+          "repeatable": true
+        },
+        "e": {
+          "repeatable": true
+        }
+      }
+    },
+    "300": {
+      "label": "형태사항",
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_300.html",
+      "evidence": "Official NLK indexed page; full-page fetch unavailable for some pages",
+      "repeatable": true
+    },
+    "700": {
+      "label": "부출표목 - 개인명",
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/70X_75X_700.html",
+      "evidence": "Official NLK indexed page; full-page fetch unavailable for some pages",
+      "repeatable": true,
+      "indicators": {
+        "1": [
+          "0",
+          "1",
+          "3"
+        ]
+      }
+    },
+    "082": {
+      "label": "듀이십진분류기호",
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_082.html",
+      "evidence": "Official NLK indexed page; full-page fetch unavailable for some pages",
+      "repeatable": true,
+      "indicators": {
+        "1": [
+          "0",
+          "1",
+          "7"
+        ],
+        "2": [
+          " ",
+          "0",
+          "1",
+          "4"
+        ]
+      },
+      "closed_subfields": true,
+      "subfields": {
+        "a": {
+          "repeatable": true
+        },
+        "b": {
+          "repeatable": false
+        },
+        "m": {
+          "repeatable": false,
+          "rules": [
+            {
+              "id": "field.082.subfield.m.code",
+              "message": "082$m must be a (standard) or b (option)",
+              "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_082.html",
+              "values": [
+                "a",
+                "b"
+              ]
+            }
+          ]
+        },
+        "q": {
+          "repeatable": false
+        },
+        "2": {
+          "repeatable": false
+        },
+        "6": {
+          "repeatable": false
+        },
+        "8": {
+          "repeatable": true
+        }
+      }
+    },
+    "370": {
+      "label": "관련 장소",
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_370.html",
+      "repeatable": true,
+      "indicators": {
+        "1": [
+          " "
+        ],
+        "2": [
+          " "
+        ]
+      },
+      "closed_subfields": true,
+      "subfields": {
+        "c": {
+          "repeatable": true
+        },
+        "f": {
+          "repeatable": true
+        },
+        "g": {
+          "repeatable": true
+        },
+        "i": {
+          "repeatable": true
+        },
+        "u": {
+          "repeatable": true
+        },
+        "v": {
+          "repeatable": true
+        },
+        "0": {
+          "repeatable": true
+        },
+        "1": {
+          "repeatable": true
+        },
+        "4": {
+          "repeatable": true
+        },
+        "8": {
+          "repeatable": true
+        },
+        "s": {
+          "repeatable": false
+        },
+        "t": {
+          "repeatable": false
+        },
+        "2": {
+          "repeatable": false
+        },
+        "3": {
+          "repeatable": false
+        },
+        "6": {
+          "repeatable": false
+        }
+      }
+    },
+    "940": {
+      "label": "부출표목 - 관제",
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/9XX_940.html",
+      "repeatable": true,
+      "indicators": {
+        "1": [
+          "0",
+          "1"
+        ],
+        "2": [
+          " "
+        ]
+      },
+      "closed_subfields": true,
+      "subfields": {
+        "a": {
+          "repeatable": false
+        },
+        "h": {
+          "repeatable": false
+        },
+        "5": {
+          "repeatable": false
+        },
+        "n": {
+          "repeatable": true
+        },
+        "p": {
+          "repeatable": true
+        },
+        "8": {
+          "repeatable": true
+        }
+      }
+    },
+    "688": {
+      "label": "주제명 접근점",
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/6XX_688.html",
+      "repeatable": true,
+      "indicators": {
+        "1": [
+          " "
+        ],
+        "2": [
+          " ",
+          "7"
+        ]
+      },
+      "closed_subfields": true,
+      "subfields": {
+        "a": {
+          "repeatable": false
+        },
+        "2": {
+          "repeatable": false
+        },
+        "3": {
+          "repeatable": false
+        },
+        "6": {
+          "repeatable": false
+        },
+        "e": {
+          "repeatable": true
+        },
+        "g": {
+          "repeatable": true
+        },
+        "0": {
+          "repeatable": true
+        },
+        "1": {
+          "repeatable": true
+        },
+        "4": {
+          "repeatable": true
+        },
+        "8": {
+          "repeatable": true
+        }
+      },
+      "conditions": [
+        {
+          "id": "field.688.source.requires",
+          "indicator": 2,
+          "equals": "7",
+          "requires": [
+            "2"
+          ],
+          "message": "Indicator 2 value 7 requires the source in $2",
+          "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/6XX_688.html"
+        },
+        {
+          "id": "field.688.source.only7",
+          "indicator": 2,
+          "equals": "7",
+          "negate": true,
+          "forbids": [
+            "2"
+          ],
+          "message": "688$2 is used only with second indicator 7",
+          "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/6XX_688.html"
+        }
+      ]
+    }
+  }
+}

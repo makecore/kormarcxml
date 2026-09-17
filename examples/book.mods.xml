@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" version="3.8">
+  <titleInfo>
+    <title>도서관 데이터</title>
+    <subTitle>한글 漢字 XML</subTitle>
+  </titleInfo>
+  <note type="statement of responsibility">김예시 지음</note>
+  <name type="personal">
+    <namePart>김예시</namePart>
+  </name>
+  <name type="personal">
+    <namePart>박예시</namePart>
+  </name>
+  <originInfo>
+    <place>
+      <placeTerm type="text">서울</placeTerm>
+    </place>
+    <publisher>예시출판사</publisher>
+    <dateIssued>2026</dateIssued>
+  </originInfo>
+  <recordInfo>
+    <recordIdentifier>synthetic-001</recordIdentifier>
+  </recordInfo>
+</mods>

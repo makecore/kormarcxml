@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Independently authored transport profile, not an LC or NLK official schema.
+     Unlike the LC XSD, preserves arbitrarily interleaved field order. -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:m="http://www.loc.gov/MARC21/slim" targetNamespace="http://www.loc.gov/MARC21/slim" elementFormDefault="qualified">
+  <xs:simpleType name="leaderText"><xs:restriction base="xs:string"><xs:length value="24"/></xs:restriction></xs:simpleType>
+  <xs:simpleType name="tagText"><xs:restriction base="xs:string"><xs:pattern value="[0-9]{3}"/></xs:restriction></xs:simpleType>
+  <xs:simpleType name="oneCharacter"><xs:restriction base="xs:string"><xs:length value="1"/></xs:restriction></xs:simpleType>
+  <xs:element name="leader" type="m:leaderText"/>
+  <xs:element name="controlfield"><xs:complexType><xs:simpleContent><xs:extension base="xs:string"><xs:attribute name="tag" type="m:tagText" use="required"/></xs:extension></xs:simpleContent></xs:complexType></xs:element>
+  <xs:element name="subfield"><xs:complexType><xs:simpleContent><xs:extension base="xs:string"><xs:attribute name="code" type="m:oneCharacter" use="required"/></xs:extension></xs:simpleContent></xs:complexType></xs:element>
+  <xs:element name="datafield"><xs:complexType><xs:sequence><xs:element ref="m:subfield" minOccurs="0" maxOccurs="unbounded"/></xs:sequence><xs:attribute name="tag" type="m:tagText" use="required"/><xs:attribute name="ind1" type="m:oneCharacter" use="required"/><xs:attribute name="ind2" type="m:oneCharacter" use="required"/></xs:complexType></xs:element>
+  <xs:element name="record"><xs:complexType><xs:sequence><xs:element ref="m:leader"/><xs:choice minOccurs="0" maxOccurs="unbounded"><xs:element ref="m:controlfield"/><xs:element ref="m:datafield"/></xs:choice></xs:sequence></xs:complexType></xs:element>
+  <xs:element name="collection"><xs:complexType><xs:sequence><xs:element ref="m:record" minOccurs="0" maxOccurs="unbounded"/></xs:sequence></xs:complexType></xs:element>
+</xs:schema>

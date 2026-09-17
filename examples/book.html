@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>KORMARC 레코드 보기</title><style>body{font-family:"Noto Sans KR",sans-serif;max-width:70rem;margin:2rem auto;padding:1rem;color:#17212b}table{border-collapse:collapse;width:100%}th,td{border:1px solid #ccc;padding:.5rem;text-align:left;vertical-align:top}pre,td{white-space:pre-wrap;overflow-wrap:anywhere}summary{cursor:pointer}</style></head><body><h1>KORMARC 레코드 보기</h1><p>비공식 오픈소스 프레임워크 · 공백 지시기호는 #으로 표시합니다.</p><table><tr><th scope="col">필드</th><th scope="col">표시기호명</th><th scope="col">내용</th></tr><tr><td>001</td><td>제어번호</td><td>synthetic-001</td></tr><tr><td>005</td><td>최종처리일시</td><td>20260916090000</td></tr><tr><td>008</td><td>부호화정보필드</td><td>260916s2026    ulk           000   kor  </td></tr><tr><td>245</td><td>표제와 책임표시사항</td><td>[00] ▾a 도서관 데이터 ▾b 한글 漢字 XML ▾d 김예시 지음</td></tr><tr><td>260</td><td>발행사항</td><td>[##] ▾a 서울 ▾b 예시출판사 ▾c 2026</td></tr><tr><td>300</td><td>형태사항</td><td>[##] ▾a 123 p.</td></tr><tr><td>700</td><td>부출표목: 개인명</td><td>[1#] ▾a 김예시</td></tr><tr><td>700</td><td>부출표목: 개인명</td><td>[1#] ▾a 박예시</td></tr><tr><td>999</td><td>로컬 필드</td><td>[##] ▾x 기관 로컬값 ▾x 반복값</td></tr></table><details><summary>원시 논리 구조 검사 (Leader 포함)</summary><pre>{
+  "format": "kormarcxml-record-1",
+  "leader": "00370nam a2200133   4500",
+  "fields": [
+    {
+      "tag": "001",
+      "value": "synthetic-001",
+      "kind": "control"
+    },
+    {
+      "tag": "005",
+      "value": "20260916090000",
+      "kind": "control"
+    },
+    {
+      "tag": "008",
+      "value": "260916s2026    ulk           000   kor  ",
+      "kind": "control"
+    },
+    {
+      "tag": "245",
+      "ind1": "0",
+      "ind2": "0",
+      "subfields": [
+        {
+          "code": "a",
+          "value": "도서관 데이터"
+        },
+        {
+          "code": "b",
+          "value": "한글 漢字 XML"
+        },
+        {
+          "code": "d",
+          "value": "김예시 지음"
+        }
+      ],
+      "kind": "data"
+    },
+    {
+      "tag": "260",
+      "ind1": " ",
+      "ind2": " ",
+      "subfields": [
+        {
+          "code": "a",
+          "value": "서울"
+        },
+        {
+          "code": "b",
+          "value": "예시출판사"
+        },
+        {
+          "code": "c",
+          "value": "2026"
+        }
+      ],
+      "kind": "data"
+    },
+    {
+      "tag": "300",
+      "ind1": " ",
+      "ind2": " ",
+      "subfields": [
+        {
+          "code": "a",
+          "value": "123 p."
+        }
+      ],
+      "kind": "data"
+    },
+    {
+      "tag": "700",
+      "ind1": "1",
+      "ind2": " ",
+      "subfields": [
+        {
+          "code": "a",
+          "value": "김예시"
+        }
+      ],
+      "kind": "data"
+    },
+    {
+      "tag": "700",
+      "ind1": "1",
+      "ind2": " ",
+      "subfields": [
+        {
+          "code": "a",
+          "value": "박예시"
+        }
+      ],
+      "kind": "data"
+    },
+    {
+      "tag": "999",
+      "ind1": " ",
+      "ind2": " ",
+      "subfields": [
+        {
+          "code": "x",
+          "value": "기관 로컬값"
+        },
+        {
+          "code": "x",
+          "value": "반복값"
+        }
+      ],
+      "kind": "data"
+    }
+  ]
+}</pre></details></body></html>

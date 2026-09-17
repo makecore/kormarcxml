@@ -1,0 +1,9 @@
+{
+  "records": 10000,
+  "seconds": 41.596,
+  "roundtrip_records_per_second": 240.4,
+  "peak_python_allocated_bytes": 385071,
+  "iso_bytes": 3700000,
+  "xml_bytes": 10430103,
+  "measurement": "Python tracemalloc excludes native lxml/libxml2 allocations; no total RSS claim"
+}
