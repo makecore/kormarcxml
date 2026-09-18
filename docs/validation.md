@@ -11,8 +11,9 @@ checks found no violations. The initial registry is **deliberately incomplete**.
 2. Tagging structure: `validate(record, level=2)` checks field kinds, tag shape,
    indicator/subfield shape, and the verified field-specific lengths,
    repeatability and allowed indicators/subfields described below.
-3. Content: `validate(record, level=3)` additionally checks Leader/09, the 005
-   calendar timestamp, the 008 entered-date fill prohibition, and 082$m codes.
+3. Content: `validate(record, level=3)` additionally checks the reviewed Leader
+   code domains, 005 calendar timestamp, 006/00, selected 008 common positions,
+   082$m codes and the 688 indicator/source dependency.
    The ISO parser independently checks directory addresses/lengths and
    terminators; these are not reconstructed from a logical record for validation.
 
@@ -29,30 +30,24 @@ The single source of truth is
 `src/kormarcxml/resources/rules/bibliographic.json`. `coverage()` reads the same
 registry. Rules carry source URLs; no official descriptive prose is bundled.
 
-| Element | Implemented checks | Still outside coverage |
-|---|---|---|
-| Leader | 24 characters; /09 blank, a, z | Other coded positions and material dependencies |
-| 005 | 14 characters; real YYYYMMDDhhmmss timestamp | Institutional update policy |
-| 006 | 14 characters | Material-specific /01–13 codes |
-| 008 | 40 characters; no fill character in /00–05 | Remaining coded positions, dates and country/language code tables |
-| 020 | Field repeatability | Indicators, subfield rules and ISBN content |
-| 082 | Both indicator enumerations; full subfield set and repeatability; $m a/b | Edition dependencies and conditional $m/$a exception |
-| 245 | Field nonrepeatability; $a/$b/$d/$e repeatability | Remaining subfields; indicators; mandatory conditions |
-| 300 | Field repeatability | Remaining field rules |
-| 370 | Blank indicators; full subfield set and repeatability | Conditional obligation and geographic authority control |
-| 688 | Field repeatability; both indicators; closed subfield set and repeatability; indicator 2 / $2 condition | Authority reconciliation and conditional obligation |
-| 700 | Field repeatability; first indicator 0/1/3 | Second indicator, name/subfield semantics |
-| 940 | Field repeatability; both indicators; full subfield set and repeatability | Text/content interpretation |
+The registry now also includes directly extracted technical summaries from the
+full linked field-page inventory. Each field exposes its source and summary
+status. Ambiguous repetition markers are left unconstrained; incomplete
+subfield summaries are not automatically closed. The official obligation marker
+is recorded as metadata, not treated as an unconditional required-field rule.
 
-The 005 and 006 lengths are **KORMARC-specific**, not the MARC 21 lengths of
-16 and 18. Repeated 245$a and responsibility in 245$d must not be interpreted
-using MARC 21 rules. 082 second indicator 1 represents NLK assignment.
+Reviewed content checks cover Leader code domains and layout, 005 timestamps,
+006/00 material type, 008 common-position codes and fill restrictions, 082$m,
+and the existing 688 indicator/source relationship. Material-specific fixed
+positions, all code tables, obligations and prose dependencies remain incomplete.
+See [the audit](audit.md), [field mapping](field-mapping.md), and the JSON catalog
+for exact per-field extraction status. `coverage()` reports executable assertion
+templates, per-field counts, and fields with no assertions; it is not a compliance
+percentage. XML/ISO transport tests cover each catalogued tag and subfield.
 
-All included field facts come from the official NLK pages recorded in the JSON.
-Access during development: 2026-09-16. Some full-page fetches failed with HTTP
-417; indexed official-source excerpts were used where available. Comprehensive
-page-by-page verification, obligation levels, and national code lists remain a
-release limitation. See the research inventory for the complete research status.
+The 005 and 006 lengths are KORMARC-specific: 14, not MARC 21's 16 and 18.
+Repeated 245$a and responsibility in 245$d must not be interpreted using MARC 21
+rules. KORMARC 245's second indicator is 0/1, not a nonfiling character count.
 
 ## Institutional profiles and consumers
 

@@ -134,3 +134,43 @@ def test_bundled_xslt_matches_python(record):
     output = str(processor(etree.fromstring(xml)))
     assert output == transform(record, "tagged")
     assert transform(record, "raw") == transform(record, "json")
+
+
+def test_repeated_work_titles_and_parallel_title_are_not_merged():
+    value = Record(
+        "00000nam a2200000   4500",
+        [
+            DataField(
+                "245",
+                "2",
+                "1",
+                [
+                    Subfield("a", "(첫) 작품"),
+                    Subfield("b", "부제"),
+                    Subfield("x", "First work"),
+                    Subfield("n", "1"),
+                    Subfield("a", "두 번째 작품"),
+                    Subfield("x", "Second work"),
+                ],
+            )
+        ],
+    )
+    before = to_json(value)
+    dc = etree.fromstring(transform(value, "dc").encode())
+    assert [n.text for n in dc.findall(f"{{{DC}}}title")] == [
+        "(첫) 작품 부제 1",
+        "First work",
+        "두 번째 작품",
+        "Second work",
+    ]
+    mods = etree.fromstring(transform(value, "mods").encode())
+    titles = mods.findall(f"{{{MODS}}}titleInfo")
+    assert [n.find(f"{{{MODS}}}title").text for n in titles] == [
+        "(첫) 작품",
+        "First work",
+        "두 번째 작품",
+        "Second work",
+    ]
+    assert [n.get("type") for n in titles] == [None, "alternative", None, "alternative"]
+    assert titles[0].find(f"{{{MODS}}}partNumber").text == "1"
+    assert to_json(value) == before

@@ -1,5 +1,7 @@
 # KORMARCXML
 
+Current source audit, correction scope and unresolved rules: [audit](docs/audit.md); [field-to-XML mapping](docs/field-mapping.md). Retrieval, summary extraction, and full semantic verification are distinct.
+
 [한국어](README.ko.md) · [Architecture](docs/architecture.md) · [API](docs/api.md) · [Limitations](docs/limitations.md)
 
 **An unofficial open-source framework for processing KORMARC in XML environments.**

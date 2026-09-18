@@ -5,7 +5,7 @@ full KORMARC conformance, official certification, or universally lossless.
 
 | Area | Current boundary | Consequence |
 |---|---|---|
-| Official source review | Some primary pages were unavailable directly; evidence includes official search-index excerpts | Whole-standard verification remains incomplete; see source ledger |
+| Official source review | Direct HTML inventory and field summaries now recorded; detailed prose review remains partial | Whole-standard verification remains incomplete; see audit and source inventory |
 | Semantic coverage | Only the bundled, source-linked bibliographic subset is implemented | A clean report does not establish KS X 6006-0:2023 conformance |
 | Unverified fields | Retained with coverage warnings; 9XX retained with informational issues | Unknown does not mean invalid, or verified |
 | Authority/holdings | Generic transport only, no dedicated verified semantic profiles | Do not apply the bibliographic validator as an authority/holdings validator |
