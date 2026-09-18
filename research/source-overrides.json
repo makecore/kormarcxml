@@ -1,0 +1,37 @@
+{
+  "scope": "Reviewed source conflicts; no full semantic certification",
+  "fields": {
+    "022": {
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_022.html",
+      "source_sha256": "2e35d83f642f75b50a3dc6b486d7648a94ae14b22fe4c21fe6e9d34511427297",
+      "subfields": {
+        "2": {
+          "label": "정보원",
+          "repeatable": null,
+          "repetition_review": "KX-006",
+          "review": {
+            "status": "provisional-source-conflict",
+            "decision_id": "KX-006",
+            "reason": "Subfield 2 is defined in prose and 2013 change history but omitted from summary; repetition unspecified."
+          }
+        }
+      }
+    },
+    "034": {
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_034.html",
+      "source_sha256": "9f2419b549213358035d51b2169fd357d30b707cdb503e6025ebc441cf1001d2",
+      "subfields": {
+        "2": {
+          "label": "정보원",
+          "repeatable": null,
+          "repetition_review": "KX-007",
+          "review": {
+            "status": "provisional-source-conflict",
+            "decision_id": "KX-007",
+            "reason": "Summary says nonrepeatable but prose permits repetition for multiple sources."
+          }
+        }
+      }
+    }
+  }
+}

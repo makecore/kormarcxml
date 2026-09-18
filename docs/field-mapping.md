@@ -19,7 +19,7 @@
 | 017 | 저작권 등록번호(Copyright or Legal Deposit Number) | True | a b d i z 2 6 8 | O/- | 기술 요약; 본문 미완료 | `m:record/m:datafield[@tag='017']` | [원문](https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_017.html) |
 | 018 | 저작권료부호(Copyright Article-Fee Code) | False | a 6 8 | A/- | 기술 요약; 본문 미완료 | `m:record/m:datafield[@tag='018']` | [원문](https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_018.html) |
 | 020 | 국제표준도서번호(International Standard Book Number) | True | a c g q z 6 8 | A/A | 기술 요약; 본문 미완료 | `m:record/m:datafield[@tag='020']` | [원문](https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_020.html) |
-| 022 | 국제표준연속간행물번호(International Standard Serial Number) | True | a l m y z 0 1 6 8 | A/A | 기술 요약; 본문 미완료 | `m:record/m:datafield[@tag='022']` | [원문](https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_022.html) |
+| 022 | 국제표준연속간행물번호(International Standard Serial Number) | True | a l m y z 0 1 6 8 2 | A/A | 기술 요약; 본문 미완료 | `m:record/m:datafield[@tag='022']` | [원문](https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_022.html) |
 | 024 | 기타 표준식별자(Other Standard Identifier) | True | a c d q z 2 6 8 | A/A | 기술 요약; 본문 미완료 | `m:record/m:datafield[@tag='024']` | [원문](https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_024.html) |
 | 027 | 표준기술보고서번호 | True | a q z 6 8 | A/- | 기술 요약; 본문 미완료 | `m:record/m:datafield[@tag='027']` | [원문](https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_027.html) |
 | 028 | 녹음, 녹화, 음악관련 발행처/배포처번호(Publisher or Distributor Number) | True | a b q 6 8 | A/A | 기술 요약; 본문 미완료 | `m:record/m:datafield[@tag='028']` | [원문](https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_028.html) |

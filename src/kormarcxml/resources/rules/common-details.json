@@ -1,0 +1,230 @@
+{
+  "complete": false,
+  "scope": "X00 forename restriction and series subfield 7 length/first code only",
+  "fields": {
+    "800": {
+      "subfields": {
+        "7": {
+          "rules": [
+            {
+              "id": "field.800.7.length",
+              "min_length": 1,
+              "max_length": 2,
+              "message": "Series subfield 7 must contain one or two characters",
+              "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/X00_X30_X00_000.html"
+            },
+            {
+              "id": "field.800.7.type",
+              "start": 0,
+              "end": 1,
+              "values": [
+                "a",
+                "c",
+                "d",
+                "e",
+                "f",
+                "g",
+                "i",
+                "j",
+                "k",
+                "m",
+                "o",
+                "p",
+                "r",
+                "t",
+                "w",
+                "|"
+              ],
+              "message": "Series subfield 7 first character must be a documented record type or fill",
+              "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/X00_X30_X00_000.html"
+            }
+          ]
+        }
+      },
+      "conditions": [
+        {
+          "id": "field.800.b.forename",
+          "indicator": 1,
+          "equals": "0",
+          "negate": true,
+          "forbids": [
+            "b"
+          ],
+          "message": "Personal-name subfield b is restricted to first indicator 0",
+          "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/X00_X30_X00_000.html"
+        }
+      ]
+    },
+    "810": {
+      "subfields": {
+        "7": {
+          "rules": [
+            {
+              "id": "field.810.7.length",
+              "min_length": 1,
+              "max_length": 2,
+              "message": "Series subfield 7 must contain one or two characters",
+              "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/X00_X30_X10_000.html"
+            },
+            {
+              "id": "field.810.7.type",
+              "start": 0,
+              "end": 1,
+              "values": [
+                "a",
+                "c",
+                "d",
+                "e",
+                "f",
+                "g",
+                "i",
+                "j",
+                "k",
+                "m",
+                "o",
+                "p",
+                "r",
+                "t",
+                "w",
+                "|"
+              ],
+              "message": "Series subfield 7 first character must be a documented record type or fill",
+              "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/X00_X30_X10_000.html"
+            }
+          ]
+        }
+      }
+    },
+    "811": {
+      "subfields": {
+        "7": {
+          "rules": [
+            {
+              "id": "field.811.7.length",
+              "min_length": 1,
+              "max_length": 2,
+              "message": "Series subfield 7 must contain one or two characters",
+              "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/X00_X30_X11_000.html"
+            },
+            {
+              "id": "field.811.7.type",
+              "start": 0,
+              "end": 1,
+              "values": [
+                "a",
+                "c",
+                "d",
+                "e",
+                "f",
+                "g",
+                "i",
+                "j",
+                "k",
+                "m",
+                "o",
+                "p",
+                "r",
+                "t",
+                "w",
+                "|"
+              ],
+              "message": "Series subfield 7 first character must be a documented record type or fill",
+              "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/X00_X30_X11_000.html"
+            }
+          ]
+        }
+      }
+    },
+    "830": {
+      "subfields": {
+        "7": {
+          "rules": [
+            {
+              "id": "field.830.7.length",
+              "min_length": 1,
+              "max_length": 2,
+              "message": "Series subfield 7 must contain one or two characters",
+              "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/X00_X30_X30_000.html"
+            },
+            {
+              "id": "field.830.7.type",
+              "start": 0,
+              "end": 1,
+              "values": [
+                "a",
+                "c",
+                "d",
+                "e",
+                "f",
+                "g",
+                "i",
+                "j",
+                "k",
+                "m",
+                "o",
+                "p",
+                "r",
+                "t",
+                "w",
+                "|"
+              ],
+              "message": "Series subfield 7 first character must be a documented record type or fill",
+              "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/X00_X30_X30_000.html"
+            }
+          ]
+        }
+      }
+    },
+    "100": {
+      "conditions": [
+        {
+          "id": "field.100.b.forename",
+          "indicator": 1,
+          "equals": "0",
+          "negate": true,
+          "forbids": [
+            "b"
+          ],
+          "message": "Personal-name subfield b is restricted to first indicator 0",
+          "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/X00_X30_X00_000.html"
+        }
+      ]
+    },
+    "600": {
+      "conditions": [
+        {
+          "id": "field.600.b.forename",
+          "indicator": 1,
+          "equals": "0",
+          "negate": true,
+          "forbids": [
+            "b"
+          ],
+          "message": "Personal-name subfield b is restricted to first indicator 0",
+          "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/X00_X30_X00_000.html"
+        }
+      ]
+    },
+    "700": {
+      "conditions": [
+        {
+          "id": "field.700.b.forename",
+          "indicator": 1,
+          "equals": "0",
+          "negate": true,
+          "forbids": [
+            "b"
+          ],
+          "message": "Personal-name subfield b is restricted to first indicator 0",
+          "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/X00_X30_X00_000.html"
+        }
+      ]
+    }
+  },
+  "sources": {
+    "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/X00_X30_X00_000.html": "8d02058bdde611a14175548e5cf0038e23d3396dab94a537fe9bb9c6c4779163",
+    "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/X00_X30_X10_000.html": "1b25916da6372959ce37cce5798a41e58ce1fe2b86941a20370b21e7a83df216",
+    "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/X00_X30_X11_000.html": "78db09fd7f6bc39bac9f34b4428f68ffc08b3062e686393e14ec7744b27880e8",
+    "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/X00_X30_X30_000.html": "1dee4b5f5f8ae0c29ff99c2ff3e867eaf50a8dc26ecd0bc0c24050e2a4a060ce"
+  }
+}

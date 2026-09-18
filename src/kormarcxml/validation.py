@@ -44,6 +44,19 @@ def _bundled_registry() -> dict[str, Any]:
     materials = json.loads(material_path.read_text(encoding="utf-8"))
     for tag, rules in materials["fields"].items():
         registry["fields"][tag].setdefault("rules", []).extend(rules)
+    detail_path = files("kormarcxml").joinpath("resources/rules/fixed-details.json")
+    details = json.loads(detail_path.read_text(encoding="utf-8"))
+    for tag, rules in details["fields"].items():
+        registry["fields"][tag].setdefault("rules", []).extend(rules)
+    common_path = files("kormarcxml").joinpath("resources/rules/common-details.json")
+    common = json.loads(common_path.read_text(encoding="utf-8"))
+    for tag, extra in common["fields"].items():
+        target = registry["fields"][tag]
+        target.setdefault("conditions", []).extend(extra.get("conditions", []))
+        for code, sub in extra.get("subfields", {}).items():
+            target.setdefault("subfields", {}).setdefault(code, {}).setdefault("rules", []).extend(
+                sub["rules"]
+            )
     # Provisional project policy, not an authoritative resolution of the source conflict.
     for held in materials["held_for_review"]:
         for tag, start, when in [

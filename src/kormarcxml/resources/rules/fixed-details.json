@@ -1,0 +1,1525 @@
+{
+  "standard": "KS X 6006-0:2023",
+  "complete": false,
+  "scope": "Reviewed selected block syntax, code pairs and undefined positions; not complete content validation",
+  "sources": {
+    "00X_008_2.html": {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_2.html",
+      "sha256": "2f73bb92ae7d0045bc36dbcb0ccdc83e5057bdf4e018942921bd6624c2bea270"
+    },
+    "00X_008_4.html": {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_4.html",
+      "sha256": "5f0017fce2f38ad718f94b78a28e2ffc8676a1ec70897e8a323285e40d8baca3"
+    },
+    "00X_008_5.html": {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_5.html",
+      "sha256": "8e44a3156d28da6b10652685925253b529044b4c55a2d88c2ebc51c390e599cb"
+    },
+    "00X_008_6.html": {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_6.html",
+      "sha256": "8c9dc123051268eb8582079ca4639518c766590f0614cb08775cb6a3c4617c66"
+    },
+    "00X_008_8.html": {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_8.html",
+      "sha256": "2162940c943db6885e94a97508e763839b2fb681a73be526b5aac792dd44ad5d"
+    },
+    "00X_008_7.html": {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_7.html",
+      "sha256": "993d981242620eee1df3f536ebb510c52945d9d88faaf1d5c53ae60bbc274cdc"
+    },
+    "00X_008_3.html": {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_3.html",
+      "sha256": "21c2d5c881d755aa9ee0c0d5ded471034d25828e29b288ad85d1488f1b03e2e0"
+    },
+    "00X_008_9.html": {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_9.html",
+      "sha256": "2af6c98fa3d82dd2b7d86319a18a8cc7857e81fd4f9922b766b72ea21164cb2d"
+    },
+    "00X_007_1.html": {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_1.html",
+      "sha256": "807e8fce22f62a1201e26693d43576ebec47e2807528415927908a0d44c6e2e5"
+    },
+    "00X_007_2.html": {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_2.html",
+      "sha256": "093ef11bef60c8b97fdb0b4b19e010f42521389a37c6f2398451b0ad7a1fe5c1"
+    },
+    "00X_007_3.html": {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_3.html",
+      "sha256": "142b5106d25a3f5c028e538cc9a533e43542ab9a8aed8157e28faaf1ba27fa9f"
+    },
+    "00X_007_4.html": {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_4.html",
+      "sha256": "39d728a55f152a6229917a95f6b57f86a3eac0692c85c0270d294fe941214fb8"
+    },
+    "00X_007_5.html": {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_5.html",
+      "sha256": "b4d49085733db82de082767555a24e3623cb8f57b29e7971fc35f59e70f28746"
+    },
+    "00X_007_6.html": {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_6.html",
+      "sha256": "e48b1bd50882842da9b6e79219d1f540141cf93e843300cef0312d8c56a59794"
+    },
+    "00X_007_7.html": {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_7.html",
+      "sha256": "45cff5dab3814bfb7c88fb50dd7b67cdde71d42c10d3225652d4c8291e914dba"
+    },
+    "00X_007_8.html": {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_8.html",
+      "sha256": "23c3a6dbd438cb3d0ac4921f45c32d44c597fb4c10f79c39811e85f03019418d"
+    },
+    "00X_007_10.html": {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_10.html",
+      "sha256": "562984b3d3c2b17c06bee841f19115c76b2fbf81d3e3675f842fce40d5724e8e"
+    },
+    "00X_007_12.html": {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_12.html",
+      "sha256": "a012d070a4199ebbe30f8dc060465c1cb21dfe1ce558315bc4fce3c5864e2205"
+    },
+    "00X_007_14.html": {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_14.html",
+      "sha256": "8191101593ebd632f1bec89301f61241ba46847d7fafb782bd90083d783243a6"
+    }
+  },
+  "fields": {
+    "006": [
+      {
+        "id": "field.006.detail.BK.code-block.01",
+        "start": 1,
+        "end": 5,
+        "when": {
+          "value_codes": [
+            "a",
+            "t"
+          ]
+        },
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_2.html",
+        "message": "006/01-04 violates the reviewed BK.code-block constraint",
+        "pattern": "(?:[abcdefghijklmop]{0} {4}|[abcdefghijklmop]{1} {3}|[abcdefghijklmop]{2} {2}|[abcdefghijklmop]{3} {1}|[abcdefghijklmop]{4} {0}|\\|{4})"
+      },
+      {
+        "id": "field.006.detail.BK.code-block.07",
+        "start": 7,
+        "end": 9,
+        "when": {
+          "value_codes": [
+            "a",
+            "t"
+          ]
+        },
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_2.html",
+        "message": "006/07-08 violates the reviewed BK.code-block constraint",
+        "pattern": "(?:[abcdefgijklmnopqrstuvwyz256]{0} {2}|[abcdefgijklmnopqrstuvwyz256]{1} {1}|[abcdefgijklmnopqrstuvwyz256]{2} {0}|\\|{2})"
+      },
+      {
+        "id": "field.006.detail.MP.code-block.01",
+        "start": 1,
+        "end": 5,
+        "when": {
+          "value_codes": [
+            "e",
+            "f"
+          ]
+        },
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_4.html",
+        "message": "006/01-04 violates the reviewed MP.code-block constraint",
+        "pattern": "(?:[abcdefgijkmz]{0} {4}|[abcdefgijkmz]{1} {3}|[abcdefgijkmz]{2} {2}|[abcdefgijkmz]{3} {1}|[abcdefgijkmz]{4} {0}|\\|{4})"
+      },
+      {
+        "id": "field.006.detail.MP.code-block.12",
+        "start": 12,
+        "end": 14,
+        "when": {
+          "value_codes": [
+            "e",
+            "f"
+          ]
+        },
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_4.html",
+        "message": "006/12-13 violates the reviewed MP.code-block constraint",
+        "pattern": "(?:[ejklnoprz]{0} {2}|[ejklnoprz]{1} {1}|[ejklnoprz]{2} {0}|\\|{2})"
+      },
+      {
+        "id": "field.006.detail.MU.code-block.07",
+        "start": 7,
+        "end": 9,
+        "when": {
+          "value_codes": [
+            "c",
+            "d",
+            "i",
+            "j"
+          ]
+        },
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_5.html",
+        "message": "006/07-08 violates the reviewed MU.code-block constraint",
+        "pattern": "(?:[abcdefghikrsz]{0} {2}|[abcdefghikrsz]{1} {1}|[abcdefghikrsz]{2} {0}|\\|{2})"
+      },
+      {
+        "id": "field.006.detail.MU.code-block.10",
+        "start": 10,
+        "end": 12,
+        "when": {
+          "value_codes": [
+            "c",
+            "d",
+            "i",
+            "j"
+          ]
+        },
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_5.html",
+        "message": "006/10-11 violates the reviewed MU.code-block constraint",
+        "pattern": "(?:[abcdefghijklmnoprstz]{0} {2}|[abcdefghijklmnoprstz]{1} {1}|[abcdefghijklmnoprstz]{2} {0}|\\|{2})"
+      },
+      {
+        "id": "field.006.detail.CR.code-block.07",
+        "start": 7,
+        "end": 9,
+        "when": {
+          "value_codes": [
+            "s"
+          ]
+        },
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_6.html",
+        "message": "006/07-08 violates the reviewed CR.code-block constraint",
+        "pattern": "(?:[abcdefghijklmnopqrstuvwyz56]{0} {2}|[abcdefghijklmnopqrstuvwyz56]{1} {1}|[abcdefghijklmnopqrstuvwyz56]{2} {0}|\\|{2})"
+      },
+      {
+        "id": "field.006.detail.RB.code-block.07",
+        "start": 7,
+        "end": 9,
+        "when": {
+          "value_codes": [
+            "w"
+          ]
+        },
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_8.html",
+        "message": "006/07-08 violates the reviewed RB.code-block constraint",
+        "pattern": "(?:[bdeghijmopstvwx]{0} {2}|[bdeghijmopstvwx]{1} {1}|[bdeghijmopstvwx]{2} {0}|\\|{2})"
+      },
+      {
+        "id": "field.006.detail.MP.code-pair.05",
+        "start": 5,
+        "end": 7,
+        "when": {
+          "value_codes": [
+            "e",
+            "f"
+          ]
+        },
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_4.html",
+        "message": "006/05-06 violates the reviewed MP.code-pair constraint",
+        "values": [
+          "  ",
+          "aa",
+          "ab",
+          "ac",
+          "ad",
+          "ae",
+          "af",
+          "ag",
+          "am",
+          "an",
+          "ap",
+          "au",
+          "az",
+          "ba",
+          "bb",
+          "bc",
+          "bd",
+          "be",
+          "bf",
+          "bg",
+          "bh",
+          "bi",
+          "bj",
+          "bk",
+          "bl",
+          "bo",
+          "br",
+          "bs",
+          "bu",
+          "bz",
+          "ca",
+          "cb",
+          "cc",
+          "ce",
+          "cp",
+          "cu",
+          "cz",
+          "zz",
+          "da",
+          "db",
+          "dc",
+          "dd",
+          "de",
+          "df",
+          "dg",
+          "dh",
+          "dl",
+          "||"
+        ]
+      },
+      {
+        "id": "field.006.detail.MU.code-pair.01",
+        "start": 1,
+        "end": 3,
+        "when": {
+          "value_codes": [
+            "c",
+            "d",
+            "i",
+            "j"
+          ]
+        },
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_5.html",
+        "message": "006/01-02 violates the reviewed MU.code-pair constraint",
+        "values": [
+          "an",
+          "bd",
+          "bg",
+          "bl",
+          "bt",
+          "ca",
+          "cb",
+          "cc",
+          "cg",
+          "ch",
+          "cl",
+          "cn",
+          "co",
+          "cp",
+          "cr",
+          "cs",
+          "ct",
+          "cy",
+          "cz",
+          "df",
+          "dv",
+          "fg",
+          "fl",
+          "fm",
+          "ft",
+          "gm",
+          "hy",
+          "jz",
+          "ka",
+          "kb",
+          "kc",
+          "kd",
+          "ke",
+          "kf",
+          "kg",
+          "kh",
+          "ki",
+          "kj",
+          "kk",
+          "kl",
+          "km",
+          "kn",
+          "ko",
+          "kp",
+          "kq",
+          "kr",
+          "ks",
+          "kt",
+          "ku",
+          "kv",
+          "mc",
+          "md",
+          "mi",
+          "mo",
+          "mp",
+          "mr",
+          "ms",
+          "mu",
+          "mz",
+          "nc",
+          "nn",
+          "op",
+          "or",
+          "ov",
+          "pg",
+          "pm",
+          "po",
+          "pp",
+          "pr",
+          "ps",
+          "pt",
+          "pv",
+          "rc",
+          "rd",
+          "rg",
+          "ri",
+          "rp",
+          "rq",
+          "sd",
+          "sg",
+          "sn",
+          "sp",
+          "st",
+          "su",
+          "sy",
+          "tc",
+          "tl",
+          "ts",
+          "uu",
+          "vi",
+          "vr",
+          "wz",
+          "za",
+          "zz",
+          "||"
+        ]
+      },
+      {
+        "id": "field.006.detail.VM.runtime.01",
+        "start": 1,
+        "end": 4,
+        "when": {
+          "value_codes": [
+            "g",
+            "k",
+            "r",
+            "o"
+          ]
+        },
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_7.html",
+        "message": "006/01-03 violates the reviewed VM.runtime constraint",
+        "pattern": "(?:[0-9]{3}|nnn|---|\\|{3})"
+      },
+      {
+        "id": "field.006.detail.ER.undefined.01",
+        "start": 1,
+        "end": 5,
+        "when": {
+          "value_codes": [
+            "m"
+          ]
+        },
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_3.html",
+        "message": "006/01-04 violates the reviewed ER.undefined constraint",
+        "pattern": "[ |]{4}"
+      },
+      {
+        "id": "field.006.detail.ER.undefined.07",
+        "start": 7,
+        "end": 8,
+        "when": {
+          "value_codes": [
+            "m"
+          ]
+        },
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_3.html",
+        "message": "006/07-07 violates the reviewed ER.undefined constraint",
+        "pattern": "[ |]{1}"
+      },
+      {
+        "id": "field.006.detail.ER.undefined.09",
+        "start": 9,
+        "end": 12,
+        "when": {
+          "value_codes": [
+            "m"
+          ]
+        },
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_3.html",
+        "message": "006/09-11 violates the reviewed ER.undefined constraint",
+        "pattern": "[ |]{3}"
+      },
+      {
+        "id": "field.006.detail.ER.undefined.12",
+        "start": 12,
+        "end": 14,
+        "when": {
+          "value_codes": [
+            "m"
+          ]
+        },
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_3.html",
+        "message": "006/12-13 violates the reviewed ER.undefined constraint",
+        "pattern": "[ |]{2}"
+      },
+      {
+        "id": "field.006.detail.MP.undefined.07",
+        "start": 7,
+        "end": 8,
+        "when": {
+          "value_codes": [
+            "e",
+            "f"
+          ]
+        },
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_4.html",
+        "message": "006/07-07 violates the reviewed MP.undefined constraint",
+        "pattern": "[ |]{1}"
+      },
+      {
+        "id": "field.006.detail.MP.undefined.10",
+        "start": 10,
+        "end": 11,
+        "when": {
+          "value_codes": [
+            "e",
+            "f"
+          ]
+        },
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_4.html",
+        "message": "006/10-10 violates the reviewed MP.undefined constraint",
+        "pattern": "[ |]{1}"
+      },
+      {
+        "id": "field.006.detail.MU.undefined.09",
+        "start": 9,
+        "end": 10,
+        "when": {
+          "value_codes": [
+            "c",
+            "d",
+            "i",
+            "j"
+          ]
+        },
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_5.html",
+        "message": "006/09-09 violates the reviewed MU.undefined constraint",
+        "pattern": "[ |]{1}"
+      },
+      {
+        "id": "field.006.detail.MU.undefined.13",
+        "start": 13,
+        "end": 14,
+        "when": {
+          "value_codes": [
+            "c",
+            "d",
+            "i",
+            "j"
+          ]
+        },
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_5.html",
+        "message": "006/13-13 violates the reviewed MU.undefined constraint",
+        "pattern": "[ |]{1}"
+      },
+      {
+        "id": "field.006.detail.CR.undefined.03",
+        "start": 3,
+        "end": 4,
+        "when": {
+          "value_codes": [
+            "s"
+          ]
+        },
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_6.html",
+        "message": "006/03-03 violates the reviewed CR.undefined constraint",
+        "pattern": "[ |]{1}"
+      },
+      {
+        "id": "field.006.detail.CR.undefined.10",
+        "start": 10,
+        "end": 12,
+        "when": {
+          "value_codes": [
+            "s"
+          ]
+        },
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_6.html",
+        "message": "006/10-11 violates the reviewed CR.undefined constraint",
+        "pattern": "[ |]{2}"
+      },
+      {
+        "id": "field.006.detail.VM.undefined.04",
+        "start": 4,
+        "end": 5,
+        "when": {
+          "value_codes": [
+            "g",
+            "k",
+            "r",
+            "o"
+          ]
+        },
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_7.html",
+        "message": "006/04-04 violates the reviewed VM.undefined constraint",
+        "pattern": "[ |]{1}"
+      },
+      {
+        "id": "field.006.detail.VM.undefined.06",
+        "start": 6,
+        "end": 9,
+        "when": {
+          "value_codes": [
+            "g",
+            "k",
+            "r",
+            "o"
+          ]
+        },
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_7.html",
+        "message": "006/06-08 violates the reviewed VM.undefined constraint",
+        "pattern": "[ |]{3}"
+      },
+      {
+        "id": "field.006.detail.VM.undefined.10",
+        "start": 10,
+        "end": 12,
+        "when": {
+          "value_codes": [
+            "g",
+            "k",
+            "r",
+            "o"
+          ]
+        },
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_7.html",
+        "message": "006/10-11 violates the reviewed VM.undefined constraint",
+        "pattern": "[ |]{2}"
+      },
+      {
+        "id": "field.006.detail.MX.undefined.01",
+        "start": 1,
+        "end": 6,
+        "when": {
+          "value_codes": [
+            "p"
+          ]
+        },
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_9.html",
+        "message": "006/01-05 violates the reviewed MX.undefined constraint",
+        "pattern": "[ |]{5}"
+      },
+      {
+        "id": "field.006.detail.MX.undefined.07",
+        "start": 7,
+        "end": 9,
+        "when": {
+          "value_codes": [
+            "p"
+          ]
+        },
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_9.html",
+        "message": "006/07-08 violates the reviewed MX.undefined constraint",
+        "pattern": "[ |]{2}"
+      },
+      {
+        "id": "field.006.detail.MX.undefined.09",
+        "start": 9,
+        "end": 12,
+        "when": {
+          "value_codes": [
+            "p"
+          ]
+        },
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_9.html",
+        "message": "006/09-11 violates the reviewed MX.undefined constraint",
+        "pattern": "[ |]{3}"
+      },
+      {
+        "id": "field.006.detail.MX.undefined.12",
+        "start": 12,
+        "end": 14,
+        "when": {
+          "value_codes": [
+            "p"
+          ]
+        },
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_9.html",
+        "message": "006/12-13 violates the reviewed MX.undefined constraint",
+        "pattern": "[ |]{2}"
+      }
+    ],
+    "007": [
+      {
+        "id": "field.007.detail.a.undefined.02",
+        "start": 2,
+        "end": 3,
+        "when": {
+          "prefix": "a"
+        },
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_1.html",
+        "message": "007/02-02 violates the reviewed a.undefined constraint",
+        "values": [
+          " ",
+          "|"
+        ]
+      },
+      {
+        "id": "field.007.detail.c.undefined.02",
+        "start": 2,
+        "end": 3,
+        "when": {
+          "prefix": "c"
+        },
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_2.html",
+        "message": "007/02-02 violates the reviewed c.undefined constraint",
+        "values": [
+          " ",
+          "|"
+        ]
+      },
+      {
+        "id": "field.007.detail.d.undefined.02",
+        "start": 2,
+        "end": 3,
+        "when": {
+          "prefix": "d"
+        },
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_3.html",
+        "message": "007/02-02 violates the reviewed d.undefined constraint",
+        "values": [
+          " ",
+          "|"
+        ]
+      },
+      {
+        "id": "field.007.detail.f.undefined.02",
+        "start": 2,
+        "end": 3,
+        "when": {
+          "prefix": "f"
+        },
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_4.html",
+        "message": "007/02-02 violates the reviewed f.undefined constraint",
+        "values": [
+          " ",
+          "|"
+        ]
+      },
+      {
+        "id": "field.007.detail.g.undefined.02",
+        "start": 2,
+        "end": 3,
+        "when": {
+          "prefix": "g"
+        },
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_5.html",
+        "message": "007/02-02 violates the reviewed g.undefined constraint",
+        "values": [
+          " ",
+          "|"
+        ]
+      },
+      {
+        "id": "field.007.detail.h.undefined.02",
+        "start": 2,
+        "end": 3,
+        "when": {
+          "prefix": "h"
+        },
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_6.html",
+        "message": "007/02-02 violates the reviewed h.undefined constraint",
+        "values": [
+          " ",
+          "|"
+        ]
+      },
+      {
+        "id": "field.007.detail.k.undefined.02",
+        "start": 2,
+        "end": 3,
+        "when": {
+          "prefix": "k"
+        },
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_7.html",
+        "message": "007/02-02 violates the reviewed k.undefined constraint",
+        "values": [
+          " ",
+          "|"
+        ]
+      },
+      {
+        "id": "field.007.detail.m.undefined.02",
+        "start": 2,
+        "end": 3,
+        "when": {
+          "prefix": "m"
+        },
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_8.html",
+        "message": "007/02-02 violates the reviewed m.undefined constraint",
+        "values": [
+          " ",
+          "|"
+        ]
+      },
+      {
+        "id": "field.007.detail.r.undefined.02",
+        "start": 2,
+        "end": 3,
+        "when": {
+          "prefix": "r"
+        },
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_10.html",
+        "message": "007/02-02 violates the reviewed r.undefined constraint",
+        "values": [
+          " ",
+          "|"
+        ]
+      },
+      {
+        "id": "field.007.detail.s.undefined.02",
+        "start": 2,
+        "end": 3,
+        "when": {
+          "prefix": "s"
+        },
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_12.html",
+        "message": "007/02-02 violates the reviewed s.undefined constraint",
+        "values": [
+          " ",
+          "|"
+        ]
+      },
+      {
+        "id": "field.007.detail.v.undefined.02",
+        "start": 2,
+        "end": 3,
+        "when": {
+          "prefix": "v"
+        },
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_14.html",
+        "message": "007/02-02 violates the reviewed v.undefined constraint",
+        "values": [
+          " ",
+          "|"
+        ]
+      },
+      {
+        "id": "field.007.detail.c.bit-depth.06",
+        "start": 6,
+        "end": 9,
+        "when": {
+          "prefix": "c"
+        },
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_2.html",
+        "message": "007/06-08 violates the reviewed c.bit-depth constraint",
+        "optional": true,
+        "pattern": "(?:(?!000)[0-9]{3}|mmm|nnn|---|\\|{3})"
+      },
+      {
+        "id": "field.007.detail.h.reduction.06",
+        "start": 6,
+        "end": 9,
+        "when": {
+          "prefix": "h"
+        },
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_6.html",
+        "message": "007/06-08 violates the reviewed h.reduction constraint",
+        "pattern": "(?:[0-9-]{3}|\\|{3})"
+      },
+      {
+        "id": "field.007.detail.r.data-type.09",
+        "start": 9,
+        "end": 11,
+        "when": {
+          "prefix": "r"
+        },
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_10.html",
+        "message": "007/09-10 violates the reviewed r.data-type constraint",
+        "values": [
+          "nn",
+          "uu",
+          "zz",
+          "||",
+          "aa",
+          "da",
+          "db",
+          "dc",
+          "dd",
+          "de",
+          "df",
+          "dv",
+          "dz",
+          "ga",
+          "gb",
+          "gc",
+          "gd",
+          "ge",
+          "gf",
+          "gg",
+          "gu",
+          "gz",
+          "ja",
+          "jb",
+          "jc",
+          "jv",
+          "jz",
+          "ma",
+          "mb",
+          "mm",
+          "pa",
+          "pb",
+          "pc",
+          "pd",
+          "pe",
+          "pz",
+          "ra",
+          "rb",
+          "rc",
+          "rd",
+          "sa",
+          "ta"
+        ]
+      }
+    ],
+    "008": [
+      {
+        "id": "field.008.detail.BK.code-block.18",
+        "start": 18,
+        "end": 22,
+        "when": {
+          "leader": {
+            "6": [
+              "a",
+              "t"
+            ],
+            "7": [
+              "a",
+              "c",
+              "d",
+              "m"
+            ]
+          }
+        },
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_2.html",
+        "message": "008/18-21 violates the reviewed BK.code-block constraint",
+        "pattern": "(?:[abcdefghijklmop]{0} {4}|[abcdefghijklmop]{1} {3}|[abcdefghijklmop]{2} {2}|[abcdefghijklmop]{3} {1}|[abcdefghijklmop]{4} {0}|\\|{4})"
+      },
+      {
+        "id": "field.008.detail.BK.code-block.24",
+        "start": 24,
+        "end": 26,
+        "when": {
+          "leader": {
+            "6": [
+              "a",
+              "t"
+            ],
+            "7": [
+              "a",
+              "c",
+              "d",
+              "m"
+            ]
+          }
+        },
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_2.html",
+        "message": "008/24-25 violates the reviewed BK.code-block constraint",
+        "pattern": "(?:[abcdefgijklmnopqrstuvwyz256]{0} {2}|[abcdefgijklmnopqrstuvwyz256]{1} {1}|[abcdefgijklmnopqrstuvwyz256]{2} {0}|\\|{2})"
+      },
+      {
+        "id": "field.008.detail.MP.code-block.18",
+        "start": 18,
+        "end": 22,
+        "when": {
+          "leader": {
+            "6": [
+              "e",
+              "f"
+            ]
+          }
+        },
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_4.html",
+        "message": "008/18-21 violates the reviewed MP.code-block constraint",
+        "pattern": "(?:[abcdefgijkmz]{0} {4}|[abcdefgijkmz]{1} {3}|[abcdefgijkmz]{2} {2}|[abcdefgijkmz]{3} {1}|[abcdefgijkmz]{4} {0}|\\|{4})"
+      },
+      {
+        "id": "field.008.detail.MP.code-block.33",
+        "start": 33,
+        "end": 35,
+        "when": {
+          "leader": {
+            "6": [
+              "e",
+              "f"
+            ]
+          }
+        },
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_4.html",
+        "message": "008/33-34 violates the reviewed MP.code-block constraint",
+        "pattern": "(?:[ejklnoprz]{0} {2}|[ejklnoprz]{1} {1}|[ejklnoprz]{2} {0}|\\|{2})"
+      },
+      {
+        "id": "field.008.detail.MU.code-block.24",
+        "start": 24,
+        "end": 26,
+        "when": {
+          "leader": {
+            "6": [
+              "c",
+              "d",
+              "i",
+              "j"
+            ]
+          }
+        },
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_5.html",
+        "message": "008/24-25 violates the reviewed MU.code-block constraint",
+        "pattern": "(?:[abcdefghikrsz]{0} {2}|[abcdefghikrsz]{1} {1}|[abcdefghikrsz]{2} {0}|\\|{2})"
+      },
+      {
+        "id": "field.008.detail.MU.code-block.30",
+        "start": 30,
+        "end": 32,
+        "when": {
+          "leader": {
+            "6": [
+              "c",
+              "d",
+              "i",
+              "j"
+            ]
+          }
+        },
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_5.html",
+        "message": "008/30-31 violates the reviewed MU.code-block constraint",
+        "pattern": "(?:[abcdefghijklmnoprstz]{0} {2}|[abcdefghijklmnoprstz]{1} {1}|[abcdefghijklmnoprstz]{2} {0}|\\|{2})"
+      },
+      {
+        "id": "field.008.detail.CR.code-block.24",
+        "start": 24,
+        "end": 26,
+        "when": {
+          "leader": {
+            "6": [
+              "a"
+            ],
+            "7": [
+              "b",
+              "i",
+              "s"
+            ]
+          }
+        },
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_6.html",
+        "message": "008/24-25 violates the reviewed CR.code-block constraint",
+        "pattern": "(?:[abcdefghijklmnopqrstuvwyz56]{0} {2}|[abcdefghijklmnopqrstuvwyz56]{1} {1}|[abcdefghijklmnopqrstuvwyz56]{2} {0}|\\|{2})"
+      },
+      {
+        "id": "field.008.detail.RB.code-block.24",
+        "start": 24,
+        "end": 26,
+        "when": {
+          "leader": {
+            "6": [
+              "w"
+            ]
+          }
+        },
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_8.html",
+        "message": "008/24-25 violates the reviewed RB.code-block constraint",
+        "pattern": "(?:[bdeghijmopstvwx]{0} {2}|[bdeghijmopstvwx]{1} {1}|[bdeghijmopstvwx]{2} {0}|\\|{2})"
+      },
+      {
+        "id": "field.008.detail.MP.code-pair.22",
+        "start": 22,
+        "end": 24,
+        "when": {
+          "leader": {
+            "6": [
+              "e",
+              "f"
+            ]
+          }
+        },
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_4.html",
+        "message": "008/22-23 violates the reviewed MP.code-pair constraint",
+        "values": [
+          "  ",
+          "aa",
+          "ab",
+          "ac",
+          "ad",
+          "ae",
+          "af",
+          "ag",
+          "am",
+          "an",
+          "ap",
+          "au",
+          "az",
+          "ba",
+          "bb",
+          "bc",
+          "bd",
+          "be",
+          "bf",
+          "bg",
+          "bh",
+          "bi",
+          "bj",
+          "bk",
+          "bl",
+          "bo",
+          "br",
+          "bs",
+          "bu",
+          "bz",
+          "ca",
+          "cb",
+          "cc",
+          "ce",
+          "cp",
+          "cu",
+          "cz",
+          "zz",
+          "da",
+          "db",
+          "dc",
+          "dd",
+          "de",
+          "df",
+          "dg",
+          "dh",
+          "dl",
+          "||"
+        ]
+      },
+      {
+        "id": "field.008.detail.MU.code-pair.18",
+        "start": 18,
+        "end": 20,
+        "when": {
+          "leader": {
+            "6": [
+              "c",
+              "d",
+              "i",
+              "j"
+            ]
+          }
+        },
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_5.html",
+        "message": "008/18-19 violates the reviewed MU.code-pair constraint",
+        "values": [
+          "an",
+          "bd",
+          "bg",
+          "bl",
+          "bt",
+          "ca",
+          "cb",
+          "cc",
+          "cg",
+          "ch",
+          "cl",
+          "cn",
+          "co",
+          "cp",
+          "cr",
+          "cs",
+          "ct",
+          "cy",
+          "cz",
+          "df",
+          "dv",
+          "fg",
+          "fl",
+          "fm",
+          "ft",
+          "gm",
+          "hy",
+          "jz",
+          "ka",
+          "kb",
+          "kc",
+          "kd",
+          "ke",
+          "kf",
+          "kg",
+          "kh",
+          "ki",
+          "kj",
+          "kk",
+          "kl",
+          "km",
+          "kn",
+          "ko",
+          "kp",
+          "kq",
+          "kr",
+          "ks",
+          "kt",
+          "ku",
+          "kv",
+          "mc",
+          "md",
+          "mi",
+          "mo",
+          "mp",
+          "mr",
+          "ms",
+          "mu",
+          "mz",
+          "nc",
+          "nn",
+          "op",
+          "or",
+          "ov",
+          "pg",
+          "pm",
+          "po",
+          "pp",
+          "pr",
+          "ps",
+          "pt",
+          "pv",
+          "rc",
+          "rd",
+          "rg",
+          "ri",
+          "rp",
+          "rq",
+          "sd",
+          "sg",
+          "sn",
+          "sp",
+          "st",
+          "su",
+          "sy",
+          "tc",
+          "tl",
+          "ts",
+          "uu",
+          "vi",
+          "vr",
+          "wz",
+          "za",
+          "zz",
+          "||"
+        ]
+      },
+      {
+        "id": "field.008.detail.VM.runtime.18",
+        "start": 18,
+        "end": 21,
+        "when": {
+          "leader": {
+            "6": [
+              "g",
+              "k",
+              "r",
+              "o"
+            ]
+          }
+        },
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_7.html",
+        "message": "008/18-20 violates the reviewed VM.runtime constraint",
+        "pattern": "(?:[0-9]{3}|nnn|---|\\|{3})"
+      },
+      {
+        "id": "field.008.detail.ER.undefined.18",
+        "start": 18,
+        "end": 22,
+        "when": {
+          "leader": {
+            "6": [
+              "m"
+            ]
+          }
+        },
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_3.html",
+        "message": "008/18-21 violates the reviewed ER.undefined constraint",
+        "pattern": "[ |]{4}"
+      },
+      {
+        "id": "field.008.detail.ER.undefined.24",
+        "start": 24,
+        "end": 25,
+        "when": {
+          "leader": {
+            "6": [
+              "m"
+            ]
+          }
+        },
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_3.html",
+        "message": "008/24-24 violates the reviewed ER.undefined constraint",
+        "pattern": "[ |]{1}"
+      },
+      {
+        "id": "field.008.detail.ER.undefined.29",
+        "start": 29,
+        "end": 32,
+        "when": {
+          "leader": {
+            "6": [
+              "m"
+            ]
+          }
+        },
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_3.html",
+        "message": "008/29-31 violates the reviewed ER.undefined constraint",
+        "pattern": "[ |]{3}"
+      },
+      {
+        "id": "field.008.detail.ER.undefined.33",
+        "start": 33,
+        "end": 35,
+        "when": {
+          "leader": {
+            "6": [
+              "m"
+            ]
+          }
+        },
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_3.html",
+        "message": "008/33-34 violates the reviewed ER.undefined constraint",
+        "pattern": "[ |]{2}"
+      },
+      {
+        "id": "field.008.detail.MP.undefined.24",
+        "start": 24,
+        "end": 25,
+        "when": {
+          "leader": {
+            "6": [
+              "e",
+              "f"
+            ]
+          }
+        },
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_4.html",
+        "message": "008/24-24 violates the reviewed MP.undefined constraint",
+        "pattern": "[ |]{1}"
+      },
+      {
+        "id": "field.008.detail.MP.undefined.30",
+        "start": 30,
+        "end": 31,
+        "when": {
+          "leader": {
+            "6": [
+              "e",
+              "f"
+            ]
+          }
+        },
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_4.html",
+        "message": "008/30-30 violates the reviewed MP.undefined constraint",
+        "pattern": "[ |]{1}"
+      },
+      {
+        "id": "field.008.detail.MU.undefined.29",
+        "start": 29,
+        "end": 30,
+        "when": {
+          "leader": {
+            "6": [
+              "c",
+              "d",
+              "i",
+              "j"
+            ]
+          }
+        },
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_5.html",
+        "message": "008/29-29 violates the reviewed MU.undefined constraint",
+        "pattern": "[ |]{1}"
+      },
+      {
+        "id": "field.008.detail.MU.undefined.34",
+        "start": 34,
+        "end": 35,
+        "when": {
+          "leader": {
+            "6": [
+              "c",
+              "d",
+              "i",
+              "j"
+            ]
+          }
+        },
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_5.html",
+        "message": "008/34-34 violates the reviewed MU.undefined constraint",
+        "pattern": "[ |]{1}"
+      },
+      {
+        "id": "field.008.detail.CR.undefined.20",
+        "start": 20,
+        "end": 21,
+        "when": {
+          "leader": {
+            "6": [
+              "a"
+            ],
+            "7": [
+              "b",
+              "i",
+              "s"
+            ]
+          }
+        },
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_6.html",
+        "message": "008/20-20 violates the reviewed CR.undefined constraint",
+        "pattern": "[ |]{1}"
+      },
+      {
+        "id": "field.008.detail.CR.undefined.30",
+        "start": 30,
+        "end": 32,
+        "when": {
+          "leader": {
+            "6": [
+              "a"
+            ],
+            "7": [
+              "b",
+              "i",
+              "s"
+            ]
+          }
+        },
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_6.html",
+        "message": "008/30-31 violates the reviewed CR.undefined constraint",
+        "pattern": "[ |]{2}"
+      },
+      {
+        "id": "field.008.detail.VM.undefined.21",
+        "start": 21,
+        "end": 22,
+        "when": {
+          "leader": {
+            "6": [
+              "g",
+              "k",
+              "r",
+              "o"
+            ]
+          }
+        },
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_7.html",
+        "message": "008/21-21 violates the reviewed VM.undefined constraint",
+        "pattern": "[ |]{1}"
+      },
+      {
+        "id": "field.008.detail.VM.undefined.23",
+        "start": 23,
+        "end": 26,
+        "when": {
+          "leader": {
+            "6": [
+              "g",
+              "k",
+              "r",
+              "o"
+            ]
+          }
+        },
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_7.html",
+        "message": "008/23-25 violates the reviewed VM.undefined constraint",
+        "pattern": "[ |]{3}"
+      },
+      {
+        "id": "field.008.detail.VM.undefined.30",
+        "start": 30,
+        "end": 32,
+        "when": {
+          "leader": {
+            "6": [
+              "g",
+              "k",
+              "r",
+              "o"
+            ]
+          }
+        },
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_7.html",
+        "message": "008/30-31 violates the reviewed VM.undefined constraint",
+        "pattern": "[ |]{2}"
+      },
+      {
+        "id": "field.008.detail.MX.undefined.18",
+        "start": 18,
+        "end": 23,
+        "when": {
+          "leader": {
+            "6": [
+              "p"
+            ]
+          }
+        },
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_9.html",
+        "message": "008/18-22 violates the reviewed MX.undefined constraint",
+        "pattern": "[ |]{5}"
+      },
+      {
+        "id": "field.008.detail.MX.undefined.24",
+        "start": 24,
+        "end": 26,
+        "when": {
+          "leader": {
+            "6": [
+              "p"
+            ]
+          }
+        },
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_9.html",
+        "message": "008/24-25 violates the reviewed MX.undefined constraint",
+        "pattern": "[ |]{2}"
+      },
+      {
+        "id": "field.008.detail.MX.undefined.29",
+        "start": 29,
+        "end": 32,
+        "when": {
+          "leader": {
+            "6": [
+              "p"
+            ]
+          }
+        },
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_9.html",
+        "message": "008/29-31 violates the reviewed MX.undefined constraint",
+        "pattern": "[ |]{3}"
+      },
+      {
+        "id": "field.008.detail.MX.undefined.33",
+        "start": 33,
+        "end": 35,
+        "when": {
+          "leader": {
+            "6": [
+              "p"
+            ]
+          }
+        },
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_9.html",
+        "message": "008/33-34 violates the reviewed MX.undefined constraint",
+        "pattern": "[ |]{2}"
+      },
+      {
+        "id": "field.008.detail.RB.undefined.26",
+        "start": 26,
+        "end": 28,
+        "when": {
+          "leader": {
+            "6": [
+              "w"
+            ]
+          }
+        },
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_8.html",
+        "message": "008/26-27 violates the reviewed RB.undefined constraint",
+        "values": [
+          "  "
+        ]
+      },
+      {
+        "id": "field.008.detail.RB.undefined.38",
+        "start": 38,
+        "end": 40,
+        "when": {
+          "leader": {
+            "6": [
+              "w"
+            ]
+          }
+        },
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_8.html",
+        "message": "008/38-39 violates the reviewed RB.undefined constraint",
+        "values": [
+          "  "
+        ]
+      }
+    ]
+  }
+}

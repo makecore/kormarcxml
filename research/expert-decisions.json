@@ -81,6 +81,38 @@
       "final_decision_required": true,
       "provisional_authorization": "사용자가 이 대화에서 잠정 방침 적용 승인",
       "provisional_date": "2026-09-18"
+    },
+    {
+      "id": "KX-006",
+      "status": "provisional",
+      "type": "normative",
+      "scope": "022$2 요약 누락 및 반복 여부",
+      "decision": null,
+      "decider": null,
+      "date": null,
+      "evidence": null,
+      "provisional_policy": "본문 정의에 따라 $2를 보존하고 반복 시 검토 경고",
+      "rationale": "본문과 2013년 변경 이력에 정의가 있으나 요약에 누락되어 있고 반복 여부 미확정",
+      "impact_scope": "022$2 요약 누락 및 반복 여부",
+      "final_decision_required": true,
+      "provisional_authorization": "불명확한 부분은 보존·경고 후 최종 일괄 결정하는 사용자 승인 정책 적용",
+      "provisional_date": "2026-09-18"
+    },
+    {
+      "id": "KX-007",
+      "status": "provisional",
+      "type": "normative",
+      "scope": "034$2 반복 규정 충돌",
+      "decision": null,
+      "decider": null,
+      "date": null,
+      "evidence": null,
+      "provisional_policy": "반복불가 오류를 보류하고 반복 시 검토 경고",
+      "rationale": "요약은 반복불가, 본문은 복수 정보원의 반복을 허용",
+      "impact_scope": "034$2 반복 규정 충돌",
+      "final_decision_required": true,
+      "provisional_authorization": "불명확한 부분은 보존·경고 후 최종 일괄 결정하는 사용자 승인 정책 적용",
+      "provisional_date": "2026-09-18"
     }
   ]
 }

@@ -660,6 +660,18 @@
           "label": "필드 링크와 일련번호",
           "xml": "m:record/m:datafield[@tag='022']/m:subfield[@code='8']",
           "repeatable": true
+        },
+        "2": {
+          "xml": "m:record/m:datafield[@tag='022']/m:subfield[@code='2']",
+          "label": "정보원",
+          "repeatable": null,
+          "repetition_review": "KX-006",
+          "review": {
+            "status": "provisional-source-conflict",
+            "decision_id": "KX-006",
+            "reason": "Subfield 2 is defined in prose and 2013 change history but omitted from summary; repetition unspecified.",
+            "source_sha256": "2e35d83f642f75b50a3dc6b486d7648a94ae14b22fe4c21fe6e9d34511427297"
+          }
         }
       },
       "unresolved_summary_items": [],
@@ -1016,7 +1028,15 @@
         },
         "s": {
           "label": "유효성 검증 주기",
-          "xml": "m:record/m:datafield[@tag='031']/m:subfield[@code='s']"
+          "xml": "m:record/m:datafield[@tag='031']/m:subfield[@code='s']",
+          "repeatable": true,
+          "review": {
+            "status": "reviewed-explicit-word; malformed-bracket",
+            "source_marker": "유효성 검증 주기 [반복",
+            "source_sha256": "7f05b63153a37e54b3bdc14933bfe13ba362d9b6316c8457d010b6c8deb2a593",
+            "reason": "The explicit repetition word is intact; only its enclosing punctuation is malformed.",
+            "scope": "summary repetition marker only; no prose certification"
+          }
         },
         "t": {
           "label": "첫 구절",
@@ -1054,12 +1074,7 @@
           "repeatable": true
         }
       },
-      "unresolved_summary_items": [
-        {
-          "code": "s",
-          "reason": "Missing or malformed repetition marker"
-        }
-      ],
+      "unresolved_summary_items": [],
       "application_levels": {
         "full": "O",
         "minimal": "-",
@@ -1345,7 +1360,14 @@
         "2": {
           "label": "정보원",
           "xml": "m:record/m:datafield[@tag='034']/m:subfield[@code='2']",
-          "repeatable": false
+          "repeatable": null,
+          "repetition_review": "KX-007",
+          "review": {
+            "status": "provisional-source-conflict",
+            "decision_id": "KX-007",
+            "reason": "Summary says nonrepeatable but prose permits repetition for multiple sources.",
+            "source_sha256": "9f2419b549213358035d51b2169fd357d30b707cdb503e6025ebc441cf1001d2"
+          }
         },
         "3": {
           "label": "자료 범위지정",
@@ -7807,8 +7829,16 @@
           "repeatable": true
         },
         "l": {
-          "label": "언어 용어 반복]",
-          "xml": "m:record/m:datafield[@tag='377']/m:subfield[@code='l']"
+          "label": "언어 용어",
+          "xml": "m:record/m:datafield[@tag='377']/m:subfield[@code='l']",
+          "repeatable": true,
+          "review": {
+            "status": "reviewed-explicit-word; malformed-bracket",
+            "source_marker": "언어 용어 반복]",
+            "source_sha256": "0832ecca02f86c41a311603865b4385a620b52da2b222340638babda0ca70fe4",
+            "reason": "The explicit repetition word is intact; only its enclosing punctuation is malformed.",
+            "scope": "summary repetition marker only; no prose certification"
+          }
         },
         "0": {
           "label": "전거레코드 제어번호 또는 표준번호",
@@ -7841,12 +7871,7 @@
           "repeatable": true
         }
       },
-      "unresolved_summary_items": [
-        {
-          "code": "l",
-          "reason": "Missing or malformed repetition marker"
-        }
-      ],
+      "unresolved_summary_items": [],
       "application_levels": {
         "full": "O",
         "minimal": "-",
@@ -12795,7 +12820,15 @@
         },
         "n": {
           "label": "권차/편차/회차",
-          "xml": "m:record/m:datafield[@tag='610']/m:subfield[@code='n']"
+          "xml": "m:record/m:datafield[@tag='610']/m:subfield[@code='n']",
+          "repeatable": true,
+          "review": {
+            "status": "reviewed-explicit-word; malformed-bracket",
+            "source_marker": "권차/편차/회차 [반복}",
+            "source_sha256": "12f26d1cb3b22f5a5ed6e25a99c86a8ff6627b8704fe4d8aaf85ac618bea9f86",
+            "reason": "The explicit repetition word is intact; only its enclosing punctuation is malformed.",
+            "scope": "summary repetition marker only; no prose certification"
+          }
         },
         "o": {
           "label": "편곡",
@@ -12883,12 +12916,7 @@
           "repeatable": true
         }
       },
-      "unresolved_summary_items": [
-        {
-          "code": "n",
-          "reason": "Missing or malformed repetition marker"
-        }
-      ],
+      "unresolved_summary_items": [],
       "application_levels": {
         "full": "A",
         "minimal": "-",
