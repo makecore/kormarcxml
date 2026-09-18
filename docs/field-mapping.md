@@ -121,7 +121,7 @@
 | 490 | 총서사항 | True | a v x y z 3 6 8 | A/A | 기술 요약; 본문 미완료 | `m:record/m:datafield[@tag='490']` | [원문](https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/4XX_490.html) |
 | 500 | 일반주기 | True | a 3 5 6 8 | O/- | 기술 요약; 본문 미완료 | `m:record/m:datafield[@tag='500']` | [원문](https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_500.html) |
 | 501 | 합철 주기 | True | a c d e g n p q t x 5 6 8 | O/- | 기술 요약; 본문 미완료 | `m:record/m:datafield[@tag='501']` | [원문](https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_501.html) |
-| 502 | 학위논문 주기 | True | a b c d g 0 6 8 | O/- | 기술 요약; 본문 미완료 | `m:record/m:datafield[@tag='502']` | [원문](https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_502.html) |
+| 502 | 학위논문 주기 | True | a b c d g 0 6 8 o | O/- | 기술 요약; 본문 미완료 | `m:record/m:datafield[@tag='502']` | [원문](https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_502.html) |
 | 504 | 서지 등 주기 | True | a b 6 8 | O/- | 기술 요약; 본문 미완료 | `m:record/m:datafield[@tag='504']` | [원문](https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_504.html) |
 | 505 | 내용 주기 | True | a d e n t g u 6 8 | O/- | 기술 요약; 본문 미완료 | `m:record/m:datafield[@tag='505']` | [원문](https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_505.html) |
 | 506 | 이용제한 주기 | True | a b c d e f g q u 2 3 5 6 8 | O/- | 기술 요약; 본문 미완료 | `m:record/m:datafield[@tag='506']` | [원문](https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_506.html) |
@@ -165,7 +165,7 @@
 | 567 | 방법 주기 | True | a b 0 1 2 6 8 | O/- | 기술 요약; 본문 미완료 | `m:record/m:datafield[@tag='567']` | [원문](https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_567.html) |
 | 580 | 연관저록 설명 주기 | True | a 6 8 | A/- | 기술 요약; 본문 미완료 | `m:record/m:datafield[@tag='580']` | [원문](https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_580.html) |
 | 581 | 참조정보원 주기 | True | a z 3 6 8 | O/- | 기술 요약; 본문 미완료 | `m:record/m:datafield[@tag='581']` | [원문](https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_581.html) |
-| 583 | 보존처리 주기 | True | a b c d e f h i j k l n o u x 2 3 5 6 8 | O/- | 기술 요약; 본문 미완료 | `m:record/m:datafield[@tag='583']` | [원문](https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_583.html) |
+| 583 | 보존처리 주기 | True | a b c d e f h i j k l n o u x 2 3 5 6 8 z | O/- | 기술 요약; 본문 미완료 | `m:record/m:datafield[@tag='583']` | [원문](https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_583.html) |
 | 584 | 이용 누적 및 빈도 주기 | True | a b 3 5 6 8 | O/- | 기술 요약; 본문 미완료 | `m:record/m:datafield[@tag='584']` | [원문](https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_584.html) |
 | 585 | 전시 주기 | True | a 3 5 6 8 | O/- | 기술 요약; 본문 미완료 | `m:record/m:datafield[@tag='585']` | [원문](https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_585.html) |
 | 586 | 수상 주기 | True | a 3 6 8 | O/- | 기술 요약; 본문 미완료 | `m:record/m:datafield[@tag='586']` | [원문](https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_586.html) |
@@ -245,7 +245,7 @@
 | 885 | 매칭 정보 | True | a b c d w x z 0 1 2 5 | O/- | 기술 요약; 본문 미완료 | `m:record/m:datafield[@tag='885']` | [원문](https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/841_89X_885.html) |
 | 886 | 외국 MARC 정보 | True | a b 2 c d e f g h i j k l m n o p q r s t u v w x y z 0 1 3 4 5 6 7 8 9 | O/- | 기술 요약; 본문 미완료 | `m:record/m:datafield[@tag='886']` | [원문](https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/841_89X_886.html) |
 | 887 | MARC 형태가 아닌 정보 | True | a 2 | O/- | 기술 요약; 본문 미완료 | `m:record/m:datafield[@tag='887']` | [원문](https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/841_89X_887.html) |
-| 890 | 미입력문자표시 | False | a h r s x | A/A | 기술 요약; 본문 미완료 | `m:record/m:datafield[@tag='890']` | [원문](https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/841_89X_890.html) |
+| 890 | 미입력문자표시 | False | a h r s x b | A/A | 기술 요약; 본문 미완료 | `m:record/m:datafield[@tag='890']` | [원문](https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/841_89X_890.html) |
 | 900 | 로컬표목 - 개인명 | True | a b c d e f g j k l n p q t u 4 8 | O/- | 기술 요약; 본문 미완료 | `m:record/m:datafield[@tag='900']` | [원문](https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/9XX_900.html) |
 | 910 | 로컬표목 - 단체명 | True | a b c d e f g k l n p t u 4 8 | O/- | 기술 요약; 본문 미완료 | `m:record/m:datafield[@tag='910']` | [원문](https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/9XX_910.html) |
 | 911 | 로컬표목 - 회의명 | True | a c d e f g k l n p t u 4 8 | O/- | 기술 요약; 본문 미완료 | `m:record/m:datafield[@tag='911']` | [원문](https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/9XX_911.html) |

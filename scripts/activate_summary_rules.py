@@ -32,12 +32,12 @@ def main():
             if indicator["values"] and not indicator["unresolved"]:
                 target.setdefault("indicators", {})[index] = indicator["values"]
         for code, subfield in field["subfields"].items():
-            for key in ("repeatable", "repetition_review", "review"):
+            for key in ("repeatable", "repetition_review", "review_usage", "review"):
                 target.setdefault("subfields", {}).setdefault(code, {}).pop(key, None)
             target.setdefault("subfields", {}).setdefault(code, {}).update(
                 {
                     k: subfield[k]
-                    for k in ("label", "repeatable", "review", "repetition_review")
+                    for k in ("label", "repeatable", "review", "repetition_review", "review_usage")
                     if k in subfield
                 }
             )

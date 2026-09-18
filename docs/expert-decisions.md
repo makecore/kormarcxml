@@ -91,3 +91,17 @@
 - [ ] KX-007 반복 규정 확정: [공식 034](https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_034.html)
 
 `research/source-overrides.json`에 원문 SHA-256을 기록했습니다. 해당 원문 해시와 일치할 때만 생성기가 보정을 적용합니다. 최종 결정자·결정일·근거는 아직 없습니다.
+
+## 추가 잠정 적용: KX-008 / KX-009 / KX-010
+
+| ID | 잠정 방침 | 선택 이유 | 영향 범위 | 최종 결정 필요 |
+|---|---|---|---|---|
+| KX-008 | $0와 $o 보존, 사용 시 경고; 자동 치환 금지 | 요약은 숫자 0, 본문·예시·변경 이력은 영문 o | 502 학위논문 식별자 | 예 |
+| KX-009 | $c/$x/$z 보존, 사용 시 경고; 의미 자동 치환 금지 | 요약은 c 중복·x 이용자용, 본문은 x 업무용·z 이용자용 | 583 시기 및 주기 | 예 |
+| KX-010 | $a와 $b 보존, 사용 시 경고; 자동 치환 금지 | 빈칸 대체 기호가 요약은 a, 본문은 b | 890 미입력문자표시 | 예 |
+
+- [ ] KX-008: [공식 502](https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_502.html)
+- [ ] KX-009: [공식 583](https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_583.html)
+- [ ] KX-010: [공식 890](https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/841_89X_890.html)
+
+사용자가 승인한 보존·경고 원칙을 적용했습니다. 충돌 범위의 반복 여부도 임의로 확정하지 않습니다. 원문 해시와 세부 보정은 `research/source-overrides.json`, 시험은 `tests/test_summary_review.py`에 있습니다. 최종 결정자·날짜·근거는 아직 미정입니다.

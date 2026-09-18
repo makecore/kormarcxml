@@ -380,6 +380,15 @@ def validate(
                             **context,
                         )
             for code, subrules in subspecs.items():
+                if level >= 3 and subrules.get("review_usage") and subcounts[code]:
+                    emit(
+                        f"decision.{subrules['review_usage']}",
+                        "Subfield retained despite conflicting source definitions; manual review required",
+                        "warning",
+                        subfield=code,
+                        remediation="Review docs/expert-decisions.md; never automatically rename the subfield",
+                        **context,
+                    )
                 if level >= 3 and subrules.get("repetition_review") and subcounts[code] > 1:
                     emit(
                         f"decision.{subrules['repetition_review']}",

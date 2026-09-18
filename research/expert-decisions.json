@@ -113,6 +113,54 @@
       "final_decision_required": true,
       "provisional_authorization": "불명확한 부분은 보존·경고 후 최종 일괄 결정하는 사용자 승인 정책 적용",
       "provisional_date": "2026-09-18"
+    },
+    {
+      "id": "KX-008",
+      "status": "provisional",
+      "type": "normative",
+      "scope": "502$0/$o",
+      "decision": null,
+      "decider": null,
+      "date": null,
+      "evidence": null,
+      "provisional_policy": "양쪽 기호 원문 보존·사용 시 검토 경고·자동 치환 금지",
+      "rationale": "요약은 숫자 0, 본문·예시·변경 이력은 영문 o",
+      "impact_scope": "502$0/$o",
+      "final_decision_required": true,
+      "provisional_authorization": "사용자 승인 보존·경고 정책 적용",
+      "provisional_date": "2026-09-18"
+    },
+    {
+      "id": "KX-009",
+      "status": "provisional",
+      "type": "normative",
+      "scope": "583$c/$x/$z",
+      "decision": null,
+      "decider": null,
+      "date": null,
+      "evidence": null,
+      "provisional_policy": "양쪽 기호 원문 보존·사용 시 검토 경고·자동 치환 금지",
+      "rationale": "요약의 c 중복 및 x 명칭과 본문의 업무용 x·이용자용 z 불일치",
+      "impact_scope": "583$c/$x/$z",
+      "final_decision_required": true,
+      "provisional_authorization": "사용자 승인 보존·경고 정책 적용",
+      "provisional_date": "2026-09-18"
+    },
+    {
+      "id": "KX-010",
+      "status": "provisional",
+      "type": "normative",
+      "scope": "890$a/$b",
+      "decision": null,
+      "decider": null,
+      "date": null,
+      "evidence": null,
+      "provisional_policy": "양쪽 기호 원문 보존·사용 시 검토 경고·자동 치환 금지",
+      "rationale": "빈칸 대체를 요약은 a, 본문은 b로 정의",
+      "impact_scope": "890$a/$b",
+      "final_decision_required": true,
+      "provisional_authorization": "사용자 승인 보존·경고 정책 적용",
+      "provisional_date": "2026-09-18"
     }
   ]
 }

@@ -8943,9 +8943,16 @@
           "repeatable": true
         },
         "0": {
-          "label": "학위논문 식별자",
+          "label": "학위논문 식별자 (요약; 본문은 $o)",
           "xml": "m:record/m:datafield[@tag='502']/m:subfield[@code='0']",
-          "repeatable": true
+          "repeatable": null,
+          "review_usage": "KX-008",
+          "review": {
+            "status": "provisional-source-conflict",
+            "decision_id": "KX-008",
+            "reason": "Summary uses digit 0; prose/example/change history use letter o.",
+            "source_sha256": "44f6db51f7c18f5a49b589cacb392f8d90e9abe6e11faac295dccc405c769b3b"
+          }
         },
         "6": {
           "label": "대체문자 연결",
@@ -8956,6 +8963,18 @@
           "label": "필드 링크와 일련번호",
           "xml": "m:record/m:datafield[@tag='502']/m:subfield[@code='8']",
           "repeatable": true
+        },
+        "o": {
+          "xml": "m:record/m:datafield[@tag='502']/m:subfield[@code='o']",
+          "label": "학위논문 식별자",
+          "repeatable": null,
+          "review_usage": "KX-008",
+          "review": {
+            "status": "provisional-source-conflict",
+            "decision_id": "KX-008",
+            "reason": "Summary uses digit 0; prose/example/change history use letter o.",
+            "source_sha256": "44f6db51f7c18f5a49b589cacb392f8d90e9abe6e11faac295dccc405c769b3b"
+          }
         }
       },
       "unresolved_summary_items": [],
@@ -12126,9 +12145,17 @@
           "repeatable": true
         },
         "c": {
-          "label": "업무용 주기",
+          "label": "처리 시기 / 업무용 주기 (요약 충돌)",
           "xml": "m:record/m:datafield[@tag='583']/m:subfield[@code='c']",
-          "context_dependent": true
+          "context_dependent": true,
+          "repeatable": null,
+          "review_usage": "KX-009",
+          "review": {
+            "status": "provisional-source-conflict",
+            "decision_id": "KX-009",
+            "reason": "Summary duplicates c and labels x as public note; prose defines x staff note and z public note.",
+            "source_sha256": "e54b7a4e794b7b5b7b72bc32bc132a2c67f7435fe90b3138e7a6bf83a96e447d"
+          }
         },
         "d": {
           "label": "처리 간격",
@@ -12186,9 +12213,16 @@
           "repeatable": true
         },
         "x": {
-          "label": "이용자용 주기",
+          "label": "업무용 주기 (본문) / 이용자용 주기 (요약)",
           "xml": "m:record/m:datafield[@tag='583']/m:subfield[@code='x']",
-          "repeatable": true
+          "repeatable": null,
+          "review_usage": "KX-009",
+          "review": {
+            "status": "provisional-source-conflict",
+            "decision_id": "KX-009",
+            "reason": "Summary duplicates c and labels x as public note; prose defines x staff note and z public note.",
+            "source_sha256": "e54b7a4e794b7b5b7b72bc32bc132a2c67f7435fe90b3138e7a6bf83a96e447d"
+          }
         },
         "2": {
           "label": "용어의 정보원",
@@ -12214,6 +12248,18 @@
           "label": "필드 링크와 일련번호",
           "xml": "m:record/m:datafield[@tag='583']/m:subfield[@code='8']",
           "repeatable": true
+        },
+        "z": {
+          "xml": "m:record/m:datafield[@tag='583']/m:subfield[@code='z']",
+          "label": "이용자용 주기",
+          "repeatable": null,
+          "review_usage": "KX-009",
+          "review": {
+            "status": "provisional-source-conflict",
+            "decision_id": "KX-009",
+            "reason": "Summary duplicates c and labels x as public note; prose defines x staff note and z public note.",
+            "source_sha256": "e54b7a4e794b7b5b7b72bc32bc132a2c67f7435fe90b3138e7a6bf83a96e447d"
+          }
         }
       },
       "unresolved_summary_items": [],
@@ -20288,9 +20334,16 @@
       },
       "subfields": {
         "a": {
-          "label": "문자를 빈칸(b/)으로 입력한 경우",
+          "label": "빈칸 대체 (요약; 본문은 $b)",
           "xml": "m:record/m:datafield[@tag='890']/m:subfield[@code='a']",
-          "repeatable": true
+          "repeatable": null,
+          "review_usage": "KX-010",
+          "review": {
+            "status": "provisional-source-conflict",
+            "decision_id": "KX-010",
+            "reason": "Summary uses a for blank replacement; prose defines b.",
+            "source_sha256": "5449aec1206f42ab109aa5031be2a5eaa70d0dde76ffb9f6e7e725c6b53794a6"
+          }
         },
         "h": {
           "label": "한자를 한글로 입력한 경우",
@@ -20311,6 +20364,18 @@
           "label": "한자 이외의 문자를 한글로 변형 입력한 경우",
           "xml": "m:record/m:datafield[@tag='890']/m:subfield[@code='x']",
           "repeatable": true
+        },
+        "b": {
+          "xml": "m:record/m:datafield[@tag='890']/m:subfield[@code='b']",
+          "label": "빈칸 대체 (본문)",
+          "repeatable": null,
+          "review_usage": "KX-010",
+          "review": {
+            "status": "provisional-source-conflict",
+            "decision_id": "KX-010",
+            "reason": "Summary uses a for blank replacement; prose defines b.",
+            "source_sha256": "5449aec1206f42ab109aa5031be2a5eaa70d0dde76ffb9f6e7e725c6b53794a6"
+          }
         }
       },
       "unresolved_summary_items": [],

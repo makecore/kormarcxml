@@ -6,8 +6,8 @@ from kormarcxml.validation import coverage, load_registry
 
 
 def main():
-    catalog = json.loads(Path("research/field-catalog.json").read_text())
-    inventory = json.loads(Path("research/source-inventory.json").read_text())
+    catalog = json.loads(Path("research/field-catalog.json").read_text(encoding="utf-8"))
+    inventory = json.loads(Path("research/source-inventory.json").read_text(encoding="utf-8"))
     pages = {p["url"]: p for p in inventory["pages"]}
     registry = load_registry()
     counts = coverage()["field_rule_counts"]
@@ -46,7 +46,7 @@ def main():
         "fields": entries,
     }
     Path("research/audit-worklist.json").write_text(
-        json.dumps(output, ensure_ascii=False, indent=2) + "\n"
+        json.dumps(output, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )
     print({"fields": len(entries), "semantic_completion_percent": None})
 

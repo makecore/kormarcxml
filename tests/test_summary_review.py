@@ -20,7 +20,7 @@ spec.loader.exec_module(generator)
 
 @pytest.mark.parametrize("tag,code", [("031", "s"), ("377", "l"), ("610", "n")])
 def test_reviewed_repetition_survives_registry_and_preserves_record(tag, code):
-    catalog = json.loads((ROOT / "research/field-catalog.json").read_text())
+    catalog = json.loads((ROOT / "research/field-catalog.json").read_text(encoding="utf-8"))
     field = next(f for f in catalog["fields"] if f["tag"] == tag)
     entry = field["subfields"][code]
     assert entry["repeatable"] is True
@@ -79,3 +79,21 @@ def test_prose_defined_sources_are_preserved_pending_repetition_decision(tag, de
     )
     assert any(i.rule_id == f"decision.{decision}" and i.severity == "warning" for i in issues)
     assert repr(record) == before
+
+
+@pytest.mark.parametrize(
+    "tag,codes,decision",
+    [("502", "0o", "KX-008"), ("583", "cxz", "KX-009"), ("890", "ab", "KX-010")],
+)
+def test_conflicting_codes_are_preserved_not_renamed(tag, codes, decision):
+    record = Record(
+        "00000nam a2200000   4500",
+        [DataField(tag, subfields=[Subfield(c, "source text") for c in codes])],
+    )
+    before = repr(record)
+    issues = validate(record)
+    assert not any(i.rule_id == f"field.{tag}.subfield.allowed" for i in issues)
+    assert {i.subfield for i in issues if i.rule_id == f"decision.{decision}"} == set(codes)
+    assert all(i.severity == "warning" for i in issues if i.rule_id == f"decision.{decision}")
+    assert repr(record) == before
+    assert not any(i.rule_id == f"decision.{decision}" for i in validate(record, level=2))

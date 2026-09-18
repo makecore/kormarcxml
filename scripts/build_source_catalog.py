@@ -115,7 +115,9 @@ def extract(path):
                 unresolved.append({"code": c, "reason": "Missing or malformed repetition marker"})
             subs[c] = entry
     overrides = json.loads(
-        (Path(__file__).resolve().parents[1] / "research/source-overrides.json").read_text()
+        (Path(__file__).resolve().parents[1] / "research/source-overrides.json").read_text(
+            encoding="utf-8"
+        )
     )["fields"].get(tag)
     if overrides and hashlib.sha256(path.read_bytes()).hexdigest() == overrides["source_sha256"]:
         for c, patch in overrides["subfields"].items():
