@@ -36,7 +36,11 @@ def _merge(base: dict, update: dict) -> dict:
 def _bundled_registry() -> dict[str, Any]:
     # Private read-only use; public callers always receive an independent copy.
     path = files("kormarcxml").joinpath("resources/rules/bibliographic.json")
-    return json.loads(path.read_text(encoding="utf-8"))
+    registry = json.loads(path.read_text(encoding="utf-8"))
+    physical_path = files("kormarcxml").joinpath("resources/rules/physical.json")
+    physical = json.loads(physical_path.read_text(encoding="utf-8"))
+    registry["fields"]["007"].setdefault("rules", []).extend(physical["rules"])
+    return registry
 
 
 def load_registry(profile: str | Path | dict | None = None) -> dict[str, Any]:
@@ -127,7 +131,11 @@ def validate(
     def check_value(value: str, rule: dict, **context: Any) -> None:
         if rule.get("level", 3) > level:
             return
+        if "when" in rule and not value.startswith(rule["when"]["prefix"]):
+            return
         start = rule.get("start", 0)
+        if rule.get("optional") and len(value) <= start:
+            return
         end = rule.get("end", len(value))
         part = value[start:end]
         # Python slices silently truncate: absent required positions must not
@@ -135,6 +143,10 @@ def validate(
         valid = start <= len(value) and ("end" not in rule or end <= len(value))
         if "length" in rule:
             valid = valid and len(value) == rule["length"]
+        if "min_length" in rule:
+            valid = valid and len(value) >= rule["min_length"]
+        if "max_length" in rule:
+            valid = valid and len(value) <= rule["max_length"]
         if "values" in rule:
             valid = valid and part in rule["values"]
         if "pattern" in rule:

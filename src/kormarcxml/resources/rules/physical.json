@@ -1,0 +1,2129 @@
+{
+  "standard": "KS X 6006-0:2023",
+  "complete": false,
+  "scope": "007 material lengths and explicit single-position code enumerations; no inferred dependencies",
+  "rules": [
+    {
+      "id": "field.007.category",
+      "start": 0,
+      "end": 1,
+      "values": [
+        "a",
+        "c",
+        "d",
+        "f",
+        "g",
+        "h",
+        "k",
+        "m",
+        "o",
+        "r",
+        "q",
+        "s",
+        "t",
+        "v",
+        "y",
+        "z"
+      ],
+      "message": "007/00 requires a documented material category; fill is not allowed",
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007.html"
+    },
+    {
+      "id": "field.007.a.length",
+      "level": 2,
+      "when": {
+        "prefix": "a"
+      },
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_1.html",
+      "message": "007 length is outside the documented material layout",
+      "length": 8
+    },
+    {
+      "id": "field.007.a.position.01",
+      "when": {
+        "prefix": "a"
+      },
+      "start": 1,
+      "end": 2,
+      "optional": false,
+      "values": [
+        "d",
+        "g",
+        "j",
+        "k",
+        "q",
+        "r",
+        "s",
+        "u",
+        "y",
+        "z",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_1.html",
+      "message": "007/01 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.a.position.03",
+      "when": {
+        "prefix": "a"
+      },
+      "start": 3,
+      "end": 4,
+      "optional": false,
+      "values": [
+        "a",
+        "c",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_1.html",
+      "message": "007/03 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.a.position.04",
+      "when": {
+        "prefix": "a"
+      },
+      "start": 4,
+      "end": 5,
+      "optional": false,
+      "values": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g",
+        "i",
+        "j",
+        "l",
+        "p",
+        "q",
+        "r",
+        "s",
+        "t",
+        "u",
+        "w",
+        "x",
+        "y",
+        "z",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_1.html",
+      "message": "007/04 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.a.position.05",
+      "when": {
+        "prefix": "a"
+      },
+      "start": 5,
+      "end": 6,
+      "optional": false,
+      "values": [
+        "f",
+        "n",
+        "u",
+        "z",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_1.html",
+      "message": "007/05 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.a.position.06",
+      "when": {
+        "prefix": "a"
+      },
+      "start": 6,
+      "end": 7,
+      "optional": false,
+      "values": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "u",
+        "z",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_1.html",
+      "message": "007/06 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.a.position.07",
+      "when": {
+        "prefix": "a"
+      },
+      "start": 7,
+      "end": 8,
+      "optional": false,
+      "values": [
+        "a",
+        "b",
+        "m",
+        "n",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_1.html",
+      "message": "007/07 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.c.length",
+      "level": 2,
+      "when": {
+        "prefix": "c"
+      },
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_2.html",
+      "message": "007 length is outside the documented material layout",
+      "min_length": 6,
+      "max_length": 14
+    },
+    {
+      "id": "field.007.c.position.01",
+      "when": {
+        "prefix": "c"
+      },
+      "start": 1,
+      "end": 2,
+      "optional": false,
+      "values": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "h",
+        "j",
+        "k",
+        "m",
+        "o",
+        "r",
+        "s",
+        "u",
+        "z",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_2.html",
+      "message": "007/01 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.c.position.03",
+      "when": {
+        "prefix": "c"
+      },
+      "start": 3,
+      "end": 4,
+      "optional": false,
+      "values": [
+        "a",
+        "b",
+        "c",
+        "g",
+        "m",
+        "n",
+        "u",
+        "z",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_2.html",
+      "message": "007/03 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.c.position.04",
+      "when": {
+        "prefix": "c"
+      },
+      "start": 4,
+      "end": 5,
+      "optional": false,
+      "values": [
+        "a",
+        "e",
+        "g",
+        "i",
+        "j",
+        "n",
+        "o",
+        "u",
+        "v",
+        "z",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_2.html",
+      "message": "007/04 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.c.position.05",
+      "when": {
+        "prefix": "c"
+      },
+      "start": 5,
+      "end": 6,
+      "optional": false,
+      "values": [
+        " ",
+        "a",
+        "u",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_2.html",
+      "message": "007/05 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.c.position.09",
+      "when": {
+        "prefix": "c"
+      },
+      "start": 9,
+      "end": 10,
+      "optional": true,
+      "values": [
+        "a",
+        "m",
+        "u",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_2.html",
+      "message": "007/09 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.c.position.10",
+      "when": {
+        "prefix": "c"
+      },
+      "start": 10,
+      "end": 11,
+      "optional": true,
+      "values": [
+        "a",
+        "n",
+        "p",
+        "u",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_2.html",
+      "message": "007/10 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.c.position.11",
+      "when": {
+        "prefix": "c"
+      },
+      "start": 11,
+      "end": 12,
+      "optional": true,
+      "values": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "m",
+        "n",
+        "u",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_2.html",
+      "message": "007/11 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.c.position.12",
+      "when": {
+        "prefix": "c"
+      },
+      "start": 12,
+      "end": 13,
+      "optional": true,
+      "values": [
+        "a",
+        "b",
+        "d",
+        "m",
+        "u",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_2.html",
+      "message": "007/12 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.c.position.13",
+      "when": {
+        "prefix": "c"
+      },
+      "start": 13,
+      "end": 14,
+      "optional": true,
+      "values": [
+        "a",
+        "n",
+        "p",
+        "r",
+        "u",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_2.html",
+      "message": "007/13 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.d.length",
+      "level": 2,
+      "when": {
+        "prefix": "d"
+      },
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_3.html",
+      "message": "007 length is outside the documented material layout",
+      "length": 6
+    },
+    {
+      "id": "field.007.d.position.01",
+      "when": {
+        "prefix": "d"
+      },
+      "start": 1,
+      "end": 2,
+      "optional": false,
+      "values": [
+        "a",
+        "b",
+        "c",
+        "e",
+        "u",
+        "z",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_3.html",
+      "message": "007/01 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.d.position.03",
+      "when": {
+        "prefix": "d"
+      },
+      "start": 3,
+      "end": 4,
+      "optional": false,
+      "values": [
+        "a",
+        "c",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_3.html",
+      "message": "007/03 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.d.position.04",
+      "when": {
+        "prefix": "d"
+      },
+      "start": 4,
+      "end": 5,
+      "optional": false,
+      "values": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g",
+        "i",
+        "j",
+        "p",
+        "u",
+        "w",
+        "z",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_3.html",
+      "message": "007/04 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.d.position.05",
+      "when": {
+        "prefix": "d"
+      },
+      "start": 5,
+      "end": 6,
+      "optional": false,
+      "values": [
+        "f",
+        "n",
+        "u",
+        "z",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_3.html",
+      "message": "007/05 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.f.length",
+      "level": 2,
+      "when": {
+        "prefix": "f"
+      },
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_4.html",
+      "message": "007 length is outside the documented material layout",
+      "length": 10
+    },
+    {
+      "id": "field.007.f.position.01",
+      "when": {
+        "prefix": "f"
+      },
+      "start": 1,
+      "end": 2,
+      "optional": false,
+      "values": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "u",
+        "z",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_4.html",
+      "message": "007/01 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.f.position.05",
+      "when": {
+        "prefix": "f"
+      },
+      "start": 5,
+      "end": 6,
+      "optional": false,
+      "values": [
+        "a",
+        "b",
+        "m",
+        "n",
+        "u",
+        "z",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_4.html",
+      "message": "007/05 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.f.position.09",
+      "when": {
+        "prefix": "f"
+      },
+      "start": 9,
+      "end": 10,
+      "optional": false,
+      "values": [
+        "a",
+        "b",
+        "n",
+        "u",
+        "z",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_4.html",
+      "message": "007/09 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.g.length",
+      "level": 2,
+      "when": {
+        "prefix": "g"
+      },
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_5.html",
+      "message": "007 length is outside the documented material layout",
+      "length": 9
+    },
+    {
+      "id": "field.007.g.position.01",
+      "when": {
+        "prefix": "g"
+      },
+      "start": 1,
+      "end": 2,
+      "optional": false,
+      "values": [
+        "c",
+        "d",
+        "f",
+        "o",
+        "s",
+        "t",
+        "u",
+        "z",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_5.html",
+      "message": "007/01 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.g.position.03",
+      "when": {
+        "prefix": "g"
+      },
+      "start": 3,
+      "end": 4,
+      "optional": false,
+      "values": [
+        "a",
+        "b",
+        "c",
+        "h",
+        "m",
+        "n",
+        "u",
+        "z",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_5.html",
+      "message": "007/03 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.g.position.04",
+      "when": {
+        "prefix": "g"
+      },
+      "start": 4,
+      "end": 5,
+      "optional": false,
+      "values": [
+        "d",
+        "e",
+        "j",
+        "k",
+        "m",
+        "o",
+        "u",
+        "z",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_5.html",
+      "message": "007/04 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.g.position.05",
+      "when": {
+        "prefix": "g"
+      },
+      "start": 5,
+      "end": 6,
+      "optional": false,
+      "values": [
+        " ",
+        "a",
+        "b",
+        "u",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_5.html",
+      "message": "007/05 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.g.position.06",
+      "when": {
+        "prefix": "g"
+      },
+      "start": 6,
+      "end": 7,
+      "optional": false,
+      "values": [
+        " ",
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g",
+        "h",
+        "i",
+        "u",
+        "z",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_5.html",
+      "message": "007/06 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.g.position.07",
+      "when": {
+        "prefix": "g"
+      },
+      "start": 7,
+      "end": 8,
+      "optional": false,
+      "values": [
+        "s",
+        "t",
+        "v",
+        "w",
+        "x",
+        "y",
+        "u",
+        "z",
+        "|",
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g",
+        "j",
+        "k"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_5.html",
+      "message": "007/07 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.g.position.08",
+      "when": {
+        "prefix": "g"
+      },
+      "start": 8,
+      "end": 9,
+      "optional": false,
+      "values": [
+        " ",
+        "c",
+        "d",
+        "e",
+        "h",
+        "j",
+        "k",
+        "m",
+        "u",
+        "z",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_5.html",
+      "message": "007/08 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.h.length",
+      "level": 2,
+      "when": {
+        "prefix": "h"
+      },
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_6.html",
+      "message": "007 length is outside the documented material layout",
+      "length": 13
+    },
+    {
+      "id": "field.007.h.position.01",
+      "when": {
+        "prefix": "h"
+      },
+      "start": 1,
+      "end": 2,
+      "optional": false,
+      "values": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g",
+        "h",
+        "j",
+        "u",
+        "z",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_6.html",
+      "message": "007/01 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.h.position.03",
+      "when": {
+        "prefix": "h"
+      },
+      "start": 3,
+      "end": 4,
+      "optional": false,
+      "values": [
+        "a",
+        "b",
+        "m",
+        "u",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_6.html",
+      "message": "007/03 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.h.position.04",
+      "when": {
+        "prefix": "h"
+      },
+      "start": 4,
+      "end": 5,
+      "optional": false,
+      "values": [
+        "a",
+        "d",
+        "f",
+        "g",
+        "h",
+        "l",
+        "m",
+        "o",
+        "p",
+        "u",
+        "z",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_6.html",
+      "message": "007/04 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.h.position.05",
+      "when": {
+        "prefix": "h"
+      },
+      "start": 5,
+      "end": 6,
+      "optional": false,
+      "values": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "u",
+        "v",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_6.html",
+      "message": "007/05 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.h.position.09",
+      "when": {
+        "prefix": "h"
+      },
+      "start": 9,
+      "end": 10,
+      "optional": false,
+      "values": [
+        "b",
+        "c",
+        "m",
+        "u",
+        "z",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_6.html",
+      "message": "007/09 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.h.position.10",
+      "when": {
+        "prefix": "h"
+      },
+      "start": 10,
+      "end": 11,
+      "optional": false,
+      "values": [
+        "a",
+        "b",
+        "c",
+        "m",
+        "n",
+        "u",
+        "z",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_6.html",
+      "message": "007/10 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.h.position.11",
+      "when": {
+        "prefix": "h"
+      },
+      "start": 11,
+      "end": 12,
+      "optional": false,
+      "values": [
+        "a",
+        "b",
+        "c",
+        "m",
+        "u",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_6.html",
+      "message": "007/11 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.h.position.12",
+      "when": {
+        "prefix": "h"
+      },
+      "start": 12,
+      "end": 13,
+      "optional": false,
+      "values": [
+        "a",
+        "c",
+        "d",
+        "i",
+        "m",
+        "n",
+        "p",
+        "r",
+        "t",
+        "u",
+        "z",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_6.html",
+      "message": "007/12 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.k.length",
+      "level": 2,
+      "when": {
+        "prefix": "k"
+      },
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_7.html",
+      "message": "007 length is outside the documented material layout",
+      "length": 6
+    },
+    {
+      "id": "field.007.k.position.01",
+      "when": {
+        "prefix": "k"
+      },
+      "start": 1,
+      "end": 2,
+      "optional": false,
+      "values": [
+        "a",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g",
+        "h",
+        "i",
+        "j",
+        "k",
+        "l",
+        "n",
+        "o",
+        "p",
+        "q",
+        "r",
+        "s",
+        "u",
+        "v",
+        "z",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_7.html",
+      "message": "007/01 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.k.position.03",
+      "when": {
+        "prefix": "k"
+      },
+      "start": 3,
+      "end": 4,
+      "optional": false,
+      "values": [
+        "a",
+        "b",
+        "c",
+        "h",
+        "m",
+        "u",
+        "z",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_7.html",
+      "message": "007/03 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.k.position.04",
+      "when": {
+        "prefix": "k"
+      },
+      "start": 4,
+      "end": 5,
+      "optional": false,
+      "values": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g",
+        "h",
+        "i",
+        "l",
+        "m",
+        "o",
+        "p",
+        "q",
+        "r",
+        "s",
+        "t",
+        "u",
+        "w",
+        "z",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_7.html",
+      "message": "007/04 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.k.position.05",
+      "when": {
+        "prefix": "k"
+      },
+      "start": 5,
+      "end": 6,
+      "optional": false,
+      "values": [
+        " ",
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g",
+        "h",
+        "i",
+        "j",
+        "m",
+        "o",
+        "p",
+        "q",
+        "r",
+        "s",
+        "t",
+        "u",
+        "w",
+        "z",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_7.html",
+      "message": "007/05 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.m.length",
+      "level": 2,
+      "when": {
+        "prefix": "m"
+      },
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_8.html",
+      "message": "007 length is outside the documented material layout",
+      "length": 23
+    },
+    {
+      "id": "field.007.m.position.01",
+      "when": {
+        "prefix": "m"
+      },
+      "start": 1,
+      "end": 2,
+      "optional": false,
+      "values": [
+        "c",
+        "f",
+        "o",
+        "r",
+        "u",
+        "z",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_8.html",
+      "message": "007/01 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.m.position.03",
+      "when": {
+        "prefix": "m"
+      },
+      "start": 3,
+      "end": 4,
+      "optional": false,
+      "values": [
+        "b",
+        "c",
+        "h",
+        "m",
+        "n",
+        "u",
+        "z",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_8.html",
+      "message": "007/03 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.m.position.04",
+      "when": {
+        "prefix": "m"
+      },
+      "start": 4,
+      "end": 5,
+      "optional": false,
+      "values": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "u",
+        "z",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_8.html",
+      "message": "007/04 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.m.position.05",
+      "when": {
+        "prefix": "m"
+      },
+      "start": 5,
+      "end": 6,
+      "optional": false,
+      "values": [
+        " ",
+        "a",
+        "b",
+        "u",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_8.html",
+      "message": "007/05 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.m.position.06",
+      "when": {
+        "prefix": "m"
+      },
+      "start": 6,
+      "end": 7,
+      "optional": false,
+      "values": [
+        " ",
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g",
+        "h",
+        "i",
+        "u",
+        "z",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_8.html",
+      "message": "007/06 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.m.position.07",
+      "when": {
+        "prefix": "m"
+      },
+      "start": 7,
+      "end": 8,
+      "optional": false,
+      "values": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g",
+        "u",
+        "z",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_8.html",
+      "message": "007/07 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.m.position.08",
+      "when": {
+        "prefix": "m"
+      },
+      "start": 8,
+      "end": 9,
+      "optional": false,
+      "values": [
+        "k",
+        "m",
+        "n",
+        "q",
+        "s",
+        "u",
+        "z",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_8.html",
+      "message": "007/08 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.m.position.09",
+      "when": {
+        "prefix": "m"
+      },
+      "start": 9,
+      "end": 10,
+      "optional": false,
+      "values": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g",
+        "n",
+        "z",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_8.html",
+      "message": "007/09 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.m.position.10",
+      "when": {
+        "prefix": "m"
+      },
+      "start": 10,
+      "end": 11,
+      "optional": false,
+      "values": [
+        "a",
+        "b",
+        "n",
+        "u",
+        "z",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_8.html",
+      "message": "007/10 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.m.position.11",
+      "when": {
+        "prefix": "m"
+      },
+      "start": 11,
+      "end": 12,
+      "optional": false,
+      "values": [
+        "d",
+        "e",
+        "o",
+        "r",
+        "u",
+        "z",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_8.html",
+      "message": "007/11 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.m.position.12",
+      "when": {
+        "prefix": "m"
+      },
+      "start": 12,
+      "end": 13,
+      "optional": false,
+      "values": [
+        "a",
+        "c",
+        "d",
+        "i",
+        "m",
+        "n",
+        "p",
+        "r",
+        "t",
+        "u",
+        "z",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_8.html",
+      "message": "007/12 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.m.position.13",
+      "when": {
+        "prefix": "m"
+      },
+      "start": 13,
+      "end": 14,
+      "optional": false,
+      "values": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g",
+        "h",
+        "i",
+        "j",
+        "k",
+        "l",
+        "m",
+        "n",
+        "p",
+        "q",
+        "r",
+        "s",
+        "t",
+        "u",
+        "v",
+        "z",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_8.html",
+      "message": "007/13 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.m.position.14",
+      "when": {
+        "prefix": "m"
+      },
+      "start": 14,
+      "end": 15,
+      "optional": false,
+      "values": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "n",
+        "u",
+        "z",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_8.html",
+      "message": "007/14 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.m.position.15",
+      "when": {
+        "prefix": "m"
+      },
+      "start": 15,
+      "end": 16,
+      "optional": false,
+      "values": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g",
+        "h",
+        "k",
+        "l",
+        "m",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_8.html",
+      "message": "007/15 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.m.position.16",
+      "when": {
+        "prefix": "m"
+      },
+      "start": 16,
+      "end": 17,
+      "optional": false,
+      "values": [
+        "c",
+        "i",
+        "n",
+        "u",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_8.html",
+      "message": "007/16 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.o.length",
+      "level": 2,
+      "when": {
+        "prefix": "o"
+      },
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_9.html",
+      "message": "007 length is outside the documented material layout",
+      "length": 2
+    },
+    {
+      "id": "field.007.o.position.01",
+      "when": {
+        "prefix": "o"
+      },
+      "start": 1,
+      "end": 2,
+      "optional": false,
+      "values": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g",
+        "h",
+        "i",
+        "u",
+        "z",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_9.html",
+      "message": "007/01 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.r.length",
+      "level": 2,
+      "when": {
+        "prefix": "r"
+      },
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_10.html",
+      "message": "007 length is outside the documented material layout",
+      "length": 11
+    },
+    {
+      "id": "field.007.r.position.01",
+      "when": {
+        "prefix": "r"
+      },
+      "start": 1,
+      "end": 2,
+      "optional": false,
+      "values": [
+        "u",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_10.html",
+      "message": "007/01 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.r.position.03",
+      "when": {
+        "prefix": "r"
+      },
+      "start": 3,
+      "end": 4,
+      "optional": false,
+      "values": [
+        "a",
+        "b",
+        "c",
+        "n",
+        "u",
+        "z",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_10.html",
+      "message": "007/03 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.r.position.04",
+      "when": {
+        "prefix": "r"
+      },
+      "start": 4,
+      "end": 5,
+      "optional": false,
+      "values": [
+        "a",
+        "b",
+        "c",
+        "n",
+        "u",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_10.html",
+      "message": "007/04 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.r.position.05",
+      "when": {
+        "prefix": "r"
+      },
+      "start": 5,
+      "end": 6,
+      "optional": false,
+      "values": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "n",
+        "u",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_10.html",
+      "message": "007/05 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.r.position.06",
+      "when": {
+        "prefix": "r"
+      },
+      "start": 6,
+      "end": 7,
+      "optional": false,
+      "values": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g",
+        "h",
+        "i",
+        "n",
+        "u",
+        "z",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_10.html",
+      "message": "007/06 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.r.position.07",
+      "when": {
+        "prefix": "r"
+      },
+      "start": 7,
+      "end": 8,
+      "optional": false,
+      "values": [
+        "a",
+        "b",
+        "c",
+        "m",
+        "n",
+        "u",
+        "z",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_10.html",
+      "message": "007/07 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.r.position.08",
+      "when": {
+        "prefix": "r"
+      },
+      "start": 8,
+      "end": 9,
+      "optional": false,
+      "values": [
+        "a",
+        "b",
+        "u",
+        "z",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_10.html",
+      "message": "007/08 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.q.length",
+      "level": 2,
+      "when": {
+        "prefix": "q"
+      },
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_11.html",
+      "message": "007 length is outside the documented material layout",
+      "length": 2
+    },
+    {
+      "id": "field.007.q.position.01",
+      "when": {
+        "prefix": "q"
+      },
+      "start": 1,
+      "end": 2,
+      "optional": false,
+      "values": [
+        "u",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_11.html",
+      "message": "007/01 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.s.length",
+      "level": 2,
+      "when": {
+        "prefix": "s"
+      },
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_12.html",
+      "message": "007 length is outside the documented material layout",
+      "length": 14
+    },
+    {
+      "id": "field.007.s.position.01",
+      "when": {
+        "prefix": "s"
+      },
+      "start": 1,
+      "end": 2,
+      "optional": false,
+      "values": [
+        "b",
+        "d",
+        "e",
+        "g",
+        "i",
+        "q",
+        "r",
+        "s",
+        "t",
+        "u",
+        "w",
+        "z",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_12.html",
+      "message": "007/01 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.s.position.03",
+      "when": {
+        "prefix": "s"
+      },
+      "start": 3,
+      "end": 4,
+      "optional": false,
+      "values": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "h",
+        "i",
+        "k",
+        "l",
+        "m",
+        "n",
+        "o",
+        "p",
+        "r",
+        "u",
+        "z",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_12.html",
+      "message": "007/03 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.s.position.04",
+      "when": {
+        "prefix": "s"
+      },
+      "start": 4,
+      "end": 5,
+      "optional": false,
+      "values": [
+        "m",
+        "q",
+        "s",
+        "u",
+        "z",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_12.html",
+      "message": "007/04 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.s.position.05",
+      "when": {
+        "prefix": "s"
+      },
+      "start": 5,
+      "end": 6,
+      "optional": false,
+      "values": [
+        "m",
+        "n",
+        "s",
+        "u",
+        "z",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_12.html",
+      "message": "007/05 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.s.position.06",
+      "when": {
+        "prefix": "s"
+      },
+      "start": 6,
+      "end": 7,
+      "optional": false,
+      "values": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g",
+        "j",
+        "n",
+        "o",
+        "s",
+        "u",
+        "z",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_12.html",
+      "message": "007/06 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.s.position.07",
+      "when": {
+        "prefix": "s"
+      },
+      "start": 7,
+      "end": 8,
+      "optional": false,
+      "values": [
+        "l",
+        "m",
+        "n",
+        "o",
+        "p",
+        "u",
+        "z",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_12.html",
+      "message": "007/07 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.s.position.08",
+      "when": {
+        "prefix": "s"
+      },
+      "start": 8,
+      "end": 9,
+      "optional": false,
+      "values": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "n",
+        "u",
+        "z",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_12.html",
+      "message": "007/08 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.s.position.09",
+      "when": {
+        "prefix": "s"
+      },
+      "start": 9,
+      "end": 10,
+      "optional": false,
+      "values": [
+        "a",
+        "b",
+        "d",
+        "i",
+        "m",
+        "n",
+        "r",
+        "s",
+        "t",
+        "u",
+        "z",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_12.html",
+      "message": "007/09 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.s.position.10",
+      "when": {
+        "prefix": "s"
+      },
+      "start": 10,
+      "end": 11,
+      "optional": false,
+      "values": [
+        "a",
+        "b",
+        "c",
+        "g",
+        "i",
+        "l",
+        "m",
+        "n",
+        "p",
+        "r",
+        "s",
+        "w",
+        "u",
+        "z",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_12.html",
+      "message": "007/10 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.s.position.11",
+      "when": {
+        "prefix": "s"
+      },
+      "start": 11,
+      "end": 12,
+      "optional": false,
+      "values": [
+        "h",
+        "l",
+        "n",
+        "u",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_12.html",
+      "message": "007/11 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.s.position.12",
+      "when": {
+        "prefix": "s"
+      },
+      "start": 12,
+      "end": 13,
+      "optional": false,
+      "values": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g",
+        "h",
+        "n",
+        "u",
+        "z",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_12.html",
+      "message": "007/12 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.s.position.13",
+      "when": {
+        "prefix": "s"
+      },
+      "start": 13,
+      "end": 14,
+      "optional": false,
+      "values": [
+        "a",
+        "b",
+        "d",
+        "e",
+        "u",
+        "z",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_12.html",
+      "message": "007/13 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.t.length",
+      "level": 2,
+      "when": {
+        "prefix": "t"
+      },
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_13.html",
+      "message": "007 length is outside the documented material layout",
+      "length": 2
+    },
+    {
+      "id": "field.007.t.position.01",
+      "when": {
+        "prefix": "t"
+      },
+      "start": 1,
+      "end": 2,
+      "optional": false,
+      "values": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "u",
+        "z",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_13.html",
+      "message": "007/01 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.v.length",
+      "level": 2,
+      "when": {
+        "prefix": "v"
+      },
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_14.html",
+      "message": "007 length is outside the documented material layout",
+      "length": 9
+    },
+    {
+      "id": "field.007.v.position.01",
+      "when": {
+        "prefix": "v"
+      },
+      "start": 1,
+      "end": 2,
+      "optional": false,
+      "values": [
+        "c",
+        "d",
+        "f",
+        "r",
+        "u",
+        "z",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_14.html",
+      "message": "007/01 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.v.position.03",
+      "when": {
+        "prefix": "v"
+      },
+      "start": 3,
+      "end": 4,
+      "optional": false,
+      "values": [
+        "a",
+        "b",
+        "c",
+        "m",
+        "n",
+        "u",
+        "z",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_14.html",
+      "message": "007/03 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.v.position.04",
+      "when": {
+        "prefix": "v"
+      },
+      "start": 4,
+      "end": 5,
+      "optional": false,
+      "values": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g",
+        "h",
+        "i",
+        "j",
+        "k",
+        "m",
+        "o",
+        "p",
+        "q",
+        "s",
+        "u",
+        "v",
+        "z",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_14.html",
+      "message": "007/04 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.v.position.05",
+      "when": {
+        "prefix": "v"
+      },
+      "start": 5,
+      "end": 6,
+      "optional": false,
+      "values": [
+        " ",
+        "a",
+        "b",
+        "u",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_14.html",
+      "message": "007/05 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.v.position.06",
+      "when": {
+        "prefix": "v"
+      },
+      "start": 6,
+      "end": 7,
+      "optional": false,
+      "values": [
+        " ",
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g",
+        "h",
+        "i",
+        "u",
+        "z",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_14.html",
+      "message": "007/06 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.v.position.07",
+      "when": {
+        "prefix": "v"
+      },
+      "start": 7,
+      "end": 8,
+      "optional": false,
+      "values": [
+        "a",
+        "m",
+        "o",
+        "p",
+        "q",
+        "r",
+        "u",
+        "z",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_14.html",
+      "message": "007/07 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.v.position.08",
+      "when": {
+        "prefix": "v"
+      },
+      "start": 8,
+      "end": 9,
+      "optional": false,
+      "values": [
+        "k",
+        "m",
+        "n",
+        "q",
+        "s",
+        "u",
+        "z",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_14.html",
+      "message": "007/08 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.y.length",
+      "level": 2,
+      "when": {
+        "prefix": "y"
+      },
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_15.html",
+      "message": "007 length is outside the documented material layout",
+      "length": 2
+    },
+    {
+      "id": "field.007.y.position.01",
+      "when": {
+        "prefix": "y"
+      },
+      "start": 1,
+      "end": 2,
+      "optional": false,
+      "values": [
+        "u",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_15.html",
+      "message": "007/01 contains a code outside this material summary"
+    },
+    {
+      "id": "field.007.z.length",
+      "level": 2,
+      "when": {
+        "prefix": "z"
+      },
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_16.html",
+      "message": "007 length is outside the documented material layout",
+      "length": 2
+    },
+    {
+      "id": "field.007.z.position.01",
+      "when": {
+        "prefix": "z"
+      },
+      "start": 1,
+      "end": 2,
+      "optional": false,
+      "values": [
+        "m",
+        "u",
+        "z",
+        "|"
+      ],
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_16.html",
+      "message": "007/01 contains a code outside this material summary"
+    }
+  ]
+}

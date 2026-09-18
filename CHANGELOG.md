@@ -1,5 +1,7 @@
 ## Unreleased — official-source audit
 
+- Add 104 material-specific 007 checks across 16 categories, including optional electronic-resource trailing positions.
+
 - Inventory 296 official HTML pages and one broken official link; distinguish retrieval from semantic review.
 - Map all 249 annex-listed fields, including 17 holdings-delegated tags, and 2,523 subfield occurrences in field definitions.
 - Expand source-linked technical summary constraints while retaining explicit semantic coverage gaps.

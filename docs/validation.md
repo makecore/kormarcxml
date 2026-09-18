@@ -101,3 +101,7 @@ streaming one-record checks. Schematron/SHACL are future consumers, not presentl
 implemented features. No rule auto-repairs or normalizes bibliographic data.
 
 CLI levels 2/3 additionally apply the bundled XSD to each parsed record. For validation of the original XML document use CLI level 1 separately.
+
+## Material-specific 007 rules
+
+The bundled registry composes `bibliographic.json` with `physical.json`. The latter holds 104 source-linked checks: material categories, documented material lengths and explicit single-position enumerations. Electronic material accepts the mandatory six-position prefix and optional trailing positions, within the documented maximum of 14. Optional positions are checked when present. Multi-position numeric/compound codes, material relationships and every undefined-position rule remain outside this subset. `when.prefix`, `optional`, `min_length` and `max_length` are data-driven value-rule operators. The private composed registry is cached; public callers receive isolated copies.
