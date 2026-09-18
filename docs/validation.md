@@ -105,3 +105,7 @@ CLI levels 2/3 additionally apply the bundled XSD to each parsed record. For val
 ## Material-specific 007 rules
 
 The bundled registry composes `bibliographic.json` with `physical.json`. The latter holds 104 source-linked checks: material categories, documented material lengths and explicit single-position enumerations. Electronic material accepts the mandatory six-position prefix and optional trailing positions, within the documented maximum of 14. Optional positions are checked when present. Multi-position numeric/compound codes, material relationships and every undefined-position rule remain outside this subset. `when.prefix`, `optional`, `min_length` and `max_length` are data-driven value-rule operators. The private composed registry is cached; public callers receive isolated copies.
+
+## Material-specific 006/008 subset
+
+`materials.json` adds 30 source-linked single-position checks for 008 and 30 corresponding 006 checks. Selection uses the official leader/06 and /07 criteria; 006 selects its own material independently through /00. The `when.leader` position map and `when.value_codes` operators express these conditions. Multi-position combinations and full prose dependencies are not implemented. Form-of-item positions are intentionally held for review because the overview and detailed pages conflict about fill characters. See the audit for the exact source conflict.

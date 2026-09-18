@@ -40,6 +40,10 @@ def _bundled_registry() -> dict[str, Any]:
     physical_path = files("kormarcxml").joinpath("resources/rules/physical.json")
     physical = json.loads(physical_path.read_text(encoding="utf-8"))
     registry["fields"]["007"].setdefault("rules", []).extend(physical["rules"])
+    material_path = files("kormarcxml").joinpath("resources/rules/materials.json")
+    materials = json.loads(material_path.read_text(encoding="utf-8"))
+    for tag, rules in materials["fields"].items():
+        registry["fields"][tag].setdefault("rules", []).extend(rules)
     return registry
 
 
@@ -131,7 +135,15 @@ def validate(
     def check_value(value: str, rule: dict, **context: Any) -> None:
         if rule.get("level", 3) > level:
             return
-        if "when" in rule and not value.startswith(rule["when"]["prefix"]):
+        when = rule.get("when", {})
+        if "prefix" in when and not value.startswith(when["prefix"]):
+            return
+        if "value_codes" in when and value[:1] not in when["value_codes"]:
+            return
+        if any(
+            record.leader[int(position) : int(position) + 1] not in allowed
+            for position, allowed in when.get("leader", {}).items()
+        ):
             return
         start = rule.get("start", 0)
         if rule.get("optional") and len(value) <= start:

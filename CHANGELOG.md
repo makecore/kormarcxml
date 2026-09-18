@@ -1,5 +1,7 @@
 ## Unreleased — official-source audit
 
+- Add 60 selected 006/008 single-position checks with source-defined material selectors; hold conflicting form-of-item fill rules for authoritative review.
+
 - Add 104 material-specific 007 checks across 16 categories, including optional electronic-resource trailing positions.
 
 - Inventory 296 official HTML pages and one broken official link; distinguish retrieval from semantic review.
