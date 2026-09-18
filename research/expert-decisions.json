@@ -1,0 +1,11 @@
+{
+  "reviewed_on": "2026-09-18",
+  "details": "docs/expert-decisions.md",
+  "items": [
+    {"id": "KX-001", "status": "pending", "type": "normative", "scope": "006/008 form-of-item fill", "decision": null, "decider": null, "date": null, "evidence": null},
+    {"id": "KX-002", "status": "pending", "type": "normative", "scope": "240$2 repeatability", "decision": null, "decider": null, "date": null, "evidence": null},
+    {"id": "KX-003", "status": "pending", "type": "policy", "scope": "Code-table versions and historical codes", "decision": null, "decider": null, "date": null, "evidence": null},
+    {"id": "KX-004", "status": "pending", "type": "editorial", "scope": "Kashmiri language code", "decision": null, "decider": null, "date": null, "evidence": null},
+    {"id": "KX-005", "status": "pending", "type": "editorial", "scope": "005 directory length example", "decision": null, "decider": null, "date": null, "evidence": null}
+  ]
+}

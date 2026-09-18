@@ -1,0 +1,81 @@
+{
+  "standard": "KS X 6006-0:2023",
+  "complete": false,
+  "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_1.html",
+  "record_rules": [
+    {
+      "id": "record.008.modified.requires-890",
+      "when": {
+        "tag": "008",
+        "start": 28,
+        "end": 29,
+        "values": [
+          "b",
+          "h",
+          "r",
+          "s",
+          "x"
+        ]
+      },
+      "requires": [
+        {
+          "tag": "890"
+        }
+      ],
+      "message": "008/28 modification code requires field 890",
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_1.html"
+    },
+    {
+      "id": "record.008.unknown-source.forbids-040a",
+      "when": {
+        "tag": "008",
+        "start": 32,
+        "end": 33,
+        "values": [
+          "u"
+        ]
+      },
+      "forbids": [
+        {
+          "tag": "040",
+          "subfield": "a"
+        }
+      ],
+      "message": "008/32 u excludes an original cataloging source in 040$a",
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_1.html"
+    },
+    {
+      "id": "record.008.unknown-source.requires-040c",
+      "when": {
+        "tag": "008",
+        "start": 32,
+        "end": 33,
+        "values": [
+          "u"
+        ]
+      },
+      "requires": [
+        {
+          "tag": "040",
+          "subfield": "c"
+        }
+      ],
+      "message": "008/32 u requires the transcribing institution in 040$c",
+      "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_1.html"
+    }
+  ],
+  "field_rules": {
+    "008": [
+      {
+        "id": "field.008.country.fill",
+        "start": 15,
+        "end": 18,
+        "forbidden": [
+          "|"
+        ],
+        "message": "008/15–17 does not allow fill characters",
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_1.html"
+      }
+    ]
+  }
+}

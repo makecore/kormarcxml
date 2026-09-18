@@ -1,6 +1,6 @@
 # KORMARCXML
 
-공식 원문 재검수 범위와 수정·미완료 항목은 [검수 보고서](docs/audit.md), 필드별 XML 경로는 [대응표](docs/field-mapping.md)를 참고하십시오. 원문 확보·기술 요약 추출·전체 의미 규칙 검증은 서로 구분합니다.
+공식 원문 재검수 범위와 수정·미완료 항목은 [검수 보고서](docs/audit.md), 필드별 XML 경로는 [대응표](docs/field-mapping.md), 해석·정책 판단 항목은 [전문가 결정 목록](docs/expert-decisions.md)을 참고하십시오. 원문 확보·기술 요약 추출·전체 의미 규칙 검증은 서로 구분합니다.
 
 [English](README.md) · [아키텍처](docs/architecture.md) · [API](docs/api.md)
 

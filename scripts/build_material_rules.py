@@ -47,6 +47,9 @@ def main():
                     {
                         "material": material,
                         "position": position,
+                        "leader": leader,
+                        "auxiliary_codes": list(codes),
+                        "auxiliary_position": POSITIONS_006[position],
                         "source": BASE + name,
                         "reason": "Overview prohibits fill; material detail permits it. Needs authoritative reconciliation.",
                     }
