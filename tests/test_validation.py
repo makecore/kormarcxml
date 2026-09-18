@@ -152,3 +152,202 @@ def test_timestamp_calendar_and_008_fill():
     assert "field.005.timestamp" not in ids(record(ControlField("005", "20260916123456")))
     assert "field.005.timestamp" in ids(record(ControlField("005", "20260230123456")))
     assert "field.008.entered-date.fill" in ids(record(ControlField("008", "||||||" + " " * 34)))
+
+
+def test_coverage_counts_checks_not_labels_or_provenance():
+    base = coverage()
+    metadata = {"fields": {"999": {"label": "Local", "source": "local policy", "repeatable": True}}}
+    extended = coverage(metadata)
+    assert extended["field_rules"] == base["field_rules"]
+    assert extended["field_rule_counts"]["999"] == 0
+    assert "999" in extended["fields_without_constraints"]
+    asserted = coverage(
+        {
+            "fields": {
+                "999": {
+                    "required": True,
+                    "repeatable": False,
+                    "indicators": {"1": [" "]},
+                    "closed_subfields": True,
+                    "subfields": {
+                        "a": {
+                            "required": True,
+                            "repeatable": False,
+                            "rules": [
+                                {"id": "local.value", "values": ["x"], "message": "Expected x"}
+                            ],
+                        }
+                    },
+                }
+            }
+        }
+    )
+    assert asserted["field_rule_counts"]["999"] == 7
+    assert asserted["field_rules"] == base["field_rules"] + 7
+
+
+def test_condition_retains_severity_and_remediation():
+    profile = {
+        "fields": {
+            "999": {
+                "conditions": [
+                    {
+                        "id": "local.condition",
+                        "indicator": 2,
+                        "equals": "7",
+                        "requires": ["2"],
+                        "message": "Missing source",
+                        "severity": "warning",
+                        "remediation": "Add source",
+                    }
+                ]
+            }
+        }
+    }
+    value = record(DataField("999", " ", "7", []))
+    issue = next(i for i in validate(value, profile=profile) if i.rule_id == "local.condition")
+    assert issue.severity == "warning"
+    assert issue.remediation == "Add source"
+    assert "local.condition" not in ids(value, profile=profile, level=2)
+
+
+def test_content_rule_cannot_pass_with_missing_positions():
+    profile = {
+        "fields": {
+            "009": {
+                "rules": [
+                    {
+                        "id": "local.positions",
+                        "start": 2,
+                        "end": 5,
+                        "forbidden": ["|"],
+                        "message": "Positions 2 through 4 required",
+                    }
+                ]
+            }
+        }
+    }
+    assert "local.positions" in ids(record(ControlField("009", "ab")), profile=profile)
+    assert "local.positions" not in ids(record(ControlField("009", "abcde")), profile=profile)
+
+
+@pytest.mark.parametrize("delimiter", ["\x1d", "\x1e", "\x1f"])
+def test_logical_record_delimiters_reported_before_serialization(delimiter):
+    value = record(
+        ControlField("001", "ab" + delimiter),
+        DataField("999", subfields=[Subfield("a", "xy" + delimiter)]),
+    )
+    findings = [i for i in validate(value, level=2) if i.rule_id == "structure.delimiter"]
+    assert [(i.tag, i.subfield, i.position) for i in findings] == [
+        ("001", None, 2),
+        ("999", "a", 2),
+    ]
+
+
+@pytest.mark.parametrize("code", ["2", "9"])
+def test_245_filing_indicator_is_not_marc21_character_count(code):
+    field = DataField("245", "2", code, [Subfield("a", "제목")])
+    assert "field.245.indicator2" in ids(record(field), level=2)
+    assert "field.245.indicator1" not in ids(record(field), level=2)
+
+
+def test_245_parallel_title_repeats_but_material_designation_does_not():
+    field = DataField(
+        "245",
+        "0",
+        "0",
+        [
+            Subfield("x", "Parallel one"),
+            Subfield("x", "Parallel two"),
+            Subfield("h", "[text]"),
+            Subfield("h", "[text]"),
+        ],
+    )
+    found = ids(record(field))
+    assert "field.245.subfield.h.repeatability" in found
+    assert "field.245.subfield.x.repeatability" not in found
+    assert "field.245.subfield.allowed" not in found
+
+
+@pytest.mark.parametrize(
+    "position,good,bad",
+    [
+        (5, "p", "x"),
+        (6, "w", "z"),
+        (7, "i", "z"),
+        (8, "a", "z"),
+        (17, "7", "6"),
+        (18, "n", "z"),
+        (19, "c", "z"),
+    ],
+)
+def test_reviewed_leader_code_domains(position, good, bad):
+    original = record()
+
+    def changed(code):
+        return replace(
+            original, leader=original.leader[:position] + code + original.leader[position + 1 :]
+        )
+
+    assert not [i for i in validate(changed(good)) if i.severity == "error"]
+    assert [i for i in validate(changed(bad)) if i.severity == "error"]
+    assert not [i for i in validate(changed(bad), level=2) if i.severity == "error"]
+
+
+def test_006_material_cannot_be_fill_and_has_korean_old_book():
+    assert "field.006.material" not in ids(record(ControlField("006", "w" + "|" * 13)))
+    assert "field.006.material" in ids(record(ControlField("006", "|" * 14)))
+
+
+@pytest.mark.parametrize(
+    "start,value,rule",
+    [
+        (6, "z", "date-type"),
+        (28, "a", "modified"),
+        (32, "b", "cataloging-source"),
+        (7, "||||", "year1.fill"),
+        (11, "2|||", "year2.mixed-fill"),
+    ],
+)
+def test_008_kormarc_common_positions(start, value, rule):
+    data = list("260917s2026    ulk           000   kor  ")
+    assert len(data) == 40
+    data[start : start + len(value)] = value
+    result = record(ControlField("008", "".join(data)))
+    assert "field.008." + rule in ids(result)
+    assert "field.008." + rule not in ids(result, level=2)
+
+
+def test_holdings_delegation_is_reported_not_silently_certified():
+    issues = validate(record(DataField("841", subfields=[Subfield("a", "local")])))
+    assert any(
+        i.rule_id == "coverage.delegated-holdings" and i.severity == "warning" for i in issues
+    )
+    assert not any(i.rule_id == "field.841.subfield.allowed" for i in issues)
+
+
+def test_886_embedded_foreign_subfield_can_repeat_reserved_code():
+    field = DataField(
+        "886",
+        "2",
+        " ",
+        [
+            Subfield("2", "foreign"),
+            Subfield("a", "245"),
+            Subfield("b", "00"),
+            Subfield("a", "foreign title"),
+        ],
+    )
+    assert "field.886.subfield.a.repeatability" not in ids(record(field))
+
+
+def test_later_template_pages_keep_both_indicators():
+    assert "field.881.indicator2" in ids(record(DataField("881", " ", "1")))
+    assert "field.880.indicator2" not in ids(record(DataField("880", "1", "1")))
+
+
+def test_public_registry_mutation_cannot_change_cached_validator():
+    registry = load_registry()
+    registry["fields"]["245"]["indicators"]["2"].append("9")
+    assert "field.245.indicator2" in ids(record(DataField("245", "0", "9")))
+    assert "9" not in load_registry()["fields"]["245"]["indicators"]["2"]

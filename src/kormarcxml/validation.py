@@ -11,6 +11,7 @@ from collections.abc import Callable, Iterable
 from copy import deepcopy
 from datetime import datetime
 from importlib.resources import files
+from functools import lru_cache
 import json
 from pathlib import Path
 import re
@@ -31,14 +32,28 @@ def _merge(base: dict, update: dict) -> dict:
     return base
 
 
+@lru_cache(maxsize=1)
+def _bundled_registry() -> dict[str, Any]:
+    # Private read-only use; public callers always receive an independent copy.
+    path = files("kormarcxml").joinpath("resources/rules/bibliographic.json")
+    registry = json.loads(path.read_text(encoding="utf-8"))
+    physical_path = files("kormarcxml").joinpath("resources/rules/physical.json")
+    physical = json.loads(physical_path.read_text(encoding="utf-8"))
+    registry["fields"]["007"].setdefault("rules", []).extend(physical["rules"])
+    material_path = files("kormarcxml").joinpath("resources/rules/materials.json")
+    materials = json.loads(material_path.read_text(encoding="utf-8"))
+    for tag, rules in materials["fields"].items():
+        registry["fields"][tag].setdefault("rules", []).extend(rules)
+    return registry
+
+
 def load_registry(profile: str | Path | dict | None = None) -> dict[str, Any]:
     """Load the bundled bibliography subset and optionally merge local JSON.
 
     Dictionary keys merge recursively; lists and scalar values replace. A custom
     profile is trusted configuration, never code and never a remotely fetched URL.
     """
-    path = files("kormarcxml").joinpath("resources/rules/bibliographic.json")
-    registry = json.loads(path.read_text(encoding="utf-8"))
+    registry = deepcopy(_bundled_registry())
     if profile is None or profile == "bibliographic":
         return registry
     extra = profile if isinstance(profile, dict) else json.loads(Path(profile).read_text("utf-8"))
@@ -49,14 +64,41 @@ def load_registry(profile: str | Path | dict | None = None) -> dict[str, Any]:
 
 def coverage(profile: str | Path | dict | None = None) -> dict:
     """Return explicit implemented coverage; this is not full KS conformance."""
-    registry = load_registry(profile)
+    registry = (
+        _bundled_registry()
+        if profile is None or profile == "bibliographic"
+        else load_registry(profile)
+    )
+
+    # Count executable assertion templates, not metadata keys or permitted
+    # repetition declarations (which cannot produce a violation).
+    def count_field(specification: dict) -> int:
+        count = int(bool(specification.get("required")))
+        count += int(specification.get("repeatable") is False)
+        count += len(specification.get("rules", []))
+        count += sum(value is not None for value in specification.get("indicators", {}).values())
+        count += int(bool(specification.get("closed_subfields")))
+        count += len(specification.get("conditions", []))
+        for sub in specification.get("subfields", {}).values():
+            count += int(bool(sub.get("required")))
+            count += int(sub.get("repeatable") is False)
+            count += len(sub.get("rules", []))
+        return count
+
+    field_counts = {tag: count_field(spec) for tag, spec in registry["fields"].items()}
     return {
         "profile": registry["id"],
         "standard": registry["standard"],
         "complete": False,
         "fields": sorted(registry["fields"]),
         "leader_rules": len(registry.get("leader", [])),
-        "field_rules": sum(len(v) for v in registry["fields"].values()),
+        "field_rules": sum(field_counts.values()),
+        "field_rule_counts": field_counts,
+        "fields_without_constraints": sorted(
+            tag for tag, count in field_counts.items() if not count
+        ),
+        "counting_basis": "Executable assertion templates; excludes metadata and generic transport checks",
+        "provenance": registry.get("provenance", {}),
         "sources": registry.get("sources", {}),
     }
 
@@ -78,7 +120,11 @@ def validate(
         raise ValueError(
             "Record validation level must be 2 or 3; use XML XSD validation for level 1"
         )
-    registry = load_registry(profile)
+    registry = (
+        _bundled_registry()
+        if profile is None or profile == "bibliographic"
+        else load_registry(profile)
+    )
     issues: list[Issue] = []
 
     def emit(rule_id: str, message: str, severity: str = "error", **context: Any) -> None:
@@ -89,12 +135,30 @@ def validate(
     def check_value(value: str, rule: dict, **context: Any) -> None:
         if rule.get("level", 3) > level:
             return
+        when = rule.get("when", {})
+        if "prefix" in when and not value.startswith(when["prefix"]):
+            return
+        if "value_codes" in when and value[:1] not in when["value_codes"]:
+            return
+        if any(
+            record.leader[int(position) : int(position) + 1] not in allowed
+            for position, allowed in when.get("leader", {}).items()
+        ):
+            return
         start = rule.get("start", 0)
+        if rule.get("optional") and len(value) <= start:
+            return
         end = rule.get("end", len(value))
         part = value[start:end]
-        valid = True
+        # Python slices silently truncate: absent required positions must not
+        # satisfy a forbidden-character or permissive pattern rule.
+        valid = start <= len(value) and ("end" not in rule or end <= len(value))
         if "length" in rule:
-            valid = len(value) == rule["length"]
+            valid = valid and len(value) == rule["length"]
+        if "min_length" in rule:
+            valid = valid and len(value) >= rule["min_length"]
+        if "max_length" in rule:
+            valid = valid and len(value) <= rule["max_length"]
         if "values" in rule:
             valid = valid and part in rule["values"]
         if "pattern" in rule:
@@ -113,6 +177,19 @@ def validate(
                 rule.get("severity", "error"),
                 position=start,
                 remediation=rule.get("remediation"),
+                **context,
+            )
+
+    def check_delimiters(value: str, **context: Any) -> None:
+        position = next(
+            (index for index, character in enumerate(value) if character in "\x1d\x1e\x1f"), None
+        )
+        if position is not None:
+            emit(
+                "structure.delimiter",
+                "Field text contains a reserved ISO 2709 delimiter",
+                position=position,
+                remediation="Review and explicitly repair the text before ISO 2709 serialization",
                 **context,
             )
 
@@ -152,7 +229,15 @@ def validate(
                 **context,
             )
             specification = {}
+        if specification.get("definition_scope") == "holdings-delegated":
+            emit(
+                "coverage.delegated-holdings",
+                "Detailed rules are delegated to KS X 6006-5; bibliographic profile preserves this field without verifying holdings semantics",
+                "warning",
+                **context,
+            )
         if isinstance(field, ControlField):
+            check_delimiters(field.value, **context)
             for rule in specification.get("rules", []):
                 check_value(field.value, rule, **context)
         elif isinstance(field, DataField):
@@ -183,7 +268,13 @@ def validate(
                     missing = any(not subcounts[code] for code in condition.get("requires", []))
                     forbidden = any(subcounts[code] for code in condition.get("forbids", []))
                     if missing or forbidden:
-                        emit(condition["id"], condition["message"], **context)
+                        emit(
+                            condition["id"],
+                            condition["message"],
+                            condition.get("severity", "error"),
+                            remediation=condition.get("remediation"),
+                            **context,
+                        )
             for code, subrules in subspecs.items():
                 if subrules.get("repeatable") is False and subcounts[code] > 1:
                     emit(
@@ -200,6 +291,7 @@ def validate(
                         **context,
                     )
             for sub in field.subfields:
+                check_delimiters(sub.value, subfield=sub.code, **context)
                 if re.fullmatch(r"[0-9a-z]", sub.code) is None:
                     emit(
                         "structure.subfield-code",

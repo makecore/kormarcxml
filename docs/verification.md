@@ -1,4 +1,10 @@
-# Verification report — 0.1.0
+# Verification report
+
+## Source-audit update — 2026-09-17
+
+351 local tests passed (including the 2026-09-18 007 and 006/008 extensions), including 249 catalog-driven transport cases with pymarc cross-checks. Ruff lint/format and Mypy passed. Demonstration UTF-8, explicit EUC-KR and six-record collection byte comparisons passed; the book has zero implemented-rule errors and one local-field information issue. See [audit](audit.md) for source review boundaries. PR #2, commit a0dacec512b3c9fa4e2e70a3d16b47521b341e14, passed all nine CI combinations (348 tests) in run 35290309650. The subsequent 006/008 extension has separate CI evidence in its pull request.
+
+## Historical baseline — 0.1.0
 
 Executed 2026-09-16 in the Linux Python 3.12 environment. This is an initial
 working release, not completion of the full original framework scope.

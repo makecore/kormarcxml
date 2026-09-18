@@ -343,5 +343,6 @@
       "claim": "Field and subfield repeatability are specified independently.",
       "evidence": "official-search-excerpt"
     }
-  ]
+  ],
+  "historical_status": "Initial 2026-09-16 evidence. Superseded for current access and scope by source-inventory.json, field-catalog.json and docs/audit.md."
 }

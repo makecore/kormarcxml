@@ -1,0 +1,4222 @@
+{
+  "base": "https://librarian.nl.go.kr/kormarc/KSX6006-0/",
+  "retrieved_date": "2026-09-17",
+  "review_note": "Retrieval is not semantic verification.",
+  "pages": [
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/index.html",
+      "status": "retrieved",
+      "sha256": "ec3a5b1bee0a44a6ab91e1841c1f8fbe8a9659b094a7f985a3583f8bd592bd1f",
+      "bytes": 7807,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/index.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_overview.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_overview.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/1XX_overview.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/20X_24X_overview.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/250_28X_overview.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_overview.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/4XX_overview.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_overview.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/6XX_overview.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/70X_75X_overview.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/76X_78X_overview.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/80X_830_overview.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/841_89X_overview.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/9XX_overview.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/X00_X30_overview.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/annex_1.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/annex_2.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/annex_3.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/annex_4.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/annex_5.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/annex_6.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/annex_8.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/annex_9.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_b.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_c.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_d.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/info_004.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/info_005.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/info_006.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/info_007.html"
+      ],
+      "other_links": [
+        "https://nl.go.kr"
+      ],
+      "semantic_review": "pending",
+      "discovery_depth": 0
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/layout/leftM.html",
+      "status": "retrieved",
+      "sha256": "8db4d5bf9fad6cdb62bef2679c671b693ce7724577b1ce0e0bb1c7eadf564c19",
+      "bytes": 24245,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_001.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_003.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_005.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_006.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_1.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_10.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_11.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_12.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_13.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_14.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_15.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_16.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_2.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_3.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_4.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_5.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_6.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_7.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_8.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_9.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_1.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_2.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_3.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_4.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_5.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_6.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_7.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_8.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_9.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_overview.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_010.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_012.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_013.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_015.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_016.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_017.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_018.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_020.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_022.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_024.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_027.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_028.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_030.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_031.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_032.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_033.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_034.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_035.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_036.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_037.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_040.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_041.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_042.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_043.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_044.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_045.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_046.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_047.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_048.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_049.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_050.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_051.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_052.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_055.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_056.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_060.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_066.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_070.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_072.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_074.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_080.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_082.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_085.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_086.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_088.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_090.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_overview.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/1XX_100.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/1XX_110.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/1XX_111.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/1XX_130.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/1XX_overview.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/20X_24X_210.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/20X_24X_222.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/20X_24X_240.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/20X_24X_242.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/20X_24X_243.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/20X_24X_245.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/20X_24X_246.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/20X_24X_247.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/20X_24X_overview.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/250_28X_250.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/250_28X_251.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/250_28X_254.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/250_28X_255.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/250_28X_256.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/250_28X_257.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/250_28X_260.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/250_28X_263.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/250_28X_264.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/250_28X_270.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/250_28X_overview.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_300.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_306.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_307.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_310.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_321.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_334.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_335.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_336.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_337.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_338.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_340.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_341.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_342.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_343.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_344.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_345.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_346.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_347.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_348.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_351.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_352.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_353.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_355.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_357.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_362.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_363.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_365.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_366.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_370.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_377.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_380.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_381.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_382.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_383.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_384.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_385.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_386.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_387.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_388.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_overview.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/4XX_490.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/4XX_overview.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_500.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_501.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_502.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_504.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_505.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_506.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_507.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_508.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_510.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_511.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_513.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_514.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_515.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_516.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_518.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_520.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_521.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_522.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_524.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_525.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_526.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_530.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_532.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_533.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_534.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_535.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_536.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_538.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_540.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_541.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_542.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_544.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_545.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_546.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_547.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_550.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_552.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_555.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_556.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_561.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_562.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_563.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_565.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_567.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_580.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_581.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_583.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_584.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_585.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_586.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_588.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_590.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_overview.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/6XX_600.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/6XX_610.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/6XX_611.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/6XX_630.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/6XX_647.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/6XX_648.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/6XX_650.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/6XX_651.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/6XX_653.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/6XX_654.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/6XX_655.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/6XX_656.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/6XX_657.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/6XX_658.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/6XX_662.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/6XX_688.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/6XX_69X.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/6XX_overview.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/70X_75X_700.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/70X_75X_710.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/70X_75X_711.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/70X_75X_720.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/70X_75X_730.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/70X_75X_740.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/70X_75X_751.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/70X_75X_752.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/70X_75X_753.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/70X_75X_754.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/70X_75X_758.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/70X_75X_overview.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/76X_78X_760.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/76X_78X_762.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/76X_78X_765.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/76X_78X_767.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/76X_78X_770.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/76X_78X_772.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/76X_78X_773.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/76X_78X_774.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/76X_78X_775.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/76X_78X_776.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/76X_78X_777.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/76X_78X_780.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/76X_78X_785.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/76X_78X_786.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/76X_78X_787.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/76X_78X_overview.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/80X_830_800.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/80X_830_810.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/80X_830_811.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/80X_830_830.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/80X_830_overview.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/841_89X_850.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/841_89X_852.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/841_89X_856.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/841_89X_880.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/841_89X_881.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/841_89X_882.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/841_89X_883.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/841_89X_884.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/841_89X_885.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/841_89X_886.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/841_89X_887.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/841_89X_890.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/841_89X_overview.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/9XX_900.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/9XX_910.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/9XX_911.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/9XX_930.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/9XX_940.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/9XX_949.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/9XX_950.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/9XX_980.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/9XX_overview.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/X00_X30_X00_000.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/X00_X30_X10_000.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/X00_X30_X11_000.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/X00_X30_X30_000.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/X00_X30_overview.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/annex_1.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/annex_2.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/annex_3.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/annex_4.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/annex_5.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/annex_6.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/annex_8.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/annex_9.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_b.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_c.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_d.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/info_004.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/info_005.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/info_006.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/info_007.html"
+      ],
+      "other_links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/"
+      ],
+      "semantic_review": "pending",
+      "discovery_depth": 0
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_001.html",
+      "status": "retrieved",
+      "sha256": "07b621008ebed6659aaa3b01c393cab04273f3560552368a31f82784cafd5312",
+      "bytes": 4110,
+      "links": [],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_003.html",
+      "status": "retrieved",
+      "sha256": "a38d5ba2974d835f69ada5ccbc64eda870d35e074a96e499b1f128f977f6dd44",
+      "bytes": 3706,
+      "links": [],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_005.html",
+      "status": "retrieved",
+      "sha256": "8bff950b24ab57a3423070ff295bd61327b03934293d98afd5a3645bf6f0535c",
+      "bytes": 3352,
+      "links": [],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_006.html",
+      "status": "retrieved",
+      "sha256": "5bed0b62311d34fa220191df890053cddb6ce5dae995a88e446e6e21e7266061",
+      "bytes": 17798,
+      "links": [],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007.html",
+      "status": "retrieved",
+      "sha256": "119c4f5771848b97ca044b3d748634d42faa9705eb12309cdd39a2cdc7666864",
+      "bytes": 76154,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_1.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_10.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_11.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_12.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_13.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_14.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_15.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_16.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_2.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_3.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_4.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_5.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_6.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_7.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_8.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_9.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_1.html",
+      "status": "retrieved",
+      "sha256": "807e8fce22f62a1201e26693d43576ebec47e2807528415927908a0d44c6e2e5",
+      "bytes": 19536,
+      "links": [],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_10.html",
+      "status": "retrieved",
+      "sha256": "562984b3d3c2b17c06bee841f19115c76b2fbf81d3e3675f842fce40d5724e8e",
+      "bytes": 27961,
+      "links": [],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_11.html",
+      "status": "retrieved",
+      "sha256": "2e90572854242819ce68445b4dcb712c9accb6cca0c93bdb98728177708bcf58",
+      "bytes": 5692,
+      "links": [],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_12.html",
+      "status": "retrieved",
+      "sha256": "a012d070a4199ebbe30f8dc060465c1cb21dfe1ce558315bc4fce3c5864e2205",
+      "bytes": 47378,
+      "links": [],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_13.html",
+      "status": "retrieved",
+      "sha256": "43c9ed4ec0af3c84c2e0e0d07885743e9a4673fb141af06be5eb9f58c51069da",
+      "bytes": 6642,
+      "links": [],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_14.html",
+      "status": "retrieved",
+      "sha256": "8191101593ebd632f1bec89301f61241ba46847d7fafb782bd90083d783243a6",
+      "bytes": 32124,
+      "links": [],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_15.html",
+      "status": "retrieved",
+      "sha256": "1521b42393f37e9ad0bc66d84eac025d4bf2548470e86472e4b6e1a6266b63a3",
+      "bytes": 5570,
+      "links": [],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_16.html",
+      "status": "retrieved",
+      "sha256": "f40efc2174ca485d58c541733764e2d55ababac14ce3c36cd6a5c05be3a670f2",
+      "bytes": 6798,
+      "links": [],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_2.html",
+      "status": "retrieved",
+      "sha256": "093ef11bef60c8b97fdb0b4b19e010f42521389a37c6f2398451b0ad7a1fe5c1",
+      "bytes": 33808,
+      "links": [],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_3.html",
+      "status": "retrieved",
+      "sha256": "142b5106d25a3f5c028e538cc9a533e43542ab9a8aed8157e28faaf1ba27fa9f",
+      "bytes": 12630,
+      "links": [],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_4.html",
+      "status": "retrieved",
+      "sha256": "39d728a55f152a6229917a95f6b57f86a3eac0692c85c0270d294fe941214fb8",
+      "bytes": 19550,
+      "links": [],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_5.html",
+      "status": "retrieved",
+      "sha256": "b4d49085733db82de082767555a24e3623cb8f57b29e7971fc35f59e70f28746",
+      "bytes": 28351,
+      "links": [],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_6.html",
+      "status": "retrieved",
+      "sha256": "e48b1bd50882842da9b6e79219d1f540141cf93e843300cef0312d8c56a59794",
+      "bytes": 32885,
+      "links": [],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_7.html",
+      "status": "retrieved",
+      "sha256": "45cff5dab3814bfb7c88fb50dd7b67cdde71d42c10d3225652d4c8291e914dba",
+      "bytes": 23929,
+      "links": [],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_8.html",
+      "status": "retrieved",
+      "sha256": "23c3a6dbd438cb3d0ac4921f45c32d44c597fb4c10f79c39811e85f03019418d",
+      "bytes": 57322,
+      "links": [],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007_9.html",
+      "status": "retrieved",
+      "sha256": "7dbbc1c7f09bfc305ca30d3b4eb3418bd9b27c40fcfe83f5c3638848ebd93c09",
+      "bytes": 5430,
+      "links": [],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008.html",
+      "status": "retrieved",
+      "sha256": "97ad06b0e6d7fff8aa76fe3d15cc3babf9c64151b36b6c196e14541cb6f2f7c6",
+      "bytes": 46175,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_1.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_2.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_3.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_4.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_5.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_6.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_7.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_8.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_9.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_1.html",
+      "status": "retrieved",
+      "sha256": "50bb8d3f581cc2c58f91c13de21ac026378ff562a07bc7b05e3d5e3472e3a15b",
+      "bytes": 55568,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/annex_1.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/annex_2.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/annex_3.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/annex_4.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_2.html",
+      "status": "retrieved",
+      "sha256": "2f73bb92ae7d0045bc36dbcb0ccdc83e5057bdf4e018942921bd6624c2bea270",
+      "bytes": 42417,
+      "links": [],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_3.html",
+      "status": "retrieved",
+      "sha256": "21c2d5c881d755aa9ee0c0d5ded471034d25828e29b288ad85d1488f1b03e2e0",
+      "bytes": 19817,
+      "links": [],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_4.html",
+      "status": "retrieved",
+      "sha256": "5f0017fce2f38ad718f94b78a28e2ffc8676a1ec70897e8a323285e40d8baca3",
+      "bytes": 38470,
+      "links": [],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_5.html",
+      "status": "retrieved",
+      "sha256": "8e44a3156d28da6b10652685925253b529044b4c55a2d88c2ebc51c390e599cb",
+      "bytes": 82602,
+      "links": [],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_6.html",
+      "status": "retrieved",
+      "sha256": "8c9dc123051268eb8582079ca4639518c766590f0614cb08775cb6a3c4617c66",
+      "bytes": 58297,
+      "links": [],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_7.html",
+      "status": "retrieved",
+      "sha256": "993d981242620eee1df3f536ebb510c52945d9d88faaf1d5c53ae60bbc274cdc",
+      "bytes": 28669,
+      "links": [],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_8.html",
+      "status": "retrieved",
+      "sha256": "2162940c943db6885e94a97508e763839b2fb681a73be526b5aac792dd44ad5d",
+      "bytes": 38428,
+      "links": [],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_9.html",
+      "status": "retrieved",
+      "sha256": "2af6c98fa3d82dd2b7d86319a18a8cc7857e81fd4f9922b766b72ea21164cb2d",
+      "bytes": 9517,
+      "links": [],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_overview.html",
+      "status": "retrieved",
+      "sha256": "8531efb20cdb6c91351745124557fa8bac24280923ea8da47f823a3fb459056f",
+      "bytes": 3410,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_001.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_003.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_005.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_006.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_007.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_010.html",
+      "status": "retrieved",
+      "sha256": "bbb59bf5775aae4eb96215f586c7c7e721483dedaee24be0c9ac3e5891e8137c",
+      "bytes": 11885,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_001.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_012.html",
+      "status": "retrieved",
+      "sha256": "baadea27217dd5195ad897dd6619094689af997efa477917b833ebf1eca87874",
+      "bytes": 15403,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_001.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_013.html",
+      "status": "retrieved",
+      "sha256": "102c66865035c2912facc2c11123ed949fcb44a1e4e750429f2c376e4b97994f",
+      "bytes": 12079,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/annex_8.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [
+        "https://www.loc.gov/marc/organizations/"
+      ],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_015.html",
+      "status": "retrieved",
+      "sha256": "d4e2ad6c088d7caa906f96474a4e05d97e03e50fa1aca6e7cdfd2163366a8832",
+      "bytes": 9956,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_b.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_016.html",
+      "status": "retrieved",
+      "sha256": "752377eb048ae12faa855f6c2b086a8633ded5cafb854b86067584a2d3788d88",
+      "bytes": 7820,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_017.html",
+      "status": "retrieved",
+      "sha256": "064abb05155851bd210fd27241d486606eeb83886898b9448861e9a556db5abc",
+      "bytes": 11109,
+      "links": [],
+      "other_links": [
+        "http://www.loc.gov/standards/sourcelist/copyright-legal-deposit.html"
+      ],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_018.html",
+      "status": "retrieved",
+      "sha256": "2251961ade40bce8d0ec0d6fbad71a3ddaccd8ef7d1bc363e2764a32899d6093",
+      "bytes": 6877,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_020.html",
+      "status": "retrieved",
+      "sha256": "6aed6d41fe8362e0ebe66ee53af338b314314805edb424a9cf943eab46a346e0",
+      "bytes": 13918,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_022.html",
+      "status": "retrieved",
+      "sha256": "2e35d83f642f75b50a3dc6b486d7648a94ae14b22fe4c21fe6e9d34511427297",
+      "bytes": 12448,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_024.html",
+      "status": "retrieved",
+      "sha256": "80fadf9ec8fbc1484f6d86f7b9ac5de6a07513783627959ab8700a5bb4164c5f",
+      "bytes": 21527,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_027.html",
+      "status": "retrieved",
+      "sha256": "74bc7c5fc0eaa787d68199f223ae46fc87bf67299529eb588e4c20d8750077ce",
+      "bytes": 9981,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_028.html",
+      "status": "retrieved",
+      "sha256": "40b16778dd0c328f246191897aa7b7274ad23b1feccaf781170aab1457772266",
+      "bytes": 15542,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_030.html",
+      "status": "retrieved",
+      "sha256": "28353951401855aa4bd0716f110cbd66e56cbf2468a6ccb99ab39b704876affb",
+      "bytes": 6191,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_031.html",
+      "status": "retrieved",
+      "sha256": "7f05b63153a37e54b3bdc14933bfe13ba362d9b6316c8457d010b6c8deb2a593",
+      "bytes": 16902,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_032.html",
+      "status": "retrieved",
+      "sha256": "02a15c42e2ef3702609c202c456acb6af938a1976efbd5e16540942a29bd9a4d",
+      "bytes": 7918,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_033.html",
+      "status": "retrieved",
+      "sha256": "f37a56fdb60ec9c1c8ec7d758bc1d4c1905e47401b699bf2fd89780725a0a9b1",
+      "bytes": 16462,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_518.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/annex_5.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/annex_6.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_b.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_034.html",
+      "status": "retrieved",
+      "sha256": "9f2419b549213358035d51b2169fd357d30b707cdb503e6025ebc441cf1001d2",
+      "bytes": 19794,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/250_28X_255.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_035.html",
+      "status": "retrieved",
+      "sha256": "e0d16b5abe4fbf5da1fe57e7b000ec10f3f1dba97cccb28e05e9e80fc7f966a4",
+      "bytes": 7466,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_001.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_010.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_012.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_036.html",
+      "status": "retrieved",
+      "sha256": "f3e57e7c88606a7d758eb69511f24230dde2ec3d29efcd656cc6c65377c1bc4d",
+      "bytes": 6758,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_037.html",
+      "status": "retrieved",
+      "sha256": "b11476f4f480e2f3e38fb0df543c2eae9f71b2d163e7e593b94f2612017a9c3f",
+      "bytes": 18549,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_020.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_022.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_024.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_028.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_036.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_086.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_040.html",
+      "status": "retrieved",
+      "sha256": "749ec50822d78ffdd35f5096b133679dad20d3924ea45dc2c43e7f1087c4c48f",
+      "bytes": 9781,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/annex_3.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_b.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_041.html",
+      "status": "retrieved",
+      "sha256": "1196abe0753edd4ee6ed2be0b18e1fb037aee2d0932b19896f774356255c1ab4",
+      "bytes": 31656,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_1.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/20X_24X_246.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_500.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_538.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_546.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/annex_3.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_042.html",
+      "status": "retrieved",
+      "sha256": "18452759b50fbbf103cfff55814ede39bd4c0b37df0c3822c3e587e8efbbd5d0",
+      "bytes": 8115,
+      "links": [],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_043.html",
+      "status": "retrieved",
+      "sha256": "ecdcb4bfabca210a58d53fd7ccc520e628c0f0d52defa76ef79db332ddcba1e4",
+      "bytes": 13846,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/annex_5.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/annex_6.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_044.html",
+      "status": "retrieved",
+      "sha256": "7c3f625bbc95cbdba0c3b0e163e42970343ef2682bf42db8c3fcb45988a95d87",
+      "bytes": 8868,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/annex_1.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_045.html",
+      "status": "retrieved",
+      "sha256": "48b7ec9f5ae92b5c16c2b454c54c1c59c4bc60ad5a4445772e71ca00cca2ff46",
+      "bytes": 20896,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_046.html",
+      "status": "retrieved",
+      "sha256": "416d0201cc7a0c7613c9410cd4e323be06d76f56448532f0ab19065efc0e448c",
+      "bytes": 21667,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_1.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/250_28X_260.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_534.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_047.html",
+      "status": "retrieved",
+      "sha256": "9419954ce8702127f975606b708c217a466b43eb7864a490c8faefbda5aea6ad",
+      "bytes": 7225,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_5.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_048.html",
+      "status": "retrieved",
+      "sha256": "f09298cb86e65120d3a8da1289078bfc75479b56e66b41d4ba0583499d49e25d",
+      "bytes": 18685,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_047.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_049.html",
+      "status": "retrieved",
+      "sha256": "7c7bc98eaa4c0c3ebaf497863936b0d22b9bf921155865593080cb6b6e5de97a",
+      "bytes": 9582,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_050.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_052.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_090.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_050.html",
+      "status": "retrieved",
+      "sha256": "d3d7f913ce1b6cf0aaf726974adedb4bd4aa689e80698a1139a8bd319812ced9",
+      "bytes": 9237,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_049.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_051.html",
+      "status": "retrieved",
+      "sha256": "c25ea6cbdd8268862cdfc0ab7468640e0ea707705ecb315ed5278dd9e46ce0e5",
+      "bytes": 6152,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_052.html",
+      "status": "retrieved",
+      "sha256": "c5e4626ce5fd3a841cdba72d681a875f887c74c0ff1df472a5ef1da6b6a0f49f",
+      "bytes": 14031,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_049.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_056.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_082.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_085.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_086.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_055.html",
+      "status": "retrieved",
+      "sha256": "c4bb5f8832974a3ca1904a576cb6b77b1ab3af5c2593b8e06fae4e6c03dfba44",
+      "bytes": 10735,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_b.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_056.html",
+      "status": "retrieved",
+      "sha256": "6b07bf7e89e585a899bca3c236783cc0d6fe18dd18707e21553161000a59eb03",
+      "bytes": 8049,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_052.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_090.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_060.html",
+      "status": "retrieved",
+      "sha256": "dbc15a02755176e2b88c506680d2a7c50c22c1c2f92e49378278e3f8aada7109",
+      "bytes": 10595,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_066.html",
+      "status": "retrieved",
+      "sha256": "5087b09a34bf00d240021f36a34e2b6f78f9640ae8e9ccf0d14ceb7485d987ac",
+      "bytes": 7249,
+      "links": [],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_070.html",
+      "status": "retrieved",
+      "sha256": "b52640320a06cd80f12fcd736036902db98e6dffd1d0b958cd111eff8586b95e",
+      "bytes": 8969,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_072.html",
+      "status": "retrieved",
+      "sha256": "6700f2a0129a1f69c9d398cdd751afcf8dbfabc2a7c99e70bf9ba2f49a195576",
+      "bytes": 7525,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_b.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_074.html",
+      "status": "retrieved",
+      "sha256": "d65200154aa9470401730a1f0d826b2832c82ed4f277aa24d94bbad9c958ae6d",
+      "bytes": 13602,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_080.html",
+      "status": "retrieved",
+      "sha256": "eb4ad96e3ae4dcb8264f36920068b494a0676b6e9b9452313db44f78472481d4",
+      "bytes": 9248,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_082.html",
+      "status": "retrieved",
+      "sha256": "6935eea168901c42e9db21aa1b5e887e53fe86e1a05c5921e130c15a6d5b22eb",
+      "bytes": 13088,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_052.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_090.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/annex_3.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_085.html",
+      "status": "retrieved",
+      "sha256": "eb9b5c95561b06562557159fa106eef881640e65668c38a7c838f4df59754f24",
+      "bytes": 13314,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_b.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_086.html",
+      "status": "retrieved",
+      "sha256": "c088e8373a5dbbc3bd0386edaec5ef73581d6a8faa4cf090c9e3d4295cfc7077",
+      "bytes": 9841,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_037.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/annex_4.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_b.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_088.html",
+      "status": "retrieved",
+      "sha256": "380ac47b303699840dadf6848802daf59c2d3c7a79afe9e500e1497a7be52ada",
+      "bytes": 6947,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_027.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_090.html",
+      "status": "retrieved",
+      "sha256": "2de66f7525cd9ee434ef70141bf6db734de98719306a84d1ef83947a4c5e093a",
+      "bytes": 9174,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_049.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_056.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_080.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_082.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_085.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_overview.html",
+      "status": "retrieved",
+      "sha256": "34a11aa8f7f5c829eab448a1f52413d94f21b33230bc11e575ae37dd5a03a16b",
+      "bytes": 6686,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_010.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_012.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_013.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_015.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_016.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_017.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_018.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_020.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_022.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_024.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_027.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_028.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_030.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_031.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_032.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_033.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_034.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_035.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_036.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_037.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_040.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_041.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_042.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_043.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_044.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_045.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_046.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_047.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_048.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_049.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_050.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_051.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_052.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_055.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_056.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_060.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_066.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_070.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_072.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_074.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_080.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_082.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_085.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_086.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_088.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_090.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/1XX_100.html",
+      "status": "retrieved",
+      "sha256": "7576d5aa829a45036bf386b4e9dd12946d8b5c9b9c1f07cf14a829872ee30837",
+      "bytes": 10491,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/X00_X30_X00_000.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/1XX_110.html",
+      "status": "retrieved",
+      "sha256": "d5ded03e4882b4a17a679139b465d2d7a25378a7e16725edcad0b4b004c3e4c3",
+      "bytes": 9107,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/X00_X30_X10_000.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/1XX_111.html",
+      "status": "retrieved",
+      "sha256": "639b460bd5f5efaaf2471611d22dd61491f350027b62227ccdabd91c227c587c",
+      "bytes": 9356,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/X00_X30_X11_000.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/1XX_130.html",
+      "status": "retrieved",
+      "sha256": "7ec05675e3bcf99b9cc8e6572aa0cb72423dcde9a7a5c5f683ce370e42c4014d",
+      "bytes": 10111,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/X00_X30_X30_000.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/1XX_overview.html",
+      "status": "retrieved",
+      "sha256": "ad5380f9624484f604100171dd41fcf701d50f4a8081393fe7b3cc283cc40cc8",
+      "bytes": 3606,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/1XX_100.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/1XX_110.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/1XX_111.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/1XX_130.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/20X_24X_210.html",
+      "status": "retrieved",
+      "sha256": "95eec3c2792d7e3466062ed9d334eb4275ba5212bdd8c2a36d754b4b5e73f0ec",
+      "bytes": 9733,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_022.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/20X_24X_222.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/20X_24X_222.html",
+      "status": "retrieved",
+      "sha256": "5afd234ec816b5bab15f4d5899d8b2d9f41674c1d32476721425245a8a2366ba",
+      "bytes": 9928,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_022.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/20X_24X_240.html",
+      "status": "retrieved",
+      "sha256": "b0b0fca4dd3ac035ccd7d71a261e60099c55267eb70c0906be28ae853de76b50",
+      "bytes": 12029,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/X00_X30_X30_000.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/20X_24X_242.html",
+      "status": "retrieved",
+      "sha256": "ef7d3809a1e58269536ab5834094d2e7458a86c287f1f5d90e3828a6444e5250",
+      "bytes": 9975,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/20X_24X_245.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/annex_3.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/20X_24X_243.html",
+      "status": "retrieved",
+      "sha256": "a1727ec385338c88d6def3bf163b8efacdf2e4d142e2f234b07300b755623447",
+      "bytes": 9631,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/X00_X30_X30_000.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/20X_24X_245.html",
+      "status": "retrieved",
+      "sha256": "6af09f7732e2ca3bd3cdbc01501df4de32fbe6da2a0756efd6f2ac7281cd9ad3",
+      "bytes": 38316,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/20X_24X_246.html",
+      "status": "retrieved",
+      "sha256": "c1fd14484db6ed939315477681e22dd1593d338175bd9714ebc08cf6ef3d2132",
+      "bytes": 29791,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/20X_24X_245.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/20X_24X_247.html",
+      "status": "retrieved",
+      "sha256": "ef9f54d8c71a2cb0815061016080d18f8a37e8bfc1792fbdc9fa33d7c54b72b7",
+      "bytes": 10503,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_6.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/20X_24X_245.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_547.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/20X_24X_overview.html",
+      "status": "retrieved",
+      "sha256": "f8364aba63f65805edc485fbcf12bdb009705159070580a0a95e5d4bd14dbf41",
+      "bytes": 3641,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/20X_24X_210.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/20X_24X_222.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/20X_24X_240.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/20X_24X_242.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/20X_24X_243.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/20X_24X_245.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/20X_24X_246.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/20X_24X_247.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/250_28X_250.html",
+      "status": "retrieved",
+      "sha256": "30d8d7407eae4ff145dd3f1ffd342d32923c81644a1750d502ca37d3d85a2910",
+      "bytes": 14994,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/250_28X_251.html",
+      "status": "retrieved",
+      "sha256": "c375afef87a5c47c67040675e8f5ac307f9b65b5d2740085b47c592305ae3d01",
+      "bytes": 6355,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/250_28X_254.html",
+      "status": "retrieved",
+      "sha256": "f163ac2a9a52e942010a2873e73eb481d3b460380d4895d408d1bdffd1e109f8",
+      "bytes": 6388,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/250_28X_255.html",
+      "status": "retrieved",
+      "sha256": "db150c95ec04b41d9eadc894ab8984321ffe689efe81f883089c4e088f26c9af",
+      "bytes": 14869,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_034.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/250_28X_256.html",
+      "status": "retrieved",
+      "sha256": "4cb6c09430b3acb6c3236d2cb4c699c5b24fa120c1e146da504b8a752aa9616c",
+      "bytes": 6561,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_300.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/250_28X_257.html",
+      "status": "retrieved",
+      "sha256": "67f9e1306c903deeae3ad2f5a469c9c8841ce37dd1da1ae0027f075f80e91342",
+      "bytes": 7345,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_b.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/250_28X_260.html",
+      "status": "retrieved",
+      "sha256": "682c54793393ad1bedae40c9bfc95deff24ba09464d17dede1ee3ba269c92153",
+      "bytes": 33117,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_028.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/250_28X_263.html",
+      "status": "retrieved",
+      "sha256": "4172574d5254665405bc35c3bde6d84d85c80642dba22848fc493d07591b38fa",
+      "bytes": 7485,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/250_28X_264.html",
+      "status": "retrieved",
+      "sha256": "faefd530ecf81dd2524dfa1815b353ce15d55a72e15f2bf189742ca7fe653e76",
+      "bytes": 11090,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/250_28X_270.html",
+      "status": "retrieved",
+      "sha256": "f79784f41b872f08577d7af69edf9dc9719cfd6bda8d9513e4dbb30f6ae51a83",
+      "bytes": 23037,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_b.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/250_28X_overview.html",
+      "status": "retrieved",
+      "sha256": "05c14abdba01bb562ffa0a58672ce32bbea14a4adfc798fa37df11a1d38299c5",
+      "bytes": 3921,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/250_28X_250.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/250_28X_251.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/250_28X_254.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/250_28X_255.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/250_28X_256.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/250_28X_257.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/250_28X_260.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/250_28X_263.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/250_28X_264.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/250_28X_270.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_300.html",
+      "status": "retrieved",
+      "sha256": "cf48147815171a667dbbfd97aaf93ab2a7259812df1214068ef583f6d4dd121c",
+      "bytes": 43526,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_306.html",
+      "status": "retrieved",
+      "sha256": "be793384f7a425396aa39a49cf943a84d85b06af210dd505c2177431add147cc",
+      "bytes": 8384,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_300.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_500.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_505.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_307.html",
+      "status": "retrieved",
+      "sha256": "680a3fce85a1bdf35bf9e4277955cd146725267bbd09e7c1698d89e8e6659675",
+      "bytes": 10827,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_310.html",
+      "status": "retrieved",
+      "sha256": "fc1109e2b4d920861ea235e33b19294232d2af16de85a147d30b2042cdaee587",
+      "bytes": 12654,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_321.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_321.html",
+      "status": "retrieved",
+      "sha256": "c3879c2d0ed66d0c9c1176cfbf055115046897165814af90695d59f7df6e0aef",
+      "bytes": 12379,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_310.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_334.html",
+      "status": "retrieved",
+      "sha256": "b08c84858c07d047d090847f380afcba81284b6c97ed2985fdb9bcae2c0dcfae",
+      "bytes": 6275,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_ㅠ.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_335.html",
+      "status": "retrieved",
+      "sha256": "940e93f484de3cec4655aeb12986452a5903fc1f98943ef4d7e9f54fce17bc15",
+      "bytes": 7232,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_b.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_336.html",
+      "status": "retrieved",
+      "sha256": "2655aae0f3ccacdf0f5ab8836959fcbaafe05fdb636cf278cf889f9b556d537c",
+      "bytes": 8395,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_b.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_337.html",
+      "status": "retrieved",
+      "sha256": "7845ff67467af7c32ca99319c4f4151404b1373b68a78f1117b704de16abf400",
+      "bytes": 8619,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_b.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_338.html",
+      "status": "retrieved",
+      "sha256": "b8c5b11aade97bf49c9fa5d641c59e480b1c50d367b584f0ddd1377648ed244c",
+      "bytes": 8738,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_b.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_340.html",
+      "status": "retrieved",
+      "sha256": "c7d97622f7b656876ab7d7913f23554813d661ba69897d5ad901032fdae25a13",
+      "bytes": 18150,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_341.html",
+      "status": "retrieved",
+      "sha256": "528de46f836fc4403eae6cd9d0fdc5bace763bce9f6a18cf0d6c9c8c14fd6c97",
+      "bytes": 9032,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_342.html",
+      "status": "retrieved",
+      "sha256": "35512d994cc78e52c00f6938d596df2da92e14dc2190755427829efa5b10d654",
+      "bytes": 32136,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_343.html",
+      "status": "retrieved",
+      "sha256": "160c08d9a4d923ccc5b227ff8a5aae194054f89daf93c0d9368b6f2aa9c28d4b",
+      "bytes": 9622,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_344.html",
+      "status": "retrieved",
+      "sha256": "1852b5a8b0b62abf0662d30efcd7606e8c946294e285cc9baf3a9c975bfede22",
+      "bytes": 11018,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_345.html",
+      "status": "retrieved",
+      "sha256": "98c01986e4e3d937ad100f5bd35c432cc9b7baa17e42622d951d81d932d419ab",
+      "bytes": 8107,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_346.html",
+      "status": "retrieved",
+      "sha256": "7c08e636e642e2fdc4a53883b0514015e20835e76989a3d2852029cf1bbc4174",
+      "bytes": 7084,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_347.html",
+      "status": "retrieved",
+      "sha256": "f776df7e1ace66601edf9889d565ac2e4d38a86f715fb79293c546f2e27e71dc",
+      "bytes": 10429,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_348.html",
+      "status": "retrieved",
+      "sha256": "7fac99c9a68f4b294ca9d522c50fd06fb01e10243363353e337808752788438b",
+      "bytes": 8881,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_b.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_351.html",
+      "status": "retrieved",
+      "sha256": "75c2b79ad81d5af14eeed515e269b60b499075ea498306facbaba30f7659cb7e",
+      "bytes": 8961,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_352.html",
+      "status": "retrieved",
+      "sha256": "df28cf5c28b34ce20b024d47b6873ecf177de2a19f9f823977ba229a5c8aaf88",
+      "bytes": 9341,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_353.html",
+      "status": "retrieved",
+      "sha256": "855510ddafdad6765a95d60c0aee4930b2d1a37ef354d03d4a60378e0b20992f",
+      "bytes": 7394,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_355.html",
+      "status": "retrieved",
+      "sha256": "76042d5519a82273003c68a80fcd8cff0c21a26c8054d67f2555a9f3d31464ce",
+      "bytes": 14789,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/1XX_overview.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/20X_24X_245.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/20X_24X_246.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_505.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_506.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_520.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/70X_75X_700.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/70X_75X_740.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/annex_1.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/annex_2.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/annex_4.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_357.html",
+      "status": "retrieved",
+      "sha256": "32ddfbe4291bf9a5aa01b8dc7cad0da0efb7c4ed2006820579554b8ba9b152f3",
+      "bytes": 7458,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_362.html",
+      "status": "retrieved",
+      "sha256": "604537638f6b9bd85b35e263d9f20430bb58f63a58b7f7c5bbf8a81dea5e7e5f",
+      "bytes": 12265,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_363.html",
+      "status": "retrieved",
+      "sha256": "04c39c4ebc96cb3ee94f84c0ecedbe02c2a054177a2735fbb50b49c442629ed6",
+      "bytes": 11342,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_365.html",
+      "status": "retrieved",
+      "sha256": "21a9ce913e00959991518a93d99a07f5d1db9a681e10e6733b37421c6491f4b7",
+      "bytes": 9842,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/annex_1.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_366.html",
+      "status": "retrieved",
+      "sha256": "aadb701d7148922b5f3b89bdbd38fd7d32846e7c15696003f68267ef4d175b56",
+      "bytes": 9824,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/annex_1.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_370.html",
+      "status": "retrieved",
+      "sha256": "4a8f112cf9ea09e8bc6ff09caf25214337173d96f244a2736b207ded1b0d9b1f",
+      "bytes": 10256,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_b.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_377.html",
+      "status": "retrieved",
+      "sha256": "0832ecca02f86c41a311603865b4385a620b52da2b222340638babda0ca70fe4",
+      "bytes": 10823,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/annex_3.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_380.html",
+      "status": "retrieved",
+      "sha256": "8f6ffb68c53dd77e72daa2b8b656c53b1cd73085b9b531b6a4fb5fa5bf4d38d2",
+      "bytes": 7950,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_381.html",
+      "status": "retrieved",
+      "sha256": "d83bc0fde9e1551f632572e2485aea6699a02c6c450ddb37d49c69f0341f423c",
+      "bytes": 11475,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_b.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_382.html",
+      "status": "retrieved",
+      "sha256": "ff2279c69474b80d3cfd277b5099e9e7998d0c391eb39df9cd59e5841e4aa7e5",
+      "bytes": 18301,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_383.html",
+      "status": "retrieved",
+      "sha256": "2fa00738d9e60a1a2dfe1cbba54516f44477f4fd203521d5ab8d2f59b9ef0b4f",
+      "bytes": 9664,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_384.html",
+      "status": "retrieved",
+      "sha256": "34761ef266eab1c244a1f6482d13db2790919747e96bf845e707db5c640e84e2",
+      "bytes": 8978,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_385.html",
+      "status": "retrieved",
+      "sha256": "933a3196ba748ab819aea90aff355967002907c161ee0ef0df983dcb98efdc93",
+      "bytes": 9583,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_b.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_386.html",
+      "status": "retrieved",
+      "sha256": "cfc71da1cad77c0df5671495a1b64b31e59994d659f9bdd44d67364dcd51c799",
+      "bytes": 9553,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_b.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_387.html",
+      "status": "retrieved",
+      "sha256": "79064127628914566320b93260404cafb0a99db36d147715968465776d82cd10",
+      "bytes": 9169,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_388.html",
+      "status": "retrieved",
+      "sha256": "75e448b5bb8eaf774d9c4fc4bc22f161e7aa7987fea02d3f1985e0d50e53db3e",
+      "bytes": 8876,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_b.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_overview.html",
+      "status": "retrieved",
+      "sha256": "05f74fcca831efceec8e1757fac057dc85cf237e58224c1ffb052f6aca153ce1",
+      "bytes": 8779,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_300.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_306.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_307.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_310.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_321.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_334.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_335.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_336.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_337.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_338.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_340.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_341.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_342.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_343.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_344.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_345.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_346.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_347.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_348.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_351.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_352.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_353.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_355.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_357.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_362.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_363.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_365.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_366.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_370.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_377.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_380.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_381.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_382.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_383.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_384.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_385.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_386.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_387.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_388.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/4XX_490.html",
+      "status": "retrieved",
+      "sha256": "2aaf453fe760dccb467f57d0fca2d7812d5eab3f70a7c139d8b834a661cc831e",
+      "bytes": 16745,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/4XX_overview.html",
+      "status": "retrieved",
+      "sha256": "4a602ff2737386cf2162cbe9e912824ecfce03f5881517f263de886ff17ebb63",
+      "bytes": 2953,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/4XX_490.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_500.html",
+      "status": "retrieved",
+      "sha256": "dc93dfc5d3967556d743d8890cc6886e2ad3bcfbc1c1a4d6c955d8639e7b2e54",
+      "bytes": 15349,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_501.html",
+      "status": "retrieved",
+      "sha256": "7c42e4152bbc1fb3b4863a6ca9d1e3990f8a1642cc216f217e8f20d462574fad",
+      "bytes": 13131,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_502.html",
+      "status": "retrieved",
+      "sha256": "44f6db51f7c18f5a49b589cacb392f8d90e9abe6e11faac295dccc405c769b3b",
+      "bytes": 10648,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_504.html",
+      "status": "retrieved",
+      "sha256": "af25e4456c402aa2606f84190448cb5cb1972d6e1f5d85fd4a4003b7d3be3d6d",
+      "bytes": 10089,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_505.html",
+      "status": "retrieved",
+      "sha256": "222e915957692efd63a3136076de756cd432b377e05989628c45c56b5676e0ae",
+      "bytes": 27379,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/70X_75X_700.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/70X_75X_710.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/70X_75X_711.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/70X_75X_730.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_506.html",
+      "status": "retrieved",
+      "sha256": "7a20c6b3d595b57dd027e83696ed4ffc221eddacf33ae9f87f264c52ff38ffd9",
+      "bytes": 15271,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_507.html",
+      "status": "retrieved",
+      "sha256": "3b3f3f3bc40e174d60fa1818fd98a97fb04b0ae78a8f202bc13714463c4693f0",
+      "bytes": 6246,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_508.html",
+      "status": "retrieved",
+      "sha256": "333a0008d564e3a72856c57378c10ff29cf9874e4f5d1cc97dbfe29c5f3654a2",
+      "bytes": 6230,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_510.html",
+      "status": "retrieved",
+      "sha256": "e8b1e2ce1674669478706d81243ae65e18f598bdcd02173e5374b735b1353bc1",
+      "bytes": 20400,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_511.html",
+      "status": "retrieved",
+      "sha256": "6613376c21e49bd8737b52f3c5641d5d4d7867836f93fce5de2c282bb19145de",
+      "bytes": 9728,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_513.html",
+      "status": "retrieved",
+      "sha256": "167606ef928239a62fa0a3c3c591a58791457c8f9db7efb439d3a8b1c9bf78af",
+      "bytes": 5651,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_514.html",
+      "status": "retrieved",
+      "sha256": "21e49ad5d03c1ea3f870a6b3637e56c8f2e5d3b88d0027b6fd0775338b59e397",
+      "bytes": 12640,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_515.html",
+      "status": "retrieved",
+      "sha256": "35c24d60f3086e8d239517525a79778fac0dd7ba6cb8d06c8c7f88d056842e13",
+      "bytes": 9730,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_516.html",
+      "status": "retrieved",
+      "sha256": "798c0df1b1af4c894d82812538623cd337a694d38f81046c75888516d667cabb",
+      "bytes": 8003,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_3.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_518.html",
+      "status": "retrieved",
+      "sha256": "4e3b583c24fa24fe365e77234cc9f908e2a1d30d36e51c51036fbb5f72c909ba",
+      "bytes": 13328,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_033.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_520.html",
+      "status": "retrieved",
+      "sha256": "61df89190bcb31b4110cf71fef1b0179761ad64c87300b6b28dfa0429fb943c6",
+      "bytes": 18321,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_521.html",
+      "status": "retrieved",
+      "sha256": "b3cf529f9c9c051fdde0cec4a764a1ec4f5686f817c690b2271b579d68ed205b",
+      "bytes": 14165,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_506.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_522.html",
+      "status": "retrieved",
+      "sha256": "2d4b8cf8d49c3a6c836e7aead5e47a5461cb1a53373c66a8684baf52b3bc3c6b",
+      "bytes": 6877,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_524.html",
+      "status": "retrieved",
+      "sha256": "2b359677ff642ca6d9a046e5eb4ab08fa558dc45a1a15bda2f9333c93477368a",
+      "bytes": 9693,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_525.html",
+      "status": "retrieved",
+      "sha256": "e5524c0f5625e84377b87efb6fc1b55e10aeb33497e799cb192050b877626739",
+      "bytes": 7252,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/76X_78X_770.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_526.html",
+      "status": "retrieved",
+      "sha256": "eac95c61d1050944c4dadccf2aeabe63b286f06dd0c69cc6cf89de5f64a00af1",
+      "bytes": 9873,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_530.html",
+      "status": "retrieved",
+      "sha256": "a3fefdb4dbeb70de8bb0be41d414e6eb3f514271fdd5f231e815d9e7d0d7bb8b",
+      "bytes": 11671,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/76X_78X_776.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_532.html",
+      "status": "retrieved",
+      "sha256": "794bf6b44e13bcca1e7fa6c054800a60759d03a09b17f8912139b684ced08db6",
+      "bytes": 6274,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_533.html",
+      "status": "retrieved",
+      "sha256": "dd03a0053317b7e2469a8a33242d2d4a2ac7c4130c3ce6a2fdec89e58371365a",
+      "bytes": 23384,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_534.html",
+      "status": "retrieved",
+      "sha256": "26ac37694e33bdc85057181b9c709c63fd40d150c0c18bb8513685c33c133532",
+      "bytes": 15152,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_535.html",
+      "status": "retrieved",
+      "sha256": "b2b8c533ce17096c121939727736b8cb8917df4cff6d093c0f03ee6a51ee275e",
+      "bytes": 9052,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/annex_7.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_536.html",
+      "status": "retrieved",
+      "sha256": "20635b3c6bbcc3e1077a58013b8ca10a1048f1d7ea3051ffa2cedb0936fd92bb",
+      "bytes": 9669,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_538.html",
+      "status": "retrieved",
+      "sha256": "e4c001b6882e1e0f2400ba03aa05b394e03978be9b7a5fd5e368af1c5546bb9f",
+      "bytes": 10441,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_540.html",
+      "status": "retrieved",
+      "sha256": "0bae4b360b48a552d30c8b774d5a715a65b8f1183d8540ca692235bfed7dc0d3",
+      "bytes": 12174,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_506.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_541.html",
+      "status": "retrieved",
+      "sha256": "32bd7c33ac6fed755ded9ff246b5e69c78901cd51d8a911cb9cf94aaa4026310",
+      "bytes": 13912,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_542.html",
+      "status": "retrieved",
+      "sha256": "c8e007af94a40e49d1387e672e4ca1c0bef9d0b3b72f0d0505cbef0aa58b5191",
+      "bytes": 17911,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_544.html",
+      "status": "retrieved",
+      "sha256": "aa2e504abfe83af55b8f46a6214979a9940a38ba3f95468bfa882eabeef6761f",
+      "bytes": 10525,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_545.html",
+      "status": "retrieved",
+      "sha256": "afd9466a88b9ded130d39cb98c057c475fe53f0d3c0cb7991b1f139531b6080c",
+      "bytes": 9157,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_546.html",
+      "status": "retrieved",
+      "sha256": "50f68ad8c0404db9a5e3aa897a62e088b2f99ca189d6762933c0a1e7da7a5fb3",
+      "bytes": 11174,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_041.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_547.html",
+      "status": "retrieved",
+      "sha256": "e8ab5b6b4273fa09fdd888ed6ebacf1b253d454e419167a1129e2c61c6bed5d6",
+      "bytes": 6862,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/20X_24X_247.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_550.html",
+      "status": "retrieved",
+      "sha256": "9d67fc2515a246642b6466450aa7f9f2b38cdca6ad31e880e8702ecfb98bf1b1",
+      "bytes": 11686,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_552.html",
+      "status": "retrieved",
+      "sha256": "051ce2fa052cd40dd75b21d3b21a6f5ba5a25e8185467abbc62061327dac3030",
+      "bytes": 13670,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_555.html",
+      "status": "retrieved",
+      "sha256": "8f511362249acdfaf8bdc51a8295e0a4780ea73b802403155aa23dfee3c8a512",
+      "bytes": 12863,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_556.html",
+      "status": "retrieved",
+      "sha256": "b21526dfe1bdc78ea909b807093e7b336e10577f538547412eca482609b9cc01",
+      "bytes": 8772,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_581.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_561.html",
+      "status": "retrieved",
+      "sha256": "a840e27476c3cc579a54cb3676942b2e8797fc59ea3e2320a8dbaa7ef87714dc",
+      "bytes": 10834,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_541.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/841_89X_852.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_562.html",
+      "status": "retrieved",
+      "sha256": "d45997bdee38892bdf77f9287471e932210c8457771eaf946d98d8daef25a104",
+      "bytes": 8425,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_563.html",
+      "status": "retrieved",
+      "sha256": "b3fc0ac5f3b0ab69e138ec82215173dc88ce631bdce81c0b65f1a1033fdc9dc1",
+      "bytes": 6470,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_565.html",
+      "status": "retrieved",
+      "sha256": "760544423155ca1517fb3c42bc7d90a8cbb0770d4439f39f8517251c5cd44e33",
+      "bytes": 11915,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_567.html",
+      "status": "retrieved",
+      "sha256": "2b4ec142c111bb9afa76d270175ccf8bcd3348ac8dbfb6d534d7c49f4056e965",
+      "bytes": 9949,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_580.html",
+      "status": "retrieved",
+      "sha256": "b54bf7ba912b52910a68a01a8622203958516d3953ef4962e015ab1f1598cbac",
+      "bytes": 7882,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/76X_78X_overview.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_581.html",
+      "status": "retrieved",
+      "sha256": "8ff560fe2be16d033f3a93a645ce8f0d4254f35bd91a6c6b0e1cc60b1c5eaa33",
+      "bytes": 9771,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_556.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_583.html",
+      "status": "retrieved",
+      "sha256": "e54b7a4e794b7b5b7b72bc32bc132a2c67f7435fe90b3138e7a6bf83a96e447d",
+      "bytes": 17714,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_584.html",
+      "status": "retrieved",
+      "sha256": "e50c17120d876b0f2951ea257f98b45921123eb8eb22282278906d1a64e0f289",
+      "bytes": 6666,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_585.html",
+      "status": "retrieved",
+      "sha256": "affc10b004b18a7e622ac178337d4c05dec3d05062fbd312bf0451b28d38e4aa",
+      "bytes": 6198,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_586.html",
+      "status": "retrieved",
+      "sha256": "bd3a001590b8b304b3538d52093236d85e1335e52cd6d1b2f4cc086e88890d4f",
+      "bytes": 9741,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_588.html",
+      "status": "retrieved",
+      "sha256": "1c33a95c33311f67b993c11f3c07b0bdc7f92ec5a374c10ee5aaf4cd727774ac",
+      "bytes": 8132,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_590.html",
+      "status": "retrieved",
+      "sha256": "09a30e209038fd1e33eada034a7f24b6118b68c207a653acd17fe1d782416c59",
+      "bytes": 10998,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_overview.html",
+      "status": "retrieved",
+      "sha256": "3a334fc72d8cd8f06bd3f68d6f10fdc998654589342971acfe760b40510f8a40",
+      "bytes": 8883,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_500.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_501.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_502.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_504.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_505.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_506.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_507.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_508.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_510.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_511.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_513.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_514.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_515.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_516.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_518.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_520.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_521.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_522.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_524.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_525.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_526.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_530.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_532.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_533.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_534.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_535.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_536.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_538.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_540.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_541.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_542.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_544.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_545.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_546.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_547.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_550.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_552.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_555.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_556.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_561.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_562.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_563.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_565.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_567.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_580.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_581.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_583.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_584.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_585.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_586.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_588.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/5XX_590.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/6XX_600.html",
+      "status": "retrieved",
+      "sha256": "7f86d1e71a4a9aec39d10be0a7b51b1082d8531604b4b1326169598b5e4cd064",
+      "bytes": 12906,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/X00_X30_X00_000.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_b.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/6XX_610.html",
+      "status": "retrieved",
+      "sha256": "12f26d1cb3b22f5a5ed6e25a99c86a8ff6627b8704fe4d8aaf85ac618bea9f86",
+      "bytes": 12598,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/X00_X30_X00_000.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/X00_X30_X10_000.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_b.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/6XX_611.html",
+      "status": "retrieved",
+      "sha256": "036864bd01107f89125982d6da8caa1b6567a3b7e99249ba6e2b8851b5dab85a",
+      "bytes": 11447,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/X00_X30_X11_000.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_b.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/6XX_630.html",
+      "status": "retrieved",
+      "sha256": "8e74d6a8eb338e3eacc43522f9f56b1e5e2b66393ce2af978da41a4d762ba5d2",
+      "bytes": 11627,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/X00_X30_X30_000.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_b.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/6XX_647.html",
+      "status": "retrieved",
+      "sha256": "196f492e91164fd4378539eddd49d1c3be8d7d39e24044e0db3c91d2ee18756e",
+      "bytes": 14993,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_b.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/6XX_648.html",
+      "status": "retrieved",
+      "sha256": "2df5a6580f2adf44eae490b8d05fcbb1ab4a9f4acfbf52da2bb04ad2be668243",
+      "bytes": 13307,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_b.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/6XX_650.html",
+      "status": "retrieved",
+      "sha256": "8c38d9e8a98a1aa28b72afb8060fb4415c2897aa8b07cd064f0050e2987fae97",
+      "bytes": 23131,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_b.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_c.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/6XX_651.html",
+      "status": "retrieved",
+      "sha256": "f3be02689ffea51c7c528db94be64de9b346014d79fff009efb8697870d6fc99",
+      "bytes": 20944,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_b.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_c.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/6XX_653.html",
+      "status": "retrieved",
+      "sha256": "75eaf5c7f31b28c23ebc0e8effe8eccb5b83cadd3c6323459e3ed09efbe1d960",
+      "bytes": 13268,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/6XX_654.html",
+      "status": "retrieved",
+      "sha256": "8ee31683d103e1575894241a83b1c78b210d42a11f7274dd83f8b433db6a6f61",
+      "bytes": 16352,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_b.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/6XX_655.html",
+      "status": "retrieved",
+      "sha256": "435d67b1deb0be2ca4e48b4ec86455662fd69c229ae547c8bc40e5acbbf842aa",
+      "bytes": 20697,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_b.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/6XX_656.html",
+      "status": "retrieved",
+      "sha256": "fd390a2b47caa577bd8aa5815421ec33a3c29d9c0b2f651eed617c56d77d0f7a",
+      "bytes": 12603,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_b.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/6XX_657.html",
+      "status": "retrieved",
+      "sha256": "656339c35a19fde2a5de994f1c4a72029d1c4d54282a362ea5c3162a07a33b98",
+      "bytes": 10998,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_b.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/6XX_658.html",
+      "status": "retrieved",
+      "sha256": "71459c4629f0c9e5d49b57c5bd7c7e56e1f2d82676a04d12700771bae3f2854b",
+      "bytes": 10815,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/6XX_662.html",
+      "status": "retrieved",
+      "sha256": "0a174df98921d4dde9fd06b00e6f94b99b1b638ff5e9f00136f868c5fd14b7e8",
+      "bytes": 14133,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_b.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/6XX_688.html",
+      "status": "retrieved",
+      "sha256": "687d32ce26397838d435a0e99e194c7dd58d9ea74b48bab57c76f2eba8e4e2a0",
+      "bytes": 9758,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_b.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/6XX_69X.html",
+      "status": "retrieved",
+      "sha256": "052c457e5f9c2b31f7c5679f8d891e637ca59005f73ff12ac15382b8a146b647",
+      "bytes": 2478,
+      "links": [],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/6XX_overview.html",
+      "status": "retrieved",
+      "sha256": "27beeff847e554fead89c1b240b087ce2428489cda5937f22c9c20648c4be6ae",
+      "bytes": 8734,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/6XX_600.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/6XX_610.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/6XX_611.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/6XX_630.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/6XX_647.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/6XX_648.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/6XX_650.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/6XX_651.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/6XX_653.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/6XX_654.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/6XX_655.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/6XX_656.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/6XX_657.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/6XX_658.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/6XX_662.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/6XX_688.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/6XX_69X.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/70X_75X_700.html",
+      "status": "retrieved",
+      "sha256": "6a6bd310e6b8e3965d3c3fe99ea673ab3f13042903b4845c1c20bfbca37046b7",
+      "bytes": 13263,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/X00_X30_X00_000.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/70X_75X_710.html",
+      "status": "retrieved",
+      "sha256": "e47aebb5e5b6b608d04d562770f1c8d43fe7c6134bde086ace7dce8ed337fcfb",
+      "bytes": 11883,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/X00_X30_X10_000.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/70X_75X_711.html",
+      "status": "retrieved",
+      "sha256": "7fc0ed459caf5445c0f9eb0c8b1e848e06ed089c1559ccdc07de715fd3b84a64",
+      "bytes": 12369,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/X00_X30_X11_000.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/70X_75X_720.html",
+      "status": "retrieved",
+      "sha256": "86bf1481abf5b5ae0f39a33043ebc925f91ada5b105e2b7ace4e95dad5880473",
+      "bytes": 9278,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_b.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/70X_75X_730.html",
+      "status": "retrieved",
+      "sha256": "a31a1666b281dfe8dc6bb37df5d87bdefe694136d53dfe58302674cbf6660c0c",
+      "bytes": 16255,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/X00_X30_X30_000.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/70X_75X_740.html",
+      "status": "retrieved",
+      "sha256": "0523fc58eb2f4eacd90a04d37772bdb2818ad059bd2c946b7f620cebb3d1f3f1",
+      "bytes": 14744,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/70X_75X_751.html",
+      "status": "retrieved",
+      "sha256": "43c5d075c52da7cdaf552ecdf8bb74f52e406a20172e3b48250a02fa23077a17",
+      "bytes": 8707,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_b.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/70X_75X_752.html",
+      "status": "retrieved",
+      "sha256": "c8fe4b5e2dd5b6bfdb7730342a436d6b750711d493d0d76d347977dbee09515c",
+      "bytes": 16418,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_b.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/70X_75X_753.html",
+      "status": "retrieved",
+      "sha256": "097d1d13abde20219bfed86fb66c5897a3a617cbad7ccb147474421c56a0a09a",
+      "bytes": 9891,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_b.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/70X_75X_754.html",
+      "status": "retrieved",
+      "sha256": "29b65cd0afc669a6598fe9bca2cc75b606ef0f32ffbafdb4c498f4d090ddbad7",
+      "bytes": 11889,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/70X_75X_758.html",
+      "status": "retrieved",
+      "sha256": "23bd7fca92932b34a615d73c0536bf91a1d443ecf90f00dd63c816257a0ff9b7",
+      "bytes": 8511,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_b.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/70X_75X_overview.html",
+      "status": "retrieved",
+      "sha256": "75f630dee217a654480f8e449c0821356572c8c5528a102d92546437d98ed1a2",
+      "bytes": 5105,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/70X_75X_700.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/70X_75X_710.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/70X_75X_711.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/70X_75X_720.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/70X_75X_730.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/70X_75X_740.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/70X_75X_751.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/70X_75X_752.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/70X_75X_753.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/70X_75X_754.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/70X_75X_758.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/76X_78X_760.html",
+      "status": "retrieved",
+      "sha256": "9fe5a312267f871a4e97ebaa777f4ed016e301b3ed8e5affb865ed99bf9e6040",
+      "bytes": 6827,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/76X_78X_overview.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/76X_78X_762.html",
+      "status": "retrieved",
+      "sha256": "966d53155e8afbd80062344d1fef07da4f48dcc82573fe799148882b060712e1",
+      "bytes": 6938,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/76X_78X_overview.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/76X_78X_765.html",
+      "status": "retrieved",
+      "sha256": "f535e3dc2fdceee99bf5cb2233f9fa90e23f4eab03b4d2ae27cc93086558fa2f",
+      "bytes": 7705,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/76X_78X_overview.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/76X_78X_767.html",
+      "status": "retrieved",
+      "sha256": "07ac09b19c80652ca2b2f0c4e8c6525211fa6b1667d0a225ff588f3f1264e7c0",
+      "bytes": 8327,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/76X_78X_overview.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/76X_78X_770.html",
+      "status": "retrieved",
+      "sha256": "97e9dcb0edd4ffcc0ba976a015e11727928437e29ab1038395ffad89941ccf0a",
+      "bytes": 7764,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/76X_78X_overview.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/76X_78X_772.html",
+      "status": "retrieved",
+      "sha256": "6f910c7e4536f57a7a54c266acc3de869561a46183a11009948bdc1d2cb20d77",
+      "bytes": 9239,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/76X_78X_overview.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/76X_78X_773.html",
+      "status": "retrieved",
+      "sha256": "9524a2faba9673d6fa23fecda1da0e1a30c6d0be5148a49fc45c86cec3f3106e",
+      "bytes": 10468,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/76X_78X_overview.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/76X_78X_774.html",
+      "status": "retrieved",
+      "sha256": "6579dcbf66d004fbee7b56aa570bf6e4f8688ee7dfd5bd415892776a2f7d4a38",
+      "bytes": 9888,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/76X_78X_overview.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/76X_78X_775.html",
+      "status": "retrieved",
+      "sha256": "133a19ca1746989119aabb99653c83ff3ab5440e3e763dab4b8630c8e5a0f0b6",
+      "bytes": 9586,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/76X_78X_overview.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/76X_78X_776.html",
+      "status": "retrieved",
+      "sha256": "21bfd80d8e3bcf0a0c326109319727d2e8d4cd3474e302489d802a5fe41999c6",
+      "bytes": 8865,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/76X_78X_overview.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/76X_78X_777.html",
+      "status": "retrieved",
+      "sha256": "e53a692bf032315981973a2bb4229d65047ffbdca27fe6043f3ab914c9d2916d",
+      "bytes": 8604,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/76X_78X_overview.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/76X_78X_780.html",
+      "status": "retrieved",
+      "sha256": "f0a4eeb1fb1b01fb01405c819b25971b975a01f1043e7ad64272756d1985c806",
+      "bytes": 13325,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/76X_78X_overview.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/76X_78X_785.html",
+      "status": "retrieved",
+      "sha256": "16f411565dd9e703e3bc17d75adb00b8329128afd81c9d2221172c65848443f5",
+      "bytes": 15475,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/76X_78X_overview.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/76X_78X_786.html",
+      "status": "retrieved",
+      "sha256": "d30480c5e29d6a9c9740f6606a0b0eec0a9a73e54b192f750f7fe4fabd530105",
+      "bytes": 7161,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/76X_78X_overview.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/76X_78X_787.html",
+      "status": "retrieved",
+      "sha256": "b439893f5961edd76847d74f359fdf7a4be97ad0783bdec13f7f38b6821f3717",
+      "bytes": 7712,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/76X_78X_overview.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/76X_78X_overview.html",
+      "status": "retrieved",
+      "sha256": "f191eb1871565a284752cc12f499cdad9c7f47687badbb8e3a6a5e68bd124835",
+      "bytes": 48631,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/76X_78X_760.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/76X_78X_762.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/76X_78X_765.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/76X_78X_767.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/76X_78X_770.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/76X_78X_772.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/76X_78X_773.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/76X_78X_774.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/76X_78X_775.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/76X_78X_776.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/76X_78X_777.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/76X_78X_780.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/76X_78X_785.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/76X_78X_786.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/76X_78X_787.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/80X_830_800.html",
+      "status": "retrieved",
+      "sha256": "83357a7b1068b1f67aa84da39d30ad65083f6d8c922cf2684f745d849e6c0d71",
+      "bytes": 9100,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/4XX_490.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/X00_X30_X00_000.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/80X_830_810.html",
+      "status": "retrieved",
+      "sha256": "343700cbf471f6c5884d8d9e6374f205f14d34da72bcb7f6b57f270c4cf4d96b",
+      "bytes": 8776,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/4XX_490.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/X00_X30_X10_000.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/80X_830_811.html",
+      "status": "retrieved",
+      "sha256": "76d1da319d55f22bf1607c42d37cfe0e2b90336b06fddc241466ce7f75a7003f",
+      "bytes": 7714,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/4XX_490.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/X00_X30_X11_000.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/80X_830_830.html",
+      "status": "retrieved",
+      "sha256": "d8144815bddb6a778f01969b4672d2d2183f672faabc421949897b249926b867",
+      "bytes": 9694,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/4XX_490.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/X00_X30_X30_000.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/80X_830_overview.html",
+      "status": "retrieved",
+      "sha256": "67ef2bee3db68aad36b67ceff8625e9a0f868cb42917dcbbf802b02709aae193",
+      "bytes": 2999,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/80X_830_800.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/80X_830_810.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/80X_830_811.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/80X_830_830.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/841_89X_850.html",
+      "status": "retrieved",
+      "sha256": "415b3bdff63fe1d1a054fa9fc1b6f747c30a370c035a274f42e8945a1e8be132",
+      "bytes": 5616,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/841_89X_852.html",
+      "status": "retrieved",
+      "sha256": "7a95bc86490a819beb50b74f8f534215786616370d63bc989e146bb43bf6ae33",
+      "bytes": 37092,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_052.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_056.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_082.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/annex_7.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/841_89X_856.html",
+      "status": "retrieved",
+      "sha256": "6c657aff9ae89373adc461f86dfe38cb1ec8fbcf203c57bb4719075121364ad7",
+      "bytes": 37355,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/841_89X_880.html",
+      "status": "retrieved",
+      "sha256": "a1f1157b2fa7e4b3b889d7f5e3386eb581fd8b6c84a565b0b51ac6dbf85a97d0",
+      "bytes": 6557,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_d.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/841_89X_881.html",
+      "status": "retrieved",
+      "sha256": "05cdb3ec5d042ecd1674601301f4b4ed0ce5649d98c9d716c6903cdc16571483",
+      "bytes": 9586,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_d.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/841_89X_882.html",
+      "status": "retrieved",
+      "sha256": "5eabdd87ae99d20d4524e49e20193a07fe8a8c15e217b958b4e3d3c35608d402",
+      "bytes": 5097,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_d.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/841_89X_883.html",
+      "status": "retrieved",
+      "sha256": "c07a01e7fe0bcce9570825dce47f95fb91218945f4d28836160a912a933a8a97",
+      "bytes": 7939,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/841_89X_884.html",
+      "status": "retrieved",
+      "sha256": "8706aeb2e5211bf49af35ab4950a18f2e573352e26857a25da6e0ae255492eb2",
+      "bytes": 5327,
+      "links": [],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/841_89X_885.html",
+      "status": "retrieved",
+      "sha256": "a0cbe4407699ded6892755855cd8951bbcf1ec3b6fcac95913764e76a8746aa6",
+      "bytes": 6504,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/841_89X_886.html",
+      "status": "retrieved",
+      "sha256": "4a08c3a06fead8784b81ff3521c81d689cba83e8ee98844d4d8373e7c2f836c4",
+      "bytes": 8164,
+      "links": [],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/841_89X_887.html",
+      "status": "retrieved",
+      "sha256": "3e69854eb523f049e2cb0cb6f5596cdbfada1d3f2d6fbb3c460b04638db02ad9",
+      "bytes": 5231,
+      "links": [],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/841_89X_890.html",
+      "status": "retrieved",
+      "sha256": "5449aec1206f42ab109aa5031be2a5eaa70d0dde76ffb9f6e7e725c6b53794a6",
+      "bytes": 6630,
+      "links": [],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/841_89X_overview.html",
+      "status": "retrieved",
+      "sha256": "dbb46156f3c54733f9e393a9e5c109537d4114080836de5b5f5d947c2e8a501b",
+      "bytes": 6317,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/841_89X_850.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/841_89X_852.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/841_89X_856.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/841_89X_880.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/841_89X_881.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/841_89X_882.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/841_89X_883.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/841_89X_884.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/841_89X_885.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/841_89X_886.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/841_89X_887.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/841_89X_890.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/9XX_900.html",
+      "status": "retrieved",
+      "sha256": "b3544e53046f811ec10e9e6d0e5ea4e76479da183bd2ba3d8013f4d7eb4797ba",
+      "bytes": 5650,
+      "links": [],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/9XX_910.html",
+      "status": "retrieved",
+      "sha256": "394ae20268fcf1ba6f66d5358b9d1bb723720344a363f11b5f5fa1ab6956d762",
+      "bytes": 6045,
+      "links": [],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/9XX_911.html",
+      "status": "retrieved",
+      "sha256": "11921c0471c315ae861f4e28a2d5ea3b9ff42658bcd4a343bbc6f0f019b15610",
+      "bytes": 5131,
+      "links": [],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/9XX_930.html",
+      "status": "retrieved",
+      "sha256": "ece6b6b2f27bd7941fcfb13fd7ce8029fbf4f991db995bdc98d01de7f7708295",
+      "bytes": 4911,
+      "links": [],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/9XX_940.html",
+      "status": "retrieved",
+      "sha256": "41e0bd9b61253648390a92b74925d1509f28bf21bccd8ca45c08c8739fcd1982",
+      "bytes": 4436,
+      "links": [],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/9XX_949.html",
+      "status": "retrieved",
+      "sha256": "c86a2b3ef87c562cd21d33637a10ea90861ac36446ce1fa00b667a068bb28fb0",
+      "bytes": 4791,
+      "links": [],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/9XX_950.html",
+      "status": "retrieved",
+      "sha256": "1f955c9401909b8dff109d689134446aaea2baec1d2c6d566c32859b7bb99b08",
+      "bytes": 8771,
+      "links": [],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/9XX_980.html",
+      "status": "retrieved",
+      "sha256": "6a9b831c2ff7ea17c66d9bb8734f4b0bc86db55b67977634bf0d7b52f806a78b",
+      "bytes": 5338,
+      "links": [],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/9XX_overview.html",
+      "status": "retrieved",
+      "sha256": "200920a675af0a79dba0dc83356e027700ae2f65e29bf6511c6d77fbd6ba30de",
+      "bytes": 5135,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/9XX_900.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/9XX_910.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/9XX_911.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/9XX_930.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/9XX_940.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/9XX_949.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/9XX_950.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/9XX_980.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/X00_X30_X00_000.html",
+      "status": "retrieved",
+      "sha256": "8d02058bdde611a14175548e5cf0038e23d3396dab94a537fe9bb9c6c4779163",
+      "bytes": 56159,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/1XX_100.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/6XX_600.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/70X_75X_700.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/80X_830_800.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_b.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_c.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/X00_X30_X10_000.html",
+      "status": "retrieved",
+      "sha256": "1b25916da6372959ce37cce5798a41e58ce1fe2b86941a20370b21e7a83df216",
+      "bytes": 49277,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/1XX_110.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/6XX_610.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/70X_75X_710.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/80X_830_810.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_b.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_c.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/X00_X30_X11_000.html",
+      "status": "retrieved",
+      "sha256": "78db09fd7f6bc39bac9f34b4428f68ffc08b3062e686393e14ec7744b27880e8",
+      "bytes": 38747,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/1XX_111.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/6XX_611.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/70X_75X_711.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/80X_830_811.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_b.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_c.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/X00_X30_X30_000.html",
+      "status": "retrieved",
+      "sha256": "1dee4b5f5f8ae0c29ff99c2ff3e867eaf50a8dc26ecd0bc0c24050e2a4a060ce",
+      "bytes": 39462,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/1XX_130.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/6XX_630.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/70X_75X_730.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/80X_830_830.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_b.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_c.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/X00_X30_overview.html",
+      "status": "retrieved",
+      "sha256": "b9c64b718ee1d45d9c44b4a96d5677b766bc0b607dd0518644ede9c0383e0e3b",
+      "bytes": 4864,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/X00_X30_X00_000.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/X00_X30_X10_000.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/X00_X30_X11_000.html",
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/X00_X30_X30_000.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/annex_1.html",
+      "status": "retrieved",
+      "sha256": "a2512d3ce75f74b3b49d5e954bbb918575476a823842974faa6feee7c90d8d72",
+      "bytes": 59156,
+      "links": [],
+      "other_links": [
+        "https://librarian.nl.go.kr/LI/contents/L10107000000.do"
+      ],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/annex_2.html",
+      "status": "retrieved",
+      "sha256": "d1c81deeb4b7613c047efa1fdf83e5b8b8c38f8a91c2462f63815e7b7c9c0590",
+      "bytes": 43611,
+      "links": [],
+      "other_links": [
+        "https://librarian.nl.go.kr/LI/contents/L10107000000.do"
+      ],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/annex_3.html",
+      "status": "retrieved",
+      "sha256": "4c35064857c7e92c95c274908711a7f6cac260789fd9722969e506f41b170952",
+      "bytes": 41721,
+      "links": [],
+      "other_links": [
+        "https://librarian.nl.go.kr/LI/contents/L10107000000.do"
+      ],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/annex_4.html",
+      "status": "retrieved",
+      "sha256": "7c10c6e2bdc4d550a99939eb87892281b00465d51cc0312d4762d3e5ce5eaf3a",
+      "bytes": 61219,
+      "links": [],
+      "other_links": [
+        "https://librarian.nl.go.kr/LI/contents/L10107000000.do"
+      ],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/annex_5.html",
+      "status": "retrieved",
+      "sha256": "25e47acfd02028a925a405f43d49386274693e3f69f1495fc1041cfe8103bdd2",
+      "bytes": 20475,
+      "links": [],
+      "other_links": [
+        "https://librarian.nl.go.kr/LI/contents/L10107000000.do"
+      ],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/annex_6.html",
+      "status": "retrieved",
+      "sha256": "886a5db9558f27d24e7b60a601bd63e67e70d1451c9c31e0a0398afc10ddd99e",
+      "bytes": 122007,
+      "links": [],
+      "other_links": [
+        "https://librarian.nl.go.kr/LI/contents/L10107000000.do"
+      ],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/annex_7.html",
+      "status": "retrieved",
+      "sha256": "4bd4e79e26b79ccd4b9bdff3969bdc8ff09bc2bef77f6a9052de01c99f4d126e",
+      "bytes": 41571,
+      "links": [],
+      "other_links": [
+        "https://librarian.nl.go.kr/LI/contents/L10107000000.do"
+      ],
+      "semantic_review": "pending",
+      "discovery_depth": 2
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/annex_8.html",
+      "status": "retrieved",
+      "sha256": "7162939bbc64f87428a2f63d706f9f916a021f8c7db182bda3c2da206db1fb9b",
+      "bytes": 41723,
+      "links": [],
+      "other_links": [
+        "https://librarian.nl.go.kr/LI/contents/L10107000000.do"
+      ],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/annex_9.html",
+      "status": "retrieved",
+      "sha256": "9c4282b55e47ed542fbe6b198784042e898cadd191ad7d860e365cb59604877f",
+      "bytes": 49447,
+      "links": [],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html",
+      "status": "retrieved",
+      "sha256": "94489b7b67bf371faf6eb485d12d9fdc42ac12b1993a4c87d6da7822775464f6",
+      "bytes": 26328,
+      "links": [],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_b.html",
+      "status": "retrieved",
+      "sha256": "f5aad0325cdc06e4572d9c057e708c1a29164e7a069181885f19e9a1af21d158",
+      "bytes": 110655,
+      "links": [],
+      "other_links": [
+        "https://www.loc.gov/standards/sourcelist/",
+        "https://www.loc.gov/standards/valuelist/"
+      ],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_c.html",
+      "status": "retrieved",
+      "sha256": "a22801112c3177bcf44e44508e0ac69290777e0109572042c7aa4524329a8e98",
+      "bytes": 24662,
+      "links": [],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_d.html",
+      "status": "retrieved",
+      "sha256": "a36094888627651ca7efc423d1d94824cce08fefbbb8f8471ac9897ecbb5ab05",
+      "bytes": 19558,
+      "links": [],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_ㅠ.html",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found",
+      "discovery_depth": 2
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/info_004.html",
+      "status": "retrieved",
+      "sha256": "de8b4cd456db0ad6813829c2a7dac3767a3df6520ffe4c5a21a8bd7f199e03f7",
+      "bytes": 29054,
+      "links": [],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/info_005.html",
+      "status": "retrieved",
+      "sha256": "a4b522917d2513d7cb832c114e524af03bba482bf2ee78e1d641c22d59e3fd2b",
+      "bytes": 43016,
+      "links": [],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/info_006.html",
+      "status": "retrieved",
+      "sha256": "734c7cfe562c43806de2c47536d56aa0b543e601505ebd567dc4171c954db531",
+      "bytes": 38736,
+      "links": [
+        "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/annex_9.html"
+      ],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/info_007.html",
+      "status": "retrieved",
+      "sha256": "d7ced3572eb4dba16a0a3d57becff01c20426af63c7b87731593aec4b618e89a",
+      "bytes": 6226,
+      "links": [],
+      "other_links": [],
+      "semantic_review": "pending",
+      "discovery_depth": 1
+    }
+  ]
+}

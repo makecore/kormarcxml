@@ -1,3 +1,16 @@
+## Unreleased — official-source audit
+
+- Add 60 selected 006/008 single-position checks with source-defined material selectors; hold conflicting form-of-item fill rules for authoritative review.
+
+- Add 104 material-specific 007 checks across 16 categories, including optional electronic-resource trailing positions.
+
+- Inventory 296 official HTML pages and one broken official link; distinguish retrieval from semantic review.
+- Map all 249 annex-listed fields, including 17 holdings-delegated tags, and 2,523 subfield occurrences in field definitions.
+- Expand source-linked technical summary constraints while retaining explicit semantic coverage gaps.
+- Correct Leader/006/008/245 rules, field labels, 245 parallel and repeated-work title exports.
+- Add catalog-wide ISO/XML/pymarc checks; correct diagnostic coverage counting and malformed-value checks.
+- Cache private bundled rules without exposing mutable shared registry state.
+
 # Changelog
 
 ## 0.1.0 — 2026-09-16 — Initial development release

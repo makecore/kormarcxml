@@ -12,7 +12,7 @@
   "collection_byte_identical": true,
   "schema_errors": 0,
   "partial_profile_errors": 0,
-  "partial_profile_issue_count": 3,
+  "partial_profile_issue_count": 1,
   "recalculated": [
     "leader/00-04",
     "leader/12-16",

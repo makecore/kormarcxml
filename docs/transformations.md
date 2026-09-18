@@ -21,7 +21,8 @@ All built-in transformations are original project code (MIT). They do not reuse 
 
 | KORMARC source | Dublin Core | MODS |
 |---|---|---|
-| 245 `$a`, `$b`, `$n`, `$p` | One joined `title` per field | `titleInfo/title`, `subTitle`, `partNumber`, `partName` |
+| 245 `$a`, `$b`, `$n`, `$p` | One joined `title` per repeated `$a` work | Separate `titleInfo` per repeated `$a`; `title`, `subTitle`, `partNumber`, `partName` |
+| 245 `$x` | Separate `title` | `titleInfo type="alternative"/title` (language is not inferred) |
 | 245 `$d`, `$e` | Repeated `description` | `note type="statement of responsibility"` |
 | 100/110/111 `$a` | `creator` | Typed `name/namePart` |
 | 700/710/711 `$a` | `contributor` | Typed `name/namePart` |
@@ -37,7 +38,7 @@ The 245 responsibility treatment is KORMARC-specific: `$d` and `$e` are not MARC
 
 Sources consulted 2026-09-16:
 
-- [NLK official KORMARC 245](https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/20X_24X_245.html): official indexed page identifies first responsibility; direct web fetch returned 417 in this environment. Exact rule-level provenance and review status are tracked with the rule registry; no official explanatory text is copied here.
+- [NLK official KORMARC 245](https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/20X_24X_245.html): full official page retrieved directly on 2026-09-17; repeated titles, parallel titles, indicators and responsibility were reviewed. Exact rule-level provenance and review status are tracked with the rule registry; no official explanatory text is copied here.
 - [NLK 1XX overview](https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/1XX_overview.html): primary-source indexed overview of main entries.
 - [LC MODS name guidance](https://www.loc.gov/standards/mods/userguide/name.html): directly retrieved; recommends a typed statement-of-responsibility note for transcribed responsibility.
 - [MODS 3.8 schema](https://www.loc.gov/standards/mods/v3/mods-3-8.xsd): retrieval attempted, returned 403; no target-schema validation claimed.
@@ -68,3 +69,7 @@ Registration requires a unique name, callable and explicit limitation. It never 
 ## Tests
 
 `tests/test_transforms.py` checks exact JSON round trip with repeats and combining characters; safe HTML/XML escaping; KORMARC-specific responsibility mapping; long-form CSV ordering and embedded newlines; extension collision handling; JSON unknown-property rejection; unsupported BIBFRAME rejection; and XSLT/Python display parity. Fixtures are synthetic and have no copied catalog records.
+
+## Audit clarification (2026-09-17)
+
+The 245 second indicator is not a MARC 21 nonfiling-character count. Parentheses and title text remain unchanged. Parallel titles are exported as alternative MODS titles without inferring language or translation relationships. `$d`/`$e` notes do not retain their association with each repeated work in this subset. A record with `$k`/`$f` and no `$a` is not rejected merely for lacking `$a`; DC/MODS still omit these collection-title elements. The generic XML/JSON transport retains them.

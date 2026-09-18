@@ -7,6 +7,7 @@ import io
 import json
 from collections.abc import Callable, Iterable, Mapping
 from dataclasses import asdict, is_dataclass
+from functools import lru_cache
 from typing import Any
 
 from lxml import etree
@@ -16,20 +17,16 @@ from .model import ControlField, DataField, Record, Subfield
 DC = "http://purl.org/dc/elements/1.1/"
 OAI_DC = "http://www.openarchives.org/OAI/2.0/oai_dc/"
 MODS = "http://www.loc.gov/mods/v3"
-LABELS = {
-    "001": "제어번호",
-    "005": "최종처리일시",
-    "008": "부호화정보필드",
-    "020": "국제표준도서번호",
-    "100": "기본표목: 개인명",
-    "245": "표제와 책임표시사항",
-    "250": "판사항",
-    "260": "발행사항",
-    "300": "형태사항",
-    "500": "일반주기",
-    "650": "주제명",
-    "700": "부출표목: 개인명",
-}
+
+
+@lru_cache(maxsize=1)
+def _field_labels() -> dict[str, str]:
+    # Share the audited registry; presentation must not maintain a second taxonomy.
+    from .validation import load_registry
+
+    return {
+        tag: spec["label"] for tag, spec in load_registry()["fields"].items() if "label" in spec
+    }
 
 
 def values(record: Record, tags: tuple[str, ...], codes: str) -> list[str]:
@@ -140,7 +137,7 @@ def to_html(record: Record) -> str:
     for field in record.fields:
         tr = etree.SubElement(table, "tr")
         etree.SubElement(tr, "td").text = field.tag
-        etree.SubElement(tr, "td").text = LABELS.get(
+        etree.SubElement(tr, "td").text = _field_labels().get(
             field.tag, "로컬 필드" if field.tag.startswith("9") else "필드"
         )
         etree.SubElement(tr, "td").text = (
@@ -188,11 +185,32 @@ def _xml(root: Any) -> str:
     return etree.tostring(root, encoding="unicode", pretty_print=True)
 
 
+def _title_groups(field: DataField) -> list[list[Subfield]]:
+    """Keep repeated 245$a works distinct; $x is a complete parallel title.
+
+    A parallel title does not absorb later $n/$p: those belong to the
+    current main title. Responsibility associations remain lossy in exports.
+    """
+    groups: list[list[Subfield]] = []
+    main: list[Subfield] | None = None
+    for sub in field.subfields:
+        if sub.code == "a":
+            main = [sub]
+            groups.append(main)
+        elif sub.code == "x":
+            groups.append([sub])
+        elif sub.code in "bnp":
+            if main is None:
+                main = []
+                groups.append(main)
+            main.append(sub)
+    return groups
+
+
 def to_dc(record: Record) -> str:
     """Conservative, lossy simple Dublin Core. No inferred names from 245$d/e."""
     root = etree.Element(f"{{{OAI_DC}}}dc", nsmap={"oai_dc": OAI_DC, "dc": DC})
     mappings = [
-        ("title", ("245",), "abnp"),
         ("creator", ("100", "110", "111"), "a"),
         ("contributor", ("700", "710", "711"), "a"),
         ("publisher", ("260",), "b"),
@@ -200,6 +218,10 @@ def to_dc(record: Record) -> str:
         ("description", ("500", "520"), "a"),
         ("identifier", ("020", "022"), "a"),
     ]
+    for field in record.get_fields("245"):
+        if isinstance(field, DataField):
+            for group in _title_groups(field):
+                etree.SubElement(root, f"{{{DC}}}title").text = " ".join(sub.value for sub in group)
     for name, tags, codes in mappings:
         for f in record.get_fields(*tags):
             if isinstance(f, DataField):
@@ -224,13 +246,20 @@ def to_mods(record: Record) -> str:
 
     for f in record.get_fields("245"):
         if isinstance(f, DataField):
-            title = child(root, "titleInfo")
-            for s in f.subfields:
-                if s.code in "abnp":
+            for group in _title_groups(f):
+                attrs = {"type": "alternative"} if group[0].code == "x" else {}
+                title = child(root, "titleInfo", **attrs)
+                for sub in group:
                     child(
                         title,
-                        {"a": "title", "b": "subTitle", "n": "partNumber", "p": "partName"}[s.code],
-                        s.value,
+                        {
+                            "a": "title",
+                            "x": "title",
+                            "b": "subTitle",
+                            "n": "partNumber",
+                            "p": "partName",
+                        }[sub.code],
+                        sub.value,
                     )
             for s in f.subfields:
                 if s.code in "de":

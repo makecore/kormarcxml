@@ -55,3 +55,7 @@ an upstream asset under the project license merely because it is publicly
 downloadable or hosted by a government institution. If reuse terms remain
 unclear, keep a reference or user-supplied local-file option instead of vendoring
 the asset. Never fetch schemas/DTDs from instance-provided URLs during parsing.
+
+## 2026-09-17 audit update
+
+Direct NLK HTML retrieval now works through a standard HTTP client. `research/source-inventory.json` records each source hash and access result, while `research/field-catalog.json` contains technical summary facts and XML paths. This supersedes the initial excerpt-only access limitation, but does not establish review of every semantic rule. Raw official HTML is excluded from Git; source explanatory prose is not redistributed. `research/verified-rules.json` remains the historical initial evidence ledger. See [audit](audit.md).
