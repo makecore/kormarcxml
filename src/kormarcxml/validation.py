@@ -44,6 +44,55 @@ def _bundled_registry() -> dict[str, Any]:
     materials = json.loads(material_path.read_text(encoding="utf-8"))
     for tag, rules in materials["fields"].items():
         registry["fields"][tag].setdefault("rules", []).extend(rules)
+    # Provisional project policy, not an authoritative resolution of the source conflict.
+    for held in materials["held_for_review"]:
+        for tag, start, when in [
+            ("008", held["position"], {"leader": held["leader"]}),
+            ("006", held["auxiliary_position"], {"value_codes": held["auxiliary_codes"]}),
+        ]:
+            registry["fields"][tag].setdefault("rules", []).append(
+                {
+                    "id": f"decision.KX-001.{tag}.{held['material']}",
+                    "start": start,
+                    "end": start + 1,
+                    "optional": True,
+                    "when": when,
+                    "forbidden": ["|"],
+                    "severity": "warning",
+                    "source": held["source"],
+                    "message": "Form-of-item fill retained pending authoritative interpretation (KX-001)",
+                    "remediation": "Review docs/expert-decisions.md; do not automatically replace the value",
+                }
+            )
+    registry["fields"]["240"]["subfields"]["2"]["repetition_review"] = "KX-002"
+    relationship_path = files("kormarcxml").joinpath("resources/rules/relationships.json")
+    relationships = json.loads(relationship_path.read_text(encoding="utf-8"))
+    registry["record_rules"] = relationships["record_rules"]
+    for tag, rules in relationships["field_rules"].items():
+        registry["fields"][tag].setdefault("rules", []).extend(rules)
+    code_path = files("kormarcxml").joinpath("resources/rules/code-tables.json")
+    tables = json.loads(code_path.read_text(encoding="utf-8"))["tables"]
+    for name, start, end, special in [
+        ("country", 15, 18, []),
+        ("university", 26, 28, ["  ", "||"]),
+        ("language", 35, 38, ["   ", "|||", "mul", "sgn", "und", "zxx"]),
+        ("government", 38, 40, ["  ", "||"]),
+    ]:
+        table = tables[name]
+        values = [code.ljust(3) if name == "country" else code for code in table["codes"]]
+        rule = {
+            "id": f"code-table.008.{name}",
+            "start": start,
+            "end": end,
+            "values": sorted(set(values + special)),
+            "severity": "warning",
+            "source": table["source"],
+            "message": f"Value is absent from the pinned {name} code snapshot; verify the official table and record date",
+            "remediation": "Review the source and code-table policy; no automatic replacement is performed",
+        }
+        if name in ("university", "government"):
+            rule["when"] = {"leader_not": {"6": ["w"]}}
+        registry["fields"]["008"].setdefault("rules", []).append(rule)
     return registry
 
 
@@ -92,6 +141,7 @@ def coverage(profile: str | Path | dict | None = None) -> dict:
         "complete": False,
         "fields": sorted(registry["fields"]),
         "leader_rules": len(registry.get("leader", [])),
+        "record_rules": len(registry.get("record_rules", [])),
         "field_rules": sum(field_counts.values()),
         "field_rule_counts": field_counts,
         "fields_without_constraints": sorted(
@@ -143,6 +193,11 @@ def validate(
         if any(
             record.leader[int(position) : int(position) + 1] not in allowed
             for position, allowed in when.get("leader", {}).items()
+        ):
+            return
+        if any(
+            record.leader[int(position) : int(position) + 1] in excluded
+            for position, excluded in when.get("leader_not", {}).items()
         ):
             return
         start = rule.get("start", 0)
@@ -201,6 +256,42 @@ def validate(
             emit(f"field.{tag}.required", f"Required field {tag} is absent", tag=tag)
         if specification.get("repeatable") is False and counts[tag] > 1:
             emit(f"field.{tag}.repeatability", f"Field {tag} is not repeatable", tag=tag)
+
+    def has_target(target: dict) -> bool:
+        for candidate in record.get_fields(target["tag"]):
+            if "subfield" not in target:
+                return True
+            if isinstance(candidate, DataField) and any(
+                sub.code == target["subfield"] for sub in candidate.subfields
+            ):
+                return True
+        return False
+
+    for rule in registry.get("record_rules", []):
+        if rule.get("level", 3) > level:
+            continue
+        condition = rule["when"]
+        for occurrence, field in enumerate(record.get_fields(condition["tag"]), start=1):
+            if not isinstance(field, ControlField):
+                continue
+            if len(field.value) < condition["end"]:
+                continue  # The fixed-field length check diagnoses truncated input.
+            part = field.value[condition["start"] : condition["end"]]
+            if part not in condition["values"]:
+                continue
+            missing = any(not has_target(t) for t in rule.get("requires", []))
+            forbidden = any(has_target(t) for t in rule.get("forbids", []))
+            if missing or forbidden:
+                emit(
+                    rule["id"],
+                    rule["message"],
+                    rule.get("severity", "error"),
+                    tag=field.tag,
+                    occurrence=occurrence,
+                    position=condition["start"],
+                    remediation=rule.get("remediation"),
+                )
+
     occurrences: Counter = Counter()
     for field in record.fields:
         occurrences[field.tag] += 1
@@ -276,6 +367,15 @@ def validate(
                             **context,
                         )
             for code, subrules in subspecs.items():
+                if level >= 3 and subrules.get("repetition_review") and subcounts[code] > 1:
+                    emit(
+                        f"decision.{subrules['repetition_review']}",
+                        "Repeated subfield retained; repeatability awaits authoritative confirmation",
+                        "warning",
+                        subfield=code,
+                        remediation="Review docs/expert-decisions.md; preserve repeated values",
+                        **context,
+                    )
                 if subrules.get("repeatable") is False and subcounts[code] > 1:
                     emit(
                         f"field.{field.tag}.subfield.{code}.repeatability",

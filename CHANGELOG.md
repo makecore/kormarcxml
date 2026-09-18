@@ -1,5 +1,11 @@
 ## Unreleased — official-source audit
 
+- Apply user-approved provisional policies: preserve disputed form-of-item fill and repeated 240$2 with review warnings; retain confirmed error checks. Record rationale, scope, and pending final decisions for all five items.
+
+- Add source-backed 008/040/890 dependencies and country-position fill prohibition.
+- Add advisory membership checks for four pinned national code tables; retain unresolved tokens without certifying active-code validity.
+- Track five pending expert decisions separately from transport coverage.
+
 - Add 60 selected 006/008 single-position checks with source-defined material selectors; hold conflicting form-of-item fill rules for authoritative review.
 
 - Add 104 material-specific 007 checks across 16 categories, including optional electronic-resource trailing positions.

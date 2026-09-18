@@ -1597,48 +1597,147 @@
     {
       "material": "BK",
       "position": 23,
+      "leader": {
+        "6": [
+          "a",
+          "t"
+        ],
+        "7": [
+          "a",
+          "c",
+          "d",
+          "m"
+        ]
+      },
+      "auxiliary_codes": [
+        "a",
+        "t"
+      ],
+      "auxiliary_position": 6,
       "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_2.html",
       "reason": "Overview prohibits fill; material detail permits it. Needs authoritative reconciliation."
     },
     {
       "material": "ER",
       "position": 23,
+      "leader": {
+        "6": [
+          "m"
+        ]
+      },
+      "auxiliary_codes": [
+        "m"
+      ],
+      "auxiliary_position": 6,
       "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_3.html",
       "reason": "Overview prohibits fill; material detail permits it. Needs authoritative reconciliation."
     },
     {
       "material": "MP",
       "position": 29,
+      "leader": {
+        "6": [
+          "e",
+          "f"
+        ]
+      },
+      "auxiliary_codes": [
+        "e",
+        "f"
+      ],
+      "auxiliary_position": 9,
       "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_4.html",
       "reason": "Overview prohibits fill; material detail permits it. Needs authoritative reconciliation."
     },
     {
       "material": "MU",
       "position": 23,
+      "leader": {
+        "6": [
+          "c",
+          "d",
+          "i",
+          "j"
+        ]
+      },
+      "auxiliary_codes": [
+        "c",
+        "d",
+        "i",
+        "j"
+      ],
+      "auxiliary_position": 6,
       "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_5.html",
       "reason": "Overview prohibits fill; material detail permits it. Needs authoritative reconciliation."
     },
     {
       "material": "CR",
       "position": 23,
+      "leader": {
+        "6": [
+          "a"
+        ],
+        "7": [
+          "b",
+          "i",
+          "s"
+        ]
+      },
+      "auxiliary_codes": [
+        "s"
+      ],
+      "auxiliary_position": 6,
       "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_6.html",
       "reason": "Overview prohibits fill; material detail permits it. Needs authoritative reconciliation."
     },
     {
       "material": "VM",
       "position": 29,
+      "leader": {
+        "6": [
+          "g",
+          "k",
+          "r",
+          "o"
+        ]
+      },
+      "auxiliary_codes": [
+        "g",
+        "k",
+        "r",
+        "o"
+      ],
+      "auxiliary_position": 9,
       "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_7.html",
       "reason": "Overview prohibits fill; material detail permits it. Needs authoritative reconciliation."
     },
     {
       "material": "RB",
       "position": 23,
+      "leader": {
+        "6": [
+          "w"
+        ]
+      },
+      "auxiliary_codes": [
+        "w"
+      ],
+      "auxiliary_position": 6,
       "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_8.html",
       "reason": "Overview prohibits fill; material detail permits it. Needs authoritative reconciliation."
     },
     {
       "material": "MX",
       "position": 23,
+      "leader": {
+        "6": [
+          "p"
+        ]
+      },
+      "auxiliary_codes": [
+        "p"
+      ],
+      "auxiliary_position": 6,
       "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/00X_008_9.html",
       "reason": "Overview prohibits fill; material detail permits it. Needs authoritative reconciliation."
     }
