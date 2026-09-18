@@ -44,6 +44,27 @@ def _bundled_registry() -> dict[str, Any]:
     materials = json.loads(material_path.read_text(encoding="utf-8"))
     for tag, rules in materials["fields"].items():
         registry["fields"][tag].setdefault("rules", []).extend(rules)
+    # Provisional project policy, not an authoritative resolution of the source conflict.
+    for held in materials["held_for_review"]:
+        for tag, start, when in [
+            ("008", held["position"], {"leader": held["leader"]}),
+            ("006", held["auxiliary_position"], {"value_codes": held["auxiliary_codes"]}),
+        ]:
+            registry["fields"][tag].setdefault("rules", []).append(
+                {
+                    "id": f"decision.KX-001.{tag}.{held['material']}",
+                    "start": start,
+                    "end": start + 1,
+                    "optional": True,
+                    "when": when,
+                    "forbidden": ["|"],
+                    "severity": "warning",
+                    "source": held["source"],
+                    "message": "Form-of-item fill retained pending authoritative interpretation (KX-001)",
+                    "remediation": "Review docs/expert-decisions.md; do not automatically replace the value",
+                }
+            )
+    registry["fields"]["240"]["subfields"]["2"]["repetition_review"] = "KX-002"
     relationship_path = files("kormarcxml").joinpath("resources/rules/relationships.json")
     relationships = json.loads(relationship_path.read_text(encoding="utf-8"))
     registry["record_rules"] = relationships["record_rules"]
@@ -346,6 +367,15 @@ def validate(
                             **context,
                         )
             for code, subrules in subspecs.items():
+                if level >= 3 and subrules.get("repetition_review") and subcounts[code] > 1:
+                    emit(
+                        f"decision.{subrules['repetition_review']}",
+                        "Repeated subfield retained; repeatability awaits authoritative confirmation",
+                        "warning",
+                        subfield=code,
+                        remediation="Review docs/expert-decisions.md; preserve repeated values",
+                        **context,
+                    )
                 if subrules.get("repeatable") is False and subcounts[code] > 1:
                     emit(
                         f"field.{field.tag}.subfield.{code}.repeatability",
