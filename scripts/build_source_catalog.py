@@ -4,12 +4,22 @@ This is an audit candidate catalog, not an automatically activated validator.
 """
 
 import json
+import hashlib
 from pathlib import Path
 import re
 
 from lxml import html
 
 BASE = "https://librarian.nl.go.kr/kormarc/KSX6006-0/"
+
+
+# Explicitly reviewed punctuation defects, not a permissive marker parser.
+# Exact text guards prevent a changed upstream definition inheriting a stale fix.
+REVIEWED_MARKERS = {
+    ("031", "s"): "유효성 검증 주기 [반복",
+    ("377", "l"): "언어 용어 반복]",
+    ("610", "n"): "권차/편차/회차 [반복}",
+}
 
 
 def text(node):
@@ -91,9 +101,29 @@ def extract(path):
                 entry["context_dependent"] = True
             elif repeat:
                 entry["repeatable"] = repeat.group(1) == "반복"
+            elif REVIEWED_MARKERS.get((tag, c)) == tail:
+                entry["repeatable"] = True
+                entry["label"] = re.sub(r"\s*[［\[]?반복[］\]}]?\s*$", "", tail).strip()
+                entry["review"] = {
+                    "status": "reviewed-explicit-word; malformed-bracket",
+                    "source_marker": tail,
+                    "source_sha256": hashlib.sha256(path.read_bytes()).hexdigest(),
+                    "reason": "The explicit repetition word is intact; only its enclosing punctuation is malformed.",
+                    "scope": "summary repetition marker only; no prose certification",
+                }
             else:
                 unresolved.append({"code": c, "reason": "Missing or malformed repetition marker"})
             subs[c] = entry
+    overrides = json.loads(
+        (Path(__file__).resolve().parents[1] / "research/source-overrides.json").read_text(
+            encoding="utf-8"
+        )
+    )["fields"].get(tag)
+    if overrides and hashlib.sha256(path.read_bytes()).hexdigest() == overrides["source_sha256"]:
+        for c, patch in overrides["subfields"].items():
+            entry = subs.setdefault(c, {"xml": result["xml"] + f"/m:subfield[@code='{c}']"})
+            entry.update(patch)
+            entry["review"]["source_sha256"] = overrides["source_sha256"]
     result["subfields"] = subs
     result["unresolved_summary_items"] = unresolved
     return result

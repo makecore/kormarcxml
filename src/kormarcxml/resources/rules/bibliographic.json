@@ -826,6 +826,17 @@
         "8": {
           "label": "필드 링크와 일련번호",
           "repeatable": true
+        },
+        "2": {
+          "label": "정보원",
+          "repeatable": null,
+          "review": {
+            "status": "provisional-source-conflict",
+            "decision_id": "KX-006",
+            "reason": "Subfield 2 is defined in prose and 2013 change history but omitted from summary; repetition unspecified.",
+            "source_sha256": "2e35d83f642f75b50a3dc6b486d7648a94ae14b22fe4c21fe6e9d34511427297"
+          },
+          "repetition_review": "KX-006"
         }
       },
       "unresolved_summary_items": [],
@@ -1104,7 +1115,15 @@
           "repeatable": false
         },
         "s": {
-          "label": "유효성 검증 주기"
+          "label": "유효성 검증 주기",
+          "repeatable": true,
+          "review": {
+            "status": "reviewed-explicit-word; malformed-bracket",
+            "source_marker": "유효성 검증 주기 [반복",
+            "source_sha256": "7f05b63153a37e54b3bdc14933bfe13ba362d9b6316c8457d010b6c8deb2a593",
+            "reason": "The explicit repetition word is intact; only its enclosing punctuation is malformed.",
+            "scope": "summary repetition marker only; no prose certification"
+          }
         },
         "t": {
           "label": "첫 구절",
@@ -1135,12 +1154,7 @@
           "repeatable": true
         }
       },
-      "unresolved_summary_items": [
-        {
-          "code": "s",
-          "reason": "Missing or malformed repetition marker"
-        }
-      ],
+      "unresolved_summary_items": [],
       "application_levels": {
         "full": "O",
         "minimal": "-",
@@ -1153,7 +1167,8 @@
         "2": [
           " "
         ]
-      }
+      },
+      "closed_subfields": true
     },
     "032": {
       "label": "우편물등기번호(Postal Registration Number)",
@@ -1358,7 +1373,14 @@
         },
         "2": {
           "label": "정보원",
-          "repeatable": false
+          "repeatable": null,
+          "review": {
+            "status": "provisional-source-conflict",
+            "decision_id": "KX-007",
+            "reason": "Summary says nonrepeatable but prose permits repetition for multiple sources.",
+            "source_sha256": "9f2419b549213358035d51b2169fd357d30b707cdb503e6025ebc441cf1001d2"
+          },
+          "repetition_review": "KX-007"
         },
         "3": {
           "label": "자료 범위지정",
@@ -6374,7 +6396,15 @@
           "repeatable": true
         },
         "l": {
-          "label": "언어 용어 반복]"
+          "label": "언어 용어",
+          "repeatable": true,
+          "review": {
+            "status": "reviewed-explicit-word; malformed-bracket",
+            "source_marker": "언어 용어 반복]",
+            "source_sha256": "0832ecca02f86c41a311603865b4385a620b52da2b222340638babda0ca70fe4",
+            "reason": "The explicit repetition word is intact; only its enclosing punctuation is malformed.",
+            "scope": "summary repetition marker only; no prose certification"
+          }
         },
         "0": {
           "label": "전거레코드 제어번호 또는 표준번호",
@@ -6401,12 +6431,7 @@
           "repeatable": true
         }
       },
-      "unresolved_summary_items": [
-        {
-          "code": "l",
-          "reason": "Missing or malformed repetition marker"
-        }
-      ],
+      "unresolved_summary_items": [],
       "application_levels": {
         "full": "O",
         "minimal": "-",
@@ -6420,7 +6445,8 @@
           " ",
           "7"
         ]
-      }
+      },
+      "closed_subfields": true
     },
     "380": {
       "label": "저작의 형식",
@@ -7234,8 +7260,15 @@
           "repeatable": true
         },
         "0": {
-          "label": "학위논문 식별자",
-          "repeatable": true
+          "label": "학위논문 식별자 (요약; 본문은 $o)",
+          "repeatable": null,
+          "review": {
+            "status": "provisional-source-conflict",
+            "decision_id": "KX-008",
+            "reason": "Summary uses digit 0; prose/example/change history use letter o.",
+            "source_sha256": "44f6db51f7c18f5a49b589cacb392f8d90e9abe6e11faac295dccc405c769b3b"
+          },
+          "review_usage": "KX-008"
         },
         "6": {
           "label": "대체문자 연결",
@@ -7244,6 +7277,17 @@
         "8": {
           "label": "필드 링크와 일련번호",
           "repeatable": true
+        },
+        "o": {
+          "label": "학위논문 식별자",
+          "repeatable": null,
+          "review": {
+            "status": "provisional-source-conflict",
+            "decision_id": "KX-008",
+            "reason": "Summary uses digit 0; prose/example/change history use letter o.",
+            "source_sha256": "44f6db51f7c18f5a49b589cacb392f8d90e9abe6e11faac295dccc405c769b3b"
+          },
+          "review_usage": "KX-008"
         }
       },
       "unresolved_summary_items": [],
@@ -9684,7 +9728,15 @@
           "repeatable": true
         },
         "c": {
-          "label": "업무용 주기"
+          "label": "처리 시기 / 업무용 주기 (요약 충돌)",
+          "repeatable": null,
+          "review": {
+            "status": "provisional-source-conflict",
+            "decision_id": "KX-009",
+            "reason": "Summary duplicates c and labels x as public note; prose defines x staff note and z public note.",
+            "source_sha256": "e54b7a4e794b7b5b7b72bc32bc132a2c67f7435fe90b3138e7a6bf83a96e447d"
+          },
+          "review_usage": "KX-009"
         },
         "d": {
           "label": "처리 간격",
@@ -9731,8 +9783,15 @@
           "repeatable": true
         },
         "x": {
-          "label": "이용자용 주기",
-          "repeatable": true
+          "label": "업무용 주기 (본문) / 이용자용 주기 (요약)",
+          "repeatable": null,
+          "review": {
+            "status": "provisional-source-conflict",
+            "decision_id": "KX-009",
+            "reason": "Summary duplicates c and labels x as public note; prose defines x staff note and z public note.",
+            "source_sha256": "e54b7a4e794b7b5b7b72bc32bc132a2c67f7435fe90b3138e7a6bf83a96e447d"
+          },
+          "review_usage": "KX-009"
         },
         "2": {
           "label": "용어의 정보원",
@@ -9753,6 +9812,17 @@
         "8": {
           "label": "필드 링크와 일련번호",
           "repeatable": true
+        },
+        "z": {
+          "label": "이용자용 주기",
+          "repeatable": null,
+          "review": {
+            "status": "provisional-source-conflict",
+            "decision_id": "KX-009",
+            "reason": "Summary duplicates c and labels x as public note; prose defines x staff note and z public note.",
+            "source_sha256": "e54b7a4e794b7b5b7b72bc32bc132a2c67f7435fe90b3138e7a6bf83a96e447d"
+          },
+          "review_usage": "KX-009"
         }
       },
       "unresolved_summary_items": [],
@@ -10220,7 +10290,15 @@
           "repeatable": true
         },
         "n": {
-          "label": "권차/편차/회차"
+          "label": "권차/편차/회차",
+          "repeatable": true,
+          "review": {
+            "status": "reviewed-explicit-word; malformed-bracket",
+            "source_marker": "권차/편차/회차 [반복}",
+            "source_sha256": "12f26d1cb3b22f5a5ed6e25a99c86a8ff6627b8704fe4d8aaf85ac618bea9f86",
+            "reason": "The explicit repetition word is intact; only its enclosing punctuation is malformed.",
+            "scope": "summary repetition marker only; no prose certification"
+          }
         },
         "o": {
           "label": "편곡",
@@ -10291,12 +10369,7 @@
           "repeatable": true
         }
       },
-      "unresolved_summary_items": [
-        {
-          "code": "n",
-          "reason": "Missing or malformed repetition marker"
-        }
-      ],
+      "unresolved_summary_items": [],
       "application_levels": {
         "full": "A",
         "minimal": "-",
@@ -10315,7 +10388,8 @@
           "7",
           "8"
         ]
-      }
+      },
+      "closed_subfields": true
     },
     "611": {
       "label": "주제명부출표목 - 회의명",
@@ -16049,8 +16123,15 @@
       "obligation_marker": "해당시필수",
       "subfields": {
         "a": {
-          "label": "문자를 빈칸(b/)으로 입력한 경우",
-          "repeatable": true
+          "label": "빈칸 대체 (요약; 본문은 $b)",
+          "repeatable": null,
+          "review": {
+            "status": "provisional-source-conflict",
+            "decision_id": "KX-010",
+            "reason": "Summary uses a for blank replacement; prose defines b.",
+            "source_sha256": "5449aec1206f42ab109aa5031be2a5eaa70d0dde76ffb9f6e7e725c6b53794a6"
+          },
+          "review_usage": "KX-010"
         },
         "h": {
           "label": "한자를 한글로 입력한 경우",
@@ -16067,6 +16148,17 @@
         "x": {
           "label": "한자 이외의 문자를 한글로 변형 입력한 경우",
           "repeatable": true
+        },
+        "b": {
+          "label": "빈칸 대체 (본문)",
+          "repeatable": null,
+          "review": {
+            "status": "provisional-source-conflict",
+            "decision_id": "KX-010",
+            "reason": "Summary uses a for blank replacement; prose defines b.",
+            "source_sha256": "5449aec1206f42ab109aa5031be2a5eaa70d0dde76ffb9f6e7e725c6b53794a6"
+          },
+          "review_usage": "KX-010"
         }
       },
       "unresolved_summary_items": [],

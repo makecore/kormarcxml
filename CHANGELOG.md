@@ -1,5 +1,8 @@
 ## Unreleased — official-source audit
 
+- Integrate 72 additional fixed-field detail constraints, reviewed source-summary repairs, and provisional 022/034 source conflicts.
+- Add field audit worklist and cache-driven official HTML example transport verification, explicitly separated from production ISO validation.
+
 - Apply user-approved provisional policies: preserve disputed form-of-item fill and repeated 240$2 with review warnings; retain confirmed error checks. Record rationale, scope, and pending final decisions for all five items.
 
 - Add source-backed 008/040/890 dependencies and country-position fill prohibition.

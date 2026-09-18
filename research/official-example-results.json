@@ -1,0 +1,97 @@
+{
+  "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_d.html",
+  "source_sha256": "a36094888627651ca7efc423d1d94824cce08fefbbb8f8471ac9897ecbb5ab05",
+  "generator": "scripts/verify_official_examples.py",
+  "include_hidden": true,
+  "source_contains_complete_iso_records": false,
+  "source_contains_leader_directory": false,
+  "synthetic_leader": "00000nam a2200000   4500",
+  "production_sample_verification": "not-performed-no-production-ISO-bytes-supplied",
+  "original_iso_byte_equality": "not-testable-no-original-ISO-bytes",
+  "normalization": "none; only displayed b/ indicators decoded to spaces",
+  "collection_round_trip_records": 6,
+  "groups": [
+    {
+      "group": 1,
+      "hidden_in_source": true,
+      "status": "unparseable-without-editorial-repair",
+      "reason": "Displayed field must explicitly contain two indicators and subfields"
+    },
+    {
+      "group": 2,
+      "hidden_in_source": true,
+      "status": "transport-passed-with-synthetic-leader",
+      "fields": 18,
+      "schema_valid": true,
+      "codepoints_order_indicators_preserved": true,
+      "generated_iso_bytes_equal": true,
+      "semantic_issue_counts": {},
+      "semantic_certification": false,
+      "placeholder_text_present": true
+    },
+    {
+      "group": 3,
+      "hidden_in_source": true,
+      "status": "transport-passed-with-synthetic-leader",
+      "fields": 13,
+      "schema_valid": true,
+      "codepoints_order_indicators_preserved": true,
+      "generated_iso_bytes_equal": true,
+      "semantic_issue_counts": {},
+      "semantic_certification": false,
+      "placeholder_text_present": true
+    },
+    {
+      "group": 4,
+      "hidden_in_source": true,
+      "status": "transport-passed-with-synthetic-leader",
+      "fields": 6,
+      "schema_valid": true,
+      "codepoints_order_indicators_preserved": true,
+      "generated_iso_bytes_equal": true,
+      "semantic_issue_counts": {},
+      "semantic_certification": false,
+      "placeholder_text_present": false
+    },
+    {
+      "group": 5,
+      "hidden_in_source": true,
+      "status": "transport-passed-with-synthetic-leader",
+      "fields": 13,
+      "schema_valid": true,
+      "codepoints_order_indicators_preserved": true,
+      "generated_iso_bytes_equal": true,
+      "semantic_issue_counts": {
+        "coverage.unverified-field": 1
+      },
+      "semantic_certification": false,
+      "placeholder_text_present": false
+    },
+    {
+      "group": 6,
+      "hidden_in_source": true,
+      "status": "transport-passed-with-synthetic-leader",
+      "fields": 13,
+      "schema_valid": true,
+      "codepoints_order_indicators_preserved": true,
+      "generated_iso_bytes_equal": true,
+      "semantic_issue_counts": {
+        "field.066.subfield.c.repeatability": 1
+      },
+      "semantic_certification": false,
+      "placeholder_text_present": true
+    },
+    {
+      "group": 7,
+      "hidden_in_source": true,
+      "status": "transport-passed-with-synthetic-leader",
+      "fields": 10,
+      "schema_valid": true,
+      "codepoints_order_indicators_preserved": true,
+      "generated_iso_bytes_equal": true,
+      "semantic_issue_counts": {},
+      "semantic_certification": false,
+      "placeholder_text_present": true
+    }
+  ]
+}

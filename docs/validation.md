@@ -108,4 +108,6 @@ The bundled registry composes `bibliographic.json` with `physical.json`. The lat
 
 ## Material-specific 006/008 subset
 
+The composed registry now also loads `fixed-details.json`: 72 additional checks for selected multi-position blocks, atomic pairs, undefined positions, bit depth, reduction ratio, and runtime. See [the detail audit](fixed-detail-audit.md). The source-conflict overrides for 022$2 and 034$2 preserve data and emit repetition review warnings. They are hash-pinned in `research/source-overrides.json`, not assertions that the official text has been amended.
+
 `materials.json` adds 30 source-linked single-position checks for 008 and 30 corresponding 006 checks. Selection uses the official leader/06 and /07 criteria; 006 selects its own material independently through /00. The `when.leader` position map and `when.value_codes` operators express these conditions. Multi-position combinations and full prose dependencies are not implemented. Form-of-item positions are intentionally held for review because the overview and detailed pages conflict about fill characters. See the audit for the exact source conflict.

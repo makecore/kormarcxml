@@ -6,9 +6,9 @@ import pytest
 from kormarcxml import Record, ControlField, DataField, Subfield
 from kormarcxml.validation import validate
 
-HELD = json.loads(files("kormarcxml").joinpath("resources/rules/materials.json").read_text())[
-    "held_for_review"
-]
+HELD = json.loads(
+    files("kormarcxml").joinpath("resources/rules/materials.json").read_text(encoding="utf-8")
+)["held_for_review"]
 
 
 @pytest.mark.parametrize("held", HELD, ids=lambda h: h["material"])
