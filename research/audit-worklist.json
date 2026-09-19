@@ -3802,7 +3802,7 @@
       "xml_mapping": "m:record/m:datafield[@tag='880']",
       "definition_scope": "bibliographic",
       "summary_status": "summary-extracted; prose review pending",
-      "executable_assertion_templates": 2,
+      "executable_assertion_templates": 1,
       "explicit_content_rule_ids": [],
       "transport_test_module": "tests/test_catalog_transport.py",
       "full_prose_review": "not-complete",

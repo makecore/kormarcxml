@@ -18,6 +18,7 @@ import re
 from typing import Any
 
 from .errors import Issue
+from .linkage import validate_linkage
 from .model import ControlField, DataField, Record
 
 Validator = Callable[[Record], Iterable[Issue]]
@@ -61,6 +62,12 @@ def _bundled_registry() -> dict[str, Any]:
     dependencies = json.loads(dependencies_path.read_text(encoding="utf-8"))
     for tag, rules in dependencies["fields"].items():
         registry["fields"][tag].setdefault("dependencies", []).extend(rules)
+    linkage_path = files("kormarcxml").joinpath("resources/rules/linkage.json")
+    registry["linkage"] = json.loads(linkage_path.read_text(encoding="utf-8"))
+    # The conflicting repeated examples are specifically 880 aliases.
+    six = registry["fields"]["880"]["subfields"]["6"]
+    six.pop("repeatable", None)
+    six["repetition_review"] = registry["linkage"]["repetition_review"]
     # Provisional project policy, not an authoritative resolution of the source conflict.
     for held in materials["held_for_review"]:
         for tag, start, when in [
@@ -160,6 +167,7 @@ def coverage(profile: str | Path | dict | None = None) -> dict:
         "fields": sorted(registry["fields"]),
         "leader_rules": len(registry.get("leader", [])),
         "record_rules": len(registry.get("record_rules", [])),
+        "linkage_rules": len(registry.get("linkage", {}).get("rules", {})),
         "field_rules": sum(field_counts.values()),
         "field_rule_counts": field_counts,
         "fields_without_constraints": sorted(
@@ -471,6 +479,8 @@ def validate(
                     )
                 for rule in subspecs.get(sub.code, {}).get("rules", []):
                     check_value(sub.value, rule, subfield=sub.code, **context)
+    if level >= 3:
+        issues.extend(validate_linkage(record, registry["linkage"], registry["fields"]))
     for custom_validator in validators:
         issues.extend(custom_validator(record))
     return issues

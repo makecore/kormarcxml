@@ -1,0 +1,120 @@
+{
+  "sources": [
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_a.html",
+      "sha256": "94489b7b67bf371faf6eb485d12d9fdc42ac12b1993a4c87d6da7822775464f6",
+      "reviewed_on": "2026-09-19"
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/appendix_d.html",
+      "sha256": "a36094888627651ca7efc423d1d94824cce08fefbbb8f8471ac9897ecbb5ab05",
+      "reviewed_on": "2026-09-19"
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/841_89X_880.html",
+      "sha256": "a1f1157b2fa7e4b3b889d7f5e3386eb581fd8b6c84a565b0b51ac6dbf85a97d0",
+      "reviewed_on": "2026-09-19"
+    }
+  ],
+  "six_pattern": "([0-9]{3})-([0-9]{2})(?:/([^/]+)(?:/(r))?)?",
+  "legacy_scripts": [
+    "(3",
+    "(B",
+    "$1",
+    "(N",
+    "(S",
+    "(2"
+  ],
+  "display_scripts": [
+    "▾1"
+  ],
+  "iso_script_pattern": "(?:[A-Za-z]{4}|[0-9]{3})",
+  "eight_pattern": "([0-9]+)(?:\\.([0-9]+))?(?:([\\\\∖])([a-z]))?",
+  "display_separators": [
+    "∖"
+  ],
+  "eight_types": [
+    "a",
+    "c",
+    "p",
+    "r",
+    "u",
+    "x"
+  ],
+  "eight_sequence_types": [
+    "x"
+  ],
+  "eight_excluded_tags": [
+    "852"
+  ],
+  "eight_type_optional_prefixes": [
+    "85",
+    "86",
+    "87"
+  ],
+  "repetition_review": "KX-012",
+  "rules": {
+    "linkage.6.required": {
+      "message": "880 requires linkage subfield 6"
+    },
+    "linkage.6.first": {
+      "message": "Linkage must precede data subfields"
+    },
+    "linkage.6.syntax": {
+      "message": "Expected tag-occurrence[/script[/r]] with three and two ASCII digits"
+    },
+    "linkage.6.script": {
+      "message": "Script identifier is outside the reviewed syntax"
+    },
+    "linkage.6.script-unverified": {
+      "message": "ISO 15924 identifier has the expected shape; code membership has not been verified",
+      "severity": "warning"
+    },
+    "linkage.6.target": {
+      "message": "Regular fields link to 880; 880 links to a regular data field"
+    },
+    "linkage.6.unlinked": {
+      "message": "Occurrence 00 is the unlinked 880 exception"
+    },
+    "linkage.6.alias-conflict": {
+      "message": "Repeated linkage values identify different field sets; review the source conflict",
+      "severity": "warning"
+    },
+    "linkage.6.occurrence-unique": {
+      "message": "Different regular field sets must have different occurrence numbers"
+    },
+    "linkage.6.reciprocal": {
+      "message": "No reciprocal tag and occurrence linkage exists in this record"
+    },
+    "linkage.6.indicators": {
+      "message": "Linked regular and alternate fields must have matching indicators"
+    },
+    "linkage.8.syntax": {
+      "message": "Expected integer[.integer][backslash-type]"
+    },
+    "linkage.8.type-required": {
+      "message": "Link type is required outside the 85X-87X holdings exception"
+    },
+    "linkage.8.type": {
+      "message": "Unknown field link type in the pinned Appendix A definition"
+    },
+    "linkage.8.sequence-required": {
+      "message": "This link type requires a sequence number"
+    },
+    "linkage.8.group-sequence": {
+      "message": "Every subfield 8 in this linking-number group requires a sequence number"
+    },
+    "decision.KX-013": {
+      "message": "CJK display notation retained; confirm its byte representation before interchange",
+      "severity": "warning"
+    },
+    "decision.KX-014": {
+      "message": "Display reverse-solidus retained; confirm its byte representation before interchange",
+      "severity": "warning"
+    },
+    "linkage.6.peer-unverified": {
+      "severity": "warning",
+      "message": "The target field has no reviewed linkage definition in this profile; counterpart verification is incomplete"
+    }
+  }
+}
