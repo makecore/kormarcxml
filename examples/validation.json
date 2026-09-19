@@ -9,5 +9,16 @@
     "subfield": null,
     "position": null,
     "remediation": null
+  },
+  {
+    "severity": "info",
+    "rule_id": "application.applicability-unverified",
+    "message": "Applicability of 87 absent conditional fields cannot be established from absence alone",
+    "record_identifier": "synthetic-001",
+    "tag": null,
+    "occurrence": null,
+    "subfield": null,
+    "position": null,
+    "remediation": null
   }
 ]

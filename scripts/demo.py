@@ -31,8 +31,10 @@ def sample(identifier: str = "synthetic-001", kind: str = "a") -> Record:
         "".join(leader),
         [
             ControlField("001", identifier),
+            ControlField("003", "DEMO"),
             ControlField("005", "20260916090000"),
             ControlField("008", "260916s2026    ulk           000   kor  "),
+            DataField("040", " ", " ", [Subfield("a", "DEMO"), Subfield("c", "DEMO")]),
             DataField(
                 "245",
                 "0",
@@ -62,8 +64,10 @@ def main() -> None:
     out.mkdir(exist_ok=True)
     logical = sample()
     # Construct the fixed field visibly: 40 characters, no implicit truncation.
-    if len(logical.fields[2].value) != 40:
-        raise AssertionError(f"008 fixture has {len(logical.fields[2].value)} characters")
+    if len(logical.get_fields("008")[0].value) != 40:
+        raise AssertionError(
+            f"008 fixture has {len(logical.get_fields('008')[0].value)} characters"
+        )
     raw = encode_record(logical)
     (out / "book.mrc").write_bytes(raw)
     decoded = decode_record(raw)

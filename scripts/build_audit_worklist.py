@@ -36,7 +36,16 @@ def main():
                 "transport_test_module": "tests/test_catalog_transport.py",
                 "full_prose_review": "not-complete",
                 "full_dependency_review": "not-complete",
-                "application_level_enforcement": "metadata-only",
+                "application_level_enforcement": {
+                    name: {
+                        "M": "required-presence",
+                        "A": "conditional-context-required",
+                        "O": "optional",
+                        "-": "no-absence-or-prohibition-inference",
+                    }.get(marker, "unreviewed")
+                    for name, marker in spec.get("application_levels", {}).items()
+                    if name in ("full", "minimal")
+                },
                 "semantic_test_coverage": "partial; no per-clause completion certificate",
             }
         )

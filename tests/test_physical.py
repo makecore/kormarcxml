@@ -6,7 +6,9 @@ from kormarcxml.validation import validate
 
 def issues(value, level=3):
     record = Record("00000nam a2200000   4500", [ControlField("007", value)])
-    return {i.rule_id for i in validate(record, level=level)}
+    return {
+        i.rule_id for i in validate(record, level=level) if not i.rule_id.startswith("application.")
+    }
 
 
 def test_map_length_and_color_are_material_specific():

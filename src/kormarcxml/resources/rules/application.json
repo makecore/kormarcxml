@@ -1,0 +1,54 @@
+{
+  "standard": "KS X 6006-0:2023",
+  "complete": false,
+  "leader_levels": {
+    " ": "full",
+    "7": "minimal"
+  },
+  "applicable_fields": [],
+  "leader_dependencies": [
+    {
+      "id": "application.component.requires-773",
+      "when_leader": {
+        "7": [
+          "a",
+          "b",
+          "d"
+        ]
+      },
+      "requires": [
+        "773"
+      ],
+      "message": "Leader/07 component or subunit requires host-item field 773"
+    },
+    {
+      "id": "application.core.requires-042",
+      "when_leader": {
+        "17": [
+          "4"
+        ]
+      },
+      "requires": [
+        "042"
+      ],
+      "message": "Leader/17 core level requires cataloging-program authentication field 042"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/annex_9.html",
+      "sha256": "9c4282b55e47ed542fbe6b198784042e898cadd191ad7d860e365cb59604877f",
+      "reviewed_on": "2026-09-19"
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/info_004.html",
+      "sha256": "de8b4cd456db0ad6813829c2a7dac3767a3df6520ffe4c5a21a8bd7f199e03f7",
+      "reviewed_on": "2026-09-19"
+    },
+    {
+      "url": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/info_006.html",
+      "sha256": "734c7cfe562c43806de2c47536d56aa0b543e601505ebd567dc4171c954db531",
+      "reviewed_on": "2026-09-19"
+    }
+  ]
+}

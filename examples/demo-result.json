@@ -1,6 +1,6 @@
 {
   "synthetic": true,
-  "single_record_bytes": 370,
+  "single_record_bytes": 414,
   "collection_records": 6,
   "structural_equivalence": true,
   "bibliographic_equivalence": true,
@@ -12,7 +12,7 @@
   "collection_byte_identical": true,
   "schema_errors": 0,
   "partial_profile_errors": 0,
-  "partial_profile_issue_count": 1,
+  "partial_profile_issue_count": 2,
   "recalculated": [
     "leader/00-04",
     "leader/12-16",

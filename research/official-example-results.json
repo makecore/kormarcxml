@@ -25,7 +25,13 @@
       "schema_valid": true,
       "codepoints_order_indicators_preserved": true,
       "generated_iso_bytes_equal": true,
-      "semantic_issue_counts": {},
+      "semantic_issue_counts": {
+        "application.applicability-unverified": 1,
+        "application.full.001.required": 1,
+        "application.full.003.required": 1,
+        "application.full.005.required": 1,
+        "application.full.008.required": 1
+      },
       "semantic_certification": false,
       "placeholder_text_present": true
     },
@@ -37,7 +43,13 @@
       "schema_valid": true,
       "codepoints_order_indicators_preserved": true,
       "generated_iso_bytes_equal": true,
-      "semantic_issue_counts": {},
+      "semantic_issue_counts": {
+        "application.applicability-unverified": 1,
+        "application.full.001.required": 1,
+        "application.full.003.required": 1,
+        "application.full.005.required": 1,
+        "application.full.008.required": 1
+      },
       "semantic_certification": false,
       "placeholder_text_present": true
     },
@@ -49,7 +61,14 @@
       "schema_valid": true,
       "codepoints_order_indicators_preserved": true,
       "generated_iso_bytes_equal": true,
-      "semantic_issue_counts": {},
+      "semantic_issue_counts": {
+        "application.applicability-unverified": 1,
+        "application.full.001.required": 1,
+        "application.full.003.required": 1,
+        "application.full.005.required": 1,
+        "application.full.008.required": 1,
+        "application.full.040.required": 1
+      },
       "semantic_certification": false,
       "placeholder_text_present": false
     },
@@ -62,6 +81,12 @@
       "codepoints_order_indicators_preserved": true,
       "generated_iso_bytes_equal": true,
       "semantic_issue_counts": {
+        "application.applicability-unverified": 1,
+        "application.full.001.required": 1,
+        "application.full.003.required": 1,
+        "application.full.005.required": 1,
+        "application.full.008.required": 1,
+        "application.full.040.required": 1,
         "coverage.unverified-field": 1,
         "linkage.6.peer-unverified": 1
       },
@@ -77,6 +102,11 @@
       "codepoints_order_indicators_preserved": true,
       "generated_iso_bytes_equal": true,
       "semantic_issue_counts": {
+        "application.applicability-unverified": 1,
+        "application.full.001.required": 1,
+        "application.full.003.required": 1,
+        "application.full.005.required": 1,
+        "application.full.008.required": 1,
         "field.066.subfield.c.repeatability": 1
       },
       "semantic_certification": false,
@@ -90,7 +120,13 @@
       "schema_valid": true,
       "codepoints_order_indicators_preserved": true,
       "generated_iso_bytes_equal": true,
-      "semantic_issue_counts": {},
+      "semantic_issue_counts": {
+        "application.applicability-unverified": 1,
+        "application.full.001.required": 1,
+        "application.full.003.required": 1,
+        "application.full.005.required": 1,
+        "application.full.008.required": 1
+      },
       "semantic_certification": false,
       "placeholder_text_present": true
     }

@@ -39,7 +39,7 @@ Direct website opens returned HTTP417, and a container HTTPS request timed out. 
 | 부록B | [entry navigation](https://librarian.nl.go.kr/kormarc/KSX6006-0/index.html) | referenced | role/source-code tables referenced by370 and688; complete tables not retrieved |
 | 부속서 부호표 | [entry navigation](https://librarian.nl.go.kr/kormarc/KSX6006-0/index.html) | navigation | publication-country/university/language/government/domestic-region/foreign-region/country tables seen in navigation; values not audited |
 | 변경 이력 | [3XX_370.html](https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/3XX_370.html) | partial | 370/688 added2022;245/940 filing labels revised2022; no comprehensive delta audit |
-| 필수/선택·적용수준 | [6XX_688.html](https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/6XX_688.html) | partial | conditional requiredness distinguished from unconditional; profile-wide mandatory inventory not verified |
+| 필수/선택·적용수준 | [6XX_688.html](https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/6XX_688.html) | partial | conditional requiredness distinguished from unconditional; annex M presence implemented for Leader/17 blank/7; conditional applicability remains partial (see application-level-audit.md) |
 
 ## Implementation-critical differences from MARC21
 

@@ -35,7 +35,11 @@ def test_repeatable_kormarc_title_and_responsibility_subfields():
             Subfield("d", "박지음"),
         ],
     )
-    assert not [i for i in validate(record(title)) if i.severity == "error"]
+    assert not [
+        i
+        for i in validate(record(title))
+        if i.severity == "error" and not i.rule_id.startswith("application.")
+    ]
     assert "field.245.repeatability" in ids(record(title, title))
 
 
@@ -43,7 +47,11 @@ def test_kormarc_ddc_institution_indicator_and_coded_content():
     good = DataField(
         "082", "7", "1", [Subfield("a", "020"), Subfield("2", "23"), Subfield("m", "a")]
     )
-    assert not [i for i in validate(record(good)) if i.severity == "error"]
+    assert not [
+        i
+        for i in validate(record(good))
+        if i.severity == "error" and not i.rule_id.startswith("application.")
+    ]
     bad = replace(good, ind2="9", subfields=[Subfield("m", "z")])
     assert "field.082.indicator2" in ids(record(bad), level=2)
     assert "field.082.subfield.m.code" not in ids(record(bad), level=2)
@@ -135,7 +143,11 @@ def test_consumer_validator_and_bad_level():
 
 def test_370_blank_indicators_and_repeated_place():
     good = DataField("370", subfields=[Subfield("c", "대한민국"), Subfield("c", "일본")])
-    assert not [i for i in validate(record(good)) if i.severity == "error"]
+    assert not [
+        i
+        for i in validate(record(good))
+        if i.severity == "error" and not i.rule_id.startswith("application.")
+    ]
     assert "field.370.indicator1" in ids(record(replace(good, ind1="0")))
 
 
@@ -289,9 +301,21 @@ def test_reviewed_leader_code_domains(position, good, bad):
             original, leader=original.leader[:position] + code + original.leader[position + 1 :]
         )
 
-    assert not [i for i in validate(changed(good)) if i.severity == "error"]
-    assert [i for i in validate(changed(bad)) if i.severity == "error"]
-    assert not [i for i in validate(changed(bad), level=2) if i.severity == "error"]
+    assert not [
+        i
+        for i in validate(changed(good))
+        if i.severity == "error" and not i.rule_id.startswith("application.")
+    ]
+    assert [
+        i
+        for i in validate(changed(bad))
+        if i.severity == "error" and not i.rule_id.startswith("application.")
+    ]
+    assert not [
+        i
+        for i in validate(changed(bad), level=2)
+        if i.severity == "error" and not i.rule_id.startswith("application.")
+    ]
 
 
 def test_006_material_cannot_be_fill_and_has_korean_old_book():

@@ -17,6 +17,7 @@ from pathlib import Path
 import re
 from typing import Any
 
+from .application import validate_application
 from .errors import Issue
 from .linkage import validate_linkage
 from .model import ControlField, DataField, Record
@@ -62,6 +63,8 @@ def _bundled_registry() -> dict[str, Any]:
     dependencies = json.loads(dependencies_path.read_text(encoding="utf-8"))
     for tag, rules in dependencies["fields"].items():
         registry["fields"][tag].setdefault("dependencies", []).extend(rules)
+    application_path = files("kormarcxml").joinpath("resources/rules/application.json")
+    registry["application"] = json.loads(application_path.read_text(encoding="utf-8"))
     linkage_path = files("kormarcxml").joinpath("resources/rules/linkage.json")
     registry["linkage"] = json.loads(linkage_path.read_text(encoding="utf-8"))
     # The conflicting repeated examples are specifically 880 aliases.
@@ -167,6 +170,15 @@ def coverage(profile: str | Path | dict | None = None) -> dict:
         "fields": sorted(registry["fields"]),
         "leader_rules": len(registry.get("leader", [])),
         "record_rules": len(registry.get("record_rules", [])),
+        "application_mandatory_fields": {
+            name: sorted(
+                tag
+                for tag, spec in registry["fields"].items()
+                if spec.get("application_levels", {}).get(name) == "M"
+            )
+            for name in sorted(set(registry["application"]["leader_levels"].values()))
+        },
+        "application_leader_rules": len(registry["application"]["leader_dependencies"]),
         "linkage_rules": len(registry.get("linkage", {}).get("rules", {})),
         "field_rules": sum(field_counts.values()),
         "field_rule_counts": field_counts,
@@ -480,6 +492,7 @@ def validate(
                 for rule in subspecs.get(sub.code, {}).get("rules", []):
                     check_value(sub.value, rule, subfield=sub.code, **context)
     if level >= 3:
+        issues.extend(validate_application(record, registry["application"], registry["fields"]))
         issues.extend(validate_linkage(record, registry["linkage"], registry["fields"]))
     for custom_validator in validators:
         issues.extend(custom_validator(record))
