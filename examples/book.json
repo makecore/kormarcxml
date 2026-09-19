@@ -1,10 +1,15 @@
 {
   "format": "kormarcxml-record-1",
-  "leader": "00370nam a2200133   4500",
+  "leader": "00414nam a2200157   4500",
   "fields": [
     {
       "tag": "001",
       "value": "synthetic-001",
+      "kind": "control"
+    },
+    {
+      "tag": "003",
+      "value": "DEMO",
       "kind": "control"
     },
     {
@@ -16,6 +21,22 @@
       "tag": "008",
       "value": "260916s2026    ulk           000   kor  ",
       "kind": "control"
+    },
+    {
+      "tag": "040",
+      "ind1": " ",
+      "ind2": " ",
+      "subfields": [
+        {
+          "code": "a",
+          "value": "DEMO"
+        },
+        {
+          "code": "c",
+          "value": "DEMO"
+        }
+      ],
+      "kind": "data"
     },
     {
       "tag": "245",

@@ -225,6 +225,22 @@
       "final_decision_required": true,
       "provisional_authorization": "사용자가 이 대화에서 잠정 방침 적용 승인",
       "provisional_date": "2026-09-19"
+    },
+    {
+      "id": "KX-015",
+      "status": "provisional",
+      "type": "policy",
+      "scope": "Leader/17 levels outside blank and 7",
+      "decision": null,
+      "decider": null,
+      "date": null,
+      "evidence": null,
+      "provisional_policy": "부속서의 공백·7만 적용; 다른 입력수준에는 일반 필수 표를 추정하지 않고 미검토 정보 진단",
+      "rationale": "소급변환·핵심·작성 중·발행 전 수준의 요구를 완전수준과 혼동하지 않음",
+      "impact_scope": "공백·7 이외 입력수준의 일반 필수성; 본문에서 확정된 773·042 등 검사는 유지",
+      "final_decision_required": true,
+      "provisional_authorization": "사용자가 이 대화에서 잠정 방침 적용 승인",
+      "provisional_date": "2026-09-19"
     }
   ]
 }

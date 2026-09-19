@@ -1,5 +1,7 @@
 ## Unreleased — official-source audit
 
+- Enforce annex full/minimal mandatory fields at level 3, add confirmed Leader/773/042 dependencies and caller-supplied conditional applicability; document KX-015. Regenerate synthetic fixtures with 003/040.
+
 - Add occurrence-local 017/031/034 subfield requirements, indicator conditions and ordering checks; preserve the cancelled-only 017 ambiguity as KX-011 warning.
 
 - Integrate 72 additional fixed-field detail constraints, reviewed source-summary repairs, and provisional 022/034 source conflicts.
