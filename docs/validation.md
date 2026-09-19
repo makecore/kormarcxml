@@ -51,6 +51,8 @@ rules. KORMARC 245's second indicator is 0/1, not a nonfiling character count.
 
 ## Institutional profiles and consumers
 
+`dependencies.json` adds occurrence-local subfield dependencies for selected 017/031/034 clauses. These are level 3 checks, and never borrow required subfields from a different repeated field. See [subfield dependency audit](subfield-dependency-audit.md) for the operators, exact scope, and provisional cancelled-only 017 policy.
+
 Profiles are local JSON objects merged recursively with the bundled registry.
 Objects merge; lists and scalars replace. A profile can be passed as a dictionary
 or filesystem path. No remote retrieval or dynamic execution occurs.

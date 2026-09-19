@@ -57,6 +57,10 @@ def _bundled_registry() -> dict[str, Any]:
             target.setdefault("subfields", {}).setdefault(code, {}).setdefault("rules", []).extend(
                 sub["rules"]
             )
+    dependencies_path = files("kormarcxml").joinpath("resources/rules/dependencies.json")
+    dependencies = json.loads(dependencies_path.read_text(encoding="utf-8"))
+    for tag, rules in dependencies["fields"].items():
+        registry["fields"][tag].setdefault("dependencies", []).extend(rules)
     # Provisional project policy, not an authoritative resolution of the source conflict.
     for held in materials["held_for_review"]:
         for tag, start, when in [
@@ -141,6 +145,7 @@ def coverage(profile: str | Path | dict | None = None) -> dict:
         count += sum(value is not None for value in specification.get("indicators", {}).values())
         count += int(bool(specification.get("closed_subfields")))
         count += len(specification.get("conditions", []))
+        count += len(specification.get("dependencies", []))
         for sub in specification.get("subfields", {}).values():
             count += int(bool(sub.get("required")))
             count += int(sub.get("repeatable") is False)
@@ -361,6 +366,42 @@ def validate(
                     )
             subcounts = Counter(s.code for s in field.subfields)
             subspecs = specification.get("subfields", {})
+            for dependency in specification.get("dependencies", []):
+                if dependency.get("level", 3) > level:
+                    continue
+                when = dependency.get("when", {})
+                if when.get("any_subfields") and not any(
+                    subcounts[c] for c in when["any_subfields"]
+                ):
+                    continue
+                if any(subcounts[c] for c in when.get("absent_subfields", [])):
+                    continue
+                if any(subcounts[c] < n for c, n in when.get("min_count", {}).items()):
+                    continue
+                if any(
+                    not any(s.code == c and s.value in values for s in field.subfields)
+                    for c, values in when.get("subfield_values", {}).items()
+                ):
+                    continue
+                invalid = dependency.get("review_only", False) or any(
+                    not subcounts[c] for c in dependency.get("requires", [])
+                )
+                if "indicator" in dependency:
+                    number, expected = dependency["indicator"]
+                    invalid |= (field.ind1 if number == 1 else field.ind2) != expected
+                if "precedes" in dependency:
+                    first, second = dependency["precedes"]
+                    left = [i for i, s in enumerate(field.subfields) if s.code == first]
+                    right = [i for i, s in enumerate(field.subfields) if s.code == second]
+                    invalid |= bool(left and right and max(left) >= min(right))
+                if invalid:
+                    emit(
+                        dependency["id"],
+                        dependency["message"],
+                        dependency.get("severity", "error"),
+                        remediation=dependency.get("remediation"),
+                        **context,
+                    )
             for condition in specification.get("conditions", []):
                 if condition.get("level", 3) > level:
                     continue

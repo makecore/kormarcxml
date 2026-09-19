@@ -1,0 +1,158 @@
+{
+  "complete": false,
+  "scope": "Selected 017/031/034 subfield dependencies, not complete field semantics",
+  "sources": {
+    "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_017.html": "064abb05155851bd210fd27241d486606eeb83886898b9448861e9a556db5abc",
+    "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_031.html": "7f05b63153a37e54b3bdc14933bfe13ba362d9b6316c8457d010b6c8deb2a593",
+    "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_034.html": "9f2419b549213358035d51b2169fd357d30b707cdb503e6025ebc441cf1001d2"
+  },
+  "fields": {
+    "017": [
+      {
+        "id": "field.017.number.requires-agency",
+        "when": {
+          "any_subfields": [
+            "a"
+          ]
+        },
+        "requires": [
+          "b"
+        ],
+        "message": "017 with a registration number requires the assigning agency in subfield b",
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_017.html",
+        "remediation": "Review the source field; preserve input order and values rather than auto-repairing"
+      },
+      {
+        "id": "field.017.agency-without-number",
+        "when": {
+          "absent_subfields": [
+            "a",
+            "z"
+          ]
+        },
+        "requires": [
+          "b"
+        ],
+        "message": "017 requires assigning agency subfield b",
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_017.html",
+        "remediation": "Review the source field; preserve input order and values rather than auto-repairing"
+      },
+      {
+        "id": "decision.KX-011",
+        "when": {
+          "any_subfields": [
+            "z"
+          ],
+          "absent_subfields": [
+            "a",
+            "b"
+          ]
+        },
+        "review_only": true,
+        "severity": "warning",
+        "message": "Cancelled-number-only 017 retained; reconcile agency requirement with z-only wording",
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_017.html",
+        "remediation": "Review the source field; preserve input order and values rather than auto-repairing"
+      },
+      {
+        "id": "field.017.display.indicator",
+        "when": {
+          "any_subfields": [
+            "i"
+          ]
+        },
+        "indicator": [
+          2,
+          "8"
+        ],
+        "message": "017 subfield i requires second indicator 8",
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_017.html",
+        "remediation": "Review the source field; preserve input order and values rather than auto-repairing"
+      },
+      {
+        "id": "field.017.display.order",
+        "precedes": [
+          "i",
+          "a"
+        ],
+        "message": "017 display text i must precede registration number a",
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_017.html",
+        "remediation": "Review the source field; preserve input order and values rather than auto-repairing"
+      },
+      {
+        "id": "field.017.agency.order",
+        "when": {
+          "min_count": {
+            "a": 2
+          }
+        },
+        "precedes": [
+          "a",
+          "b"
+        ],
+        "message": "017 assigning agency b must follow the final repeated a",
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_017.html",
+        "remediation": "Review the source field; preserve input order and values rather than auto-repairing"
+      }
+    ],
+    "031": [
+      {
+        "id": "field.031.notation.requires-scheme-time",
+        "when": {
+          "any_subfields": [
+            "p"
+          ]
+        },
+        "requires": [
+          "o",
+          "2"
+        ],
+        "message": "031 notation p requires time signature o and encoding scheme 2",
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_031.html",
+        "remediation": "Review the source field; preserve input order and values rather than auto-repairing"
+      },
+      {
+        "id": "field.031.scheme.requires-time",
+        "when": {
+          "subfield_values": {
+            "2": [
+              "pe",
+              "da"
+            ]
+          },
+          "absent_subfields": [
+            "p"
+          ]
+        },
+        "requires": [
+          "o"
+        ],
+        "message": "031 scheme pe or da requires time signature o even without p",
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_031.html",
+        "remediation": "Review the source field; preserve input order and values rather than auto-repairing"
+      }
+    ],
+    "034": [
+      {
+        "id": "field.034.coordinates.together",
+        "when": {
+          "any_subfields": [
+            "d",
+            "e",
+            "f",
+            "g"
+          ]
+        },
+        "requires": [
+          "d",
+          "e",
+          "f",
+          "g"
+        ],
+        "message": "034 geographic coordinates d/e/f/g must occur together within the same field",
+        "source": "https://librarian.nl.go.kr/kormarc/KSX6006-0/sub/01X_09X_034.html",
+        "remediation": "Review the source field; preserve input order and values rather than auto-repairing"
+      }
+    ]
+  }
+}

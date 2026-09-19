@@ -15,7 +15,12 @@ def main():
     for field in catalog["fields"]:
         tag = field["tag"]
         spec = registry["fields"][tag]
-        ids = [r["id"] for r in spec.get("rules", []) + spec.get("conditions", [])]
+        ids = [
+            r["id"]
+            for r in spec.get("rules", [])
+            + spec.get("conditions", [])
+            + spec.get("dependencies", [])
+        ]
         for sub in spec.get("subfields", {}).values():
             ids.extend(r["id"] for r in sub.get("rules", []))
         entries.append(

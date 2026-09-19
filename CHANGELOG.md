@@ -1,5 +1,7 @@
 ## Unreleased — official-source audit
 
+- Add occurrence-local 017/031/034 subfield requirements, indicator conditions and ordering checks; preserve the cancelled-only 017 ambiguity as KX-011 warning.
+
 - Integrate 72 additional fixed-field detail constraints, reviewed source-summary repairs, and provisional 022/034 source conflicts.
 - Add field audit worklist and cache-driven official HTML example transport verification, explicitly separated from production ISO validation.
 
